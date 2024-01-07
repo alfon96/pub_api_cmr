@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-image-crop-component": "^1.1.2",
+    "react-uploader": "^3.43.0"
+  }
+}

@@ -1,0 +1,26 @@
+version: "3"
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    volumes:
+      - ./api:/app
+    ports:
+      - "5000:5000"
+      - "5678:5678"
+    env_file:
+      - ./env/fastapi.env
+
+  cmr:
+    build:
+      context: ./cmr
+      dockerfile: Dockerfile
+    volumes:
+      - ./cmr/public:/app/public
+      - ./cmr/src:/app/src
+      - ./cmr/package.json:/app/package.json
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./env/react.env

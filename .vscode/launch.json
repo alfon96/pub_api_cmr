@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "WSL Edge",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/cmr/src",
+      "sourceMapPathOverrides": {
+        "webpack:///*": "${webRoot}/*",
+        "/app/*": "${workspaceFolder}/cmr/*"
+      },
+      "skipFiles": ["**/node_modules/**"]
+    },
+    {
+      "name": "Docker: Python - FastAPI",
+      "type": "python",
+      "request": "attach",
+      "connect": {
+        "host": "localhost",
+        "port": 5678
+      },
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}/app",
+          "remoteRoot": "/app"
+        }
+      ],
+      "justMyCode": true
+    }
+  ]
+}
