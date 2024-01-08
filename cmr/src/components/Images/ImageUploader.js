@@ -72,14 +72,14 @@ const ImgDropAndCrop = (props) => {
 
   return (
     <div
-      style={{ width: "100%", height: "100%" }}
-      className=" bg-secondary position-relative rounded-start-4  overflow-hidden d-flex flex-column align-items-center justify-content-center"
+      style={{ width: "100%", height: "100%", background: "#777" }}
+      className=" position-relative rounded-start-4  overflow-hidden d-flex flex-column align-items-center justify-content-center"
     >
       {file === null && (
         <div
           {...getRootProps()}
           style={{
-            border: "2px dashed black",
+            border: "2px dashed #333",
             padding: "20px",
             textAlign: "center",
             cursor: "pointer",

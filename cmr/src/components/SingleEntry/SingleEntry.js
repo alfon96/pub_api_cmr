@@ -9,7 +9,7 @@ const SingleEntry = () => {
   return (
     <Container fluid className="m-0 p-0">
       {/* First Row */}
-      <Row className="g-0 gy-5">
+      <Row className="g-0 gy-5 d-flex align-items-center justify-content-center">
         <Col xs={3}></Col>
 
         <Col xs={6}>
@@ -20,15 +20,13 @@ const SingleEntry = () => {
 
         {/* Second Row */}
 
-        <Col xs={1}></Col>
-        <Col xs={4}>
+        <Col xs={10}>
           <Ingredients></Ingredients>
         </Col>
-        <Col xs={2}></Col>
-        <Col xs={4}>
+
+        <Col xs={10}>
           <Keywords></Keywords>
         </Col>
-        <Col xs={1}></Col>
       </Row>
     </Container>
   );

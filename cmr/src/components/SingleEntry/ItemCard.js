@@ -12,10 +12,10 @@ function ItemCard() {
   return (
     <>
       <Row className="border shadow-lg rounded-4">
-        <Col xs={12} xxl={6} className="p-0  ">
+        <Col xs={12} md={6} className="p-0  ">
           <ImgDropAndCrop></ImgDropAndCrop>
         </Col>
-        <Col xs={12} xxl={6} className="p-0  rounded-end-4 ">
+        <Col xs={12} md={6} className="p-0  rounded-end-4 ">
           <CardForm></CardForm>
         </Col>
       </Row>

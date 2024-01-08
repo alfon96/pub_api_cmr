@@ -1,0 +1,4847 @@
+[
+  { "value": "Abalone", "label": " Abalone" },
+  { "value": " Adobo  ", "label": " Adobo" },
+  { "value": " Agave liquid sweetener  ", "label": " Agave liquid sweetener" },
+  {
+    "value": " Air filled fritter or fried puff  ",
+    "label": " Air filled fritter or fried puff"
+  },
+  {
+    "value": " Alcoholic malt beverage  ",
+    "label": " Alcoholic malt beverage"
+  },
+  { "value": " Almond butter  ", "label": " Almond butter" },
+  { "value": " Almond chicken  ", "label": " Almond chicken" },
+  { "value": " Almond milk  ", "label": " Almond milk" },
+  { "value": " Almond oil  ", "label": " Almond oil" },
+  { "value": " Almond paste  ", "label": " Almond paste" },
+  { "value": " Almonds  ", "label": " Almonds" },
+  { "value": " Aloe vera juice drink  ", "label": " Aloe vera juice drink" },
+  { "value": " Ambrosia  ", "label": " Ambrosia" },
+  { "value": " Anchovy  ", "label": " Anchovy" },
+  {
+    "value": " Animal fat or drippings  ",
+    "label": " Animal fat or drippings"
+  },
+  { "value": " Anisette toast  ", "label": " Anisette toast" },
+  { "value": " Antipasto with ham  ", "label": " Antipasto with ham" },
+  { "value": " Apple  ", "label": " Apple" },
+  { "value": " Apple cider  ", "label": " Apple cider" },
+  { "value": " Apple juice  ", "label": " Apple juice" },
+  { "value": " Apple juice beverage  ", "label": " Apple juice beverage" },
+  { "value": " Apple pie filling  ", "label": " Apple pie filling" },
+  {
+    "value": " Apple salad with dressing  ",
+    "label": " Apple salad with dressing"
+  },
+  { "value": " Apple yogurt dessert  ", "label": " Apple yogurt dessert" },
+  { "value": " Apple-banana juice  ", "label": " Apple-banana juice" },
+  { "value": " Apple-cherry juice  ", "label": " Apple-cherry juice" },
+  {
+    "value": " Apple-fruit juice blend  ",
+    "label": " Apple-fruit juice blend"
+  },
+  { "value": " Apple-grape juice  ", "label": " Apple-grape juice" },
+  { "value": " Apple-peach juice  ", "label": " Apple-peach juice" },
+  { "value": " Apple-prune juice  ", "label": " Apple-prune juice" },
+  { "value": " Apple-raspberry  ", "label": " Apple-raspberry" },
+  { "value": " Apples  ", "label": " Apples" },
+  { "value": " Apples and chicken  ", "label": " Apples and chicken" },
+  { "value": " Apples and pears  ", "label": " Apples and pears" },
+  {
+    "value": " Apples and sweet potatoes  ",
+    "label": " Apples and sweet potatoes"
+  },
+  { "value": " Apples with ham  ", "label": " Apples with ham" },
+  { "value": " Applesauce  ", "label": " Applesauce" },
+  {
+    "value": " Applesauce and apricots  ",
+    "label": " Applesauce and apricots"
+  },
+  {
+    "value": " Applesauce with bananas  ",
+    "label": " Applesauce with bananas"
+  },
+  {
+    "value": " Applesauce with cherries  ",
+    "label": " Applesauce with cherries"
+  },
+  {
+    "value": " Apple-sweet potato juice  ",
+    "label": " Apple-sweet potato juice"
+  },
+  { "value": " Apricot  ", "label": " Apricot" },
+  { "value": " Apricot nectar  ", "label": " Apricot nectar" },
+  { "value": " Apricots  ", "label": " Apricots" },
+  { "value": " Arepa Dominicana  ", "label": " Arepa Dominicana" },
+  { "value": " Armadillo  ", "label": " Armadillo" },
+  { "value": " Artichoke  ", "label": " Artichoke" },
+  { "value": " Artichoke dip  ", "label": " Artichoke dip" },
+  { "value": " Artichokes  ", "label": " Artichokes" },
+  {
+    "value": " Asian chicken or turkey garden salad  ",
+    "label": " Asian chicken or turkey garden salad"
+  },
+  {
+    "value": " Asian chicken or turkey garden salad with crispy noodles  ",
+    "label": " Asian chicken or turkey garden salad with crispy noodles"
+  },
+  {
+    "value": " Asian stir fry vegetables  ",
+    "label": " Asian stir fry vegetables"
+  },
+  { "value": " Asparagus  ", "label": " Asparagus" },
+  { "value": " Asparagus soup  ", "label": " Asparagus soup" },
+  { "value": " Avocado  ", "label": " Avocado" },
+  { "value": " Avocado dressing  ", "label": " Avocado dressing" },
+  { "value": " Baby Ruth  ", "label": " Baby Ruth" },
+  { "value": " Bacardi cocktail  ", "label": " Bacardi cocktail" },
+  { "value": " Bacon  ", "label": " Bacon" },
+  {
+    "value": " Bacon and cheese sandwich  ",
+    "label": " Bacon and cheese sandwich"
+  },
+  { "value": " Bacon and egg sandwich  ", "label": " Bacon and egg sandwich" },
+  {
+    "value": " Bacon and tomato dressing  ",
+    "label": " Bacon and tomato dressing"
+  },
+  { "value": " Bacon bits  ", "label": " Bacon bits" },
+  { "value": " Bacon on biscuit  ", "label": " Bacon on biscuit" },
+  { "value": " Bacon or side pork  ", "label": " Bacon or side pork" },
+  { "value": " Bacon sandwich  ", "label": " Bacon sandwich" },
+  { "value": " Bacon soup  ", "label": " Bacon soup" },
+  { "value": " Bacon strip  ", "label": " Bacon strip" },
+  { "value": " Bagel  ", "label": " Bagel" },
+  { "value": " Bagel chips  ", "label": " Bagel chips" },
+  { "value": " Baked beans  ", "label": " Baked beans" },
+  {
+    "value": " Baked beans from fast food / restaurant  ",
+    "label": " Baked beans from fast food / restaurant"
+  },
+  { "value": " Baklava  ", "label": " Baklava" },
+  { "value": " Bamboo shoots  ", "label": " Bamboo shoots" },
+  { "value": " Banana  ", "label": " Banana" },
+  { "value": " Banana apple dessert  ", "label": " Banana apple dessert" },
+  { "value": " Banana chips  ", "label": " Banana chips" },
+  {
+    "value": " Banana juice with lowfat yogurt  ",
+    "label": " Banana juice with lowfat yogurt"
+  },
+  { "value": " Banana nectar  ", "label": " Banana nectar" },
+  { "value": " Banana pudding  ", "label": " Banana pudding" },
+  { "value": " Banana split  ", "label": " Banana split" },
+  {
+    "value": " Banana with mixed berries  ",
+    "label": " Banana with mixed berries"
+  },
+  { "value": " Banana yogurt dessert  ", "label": " Banana yogurt dessert" },
+  { "value": " Bananas  ", "label": " Bananas" },
+  { "value": " Bananas and pineapple  ", "label": " Bananas and pineapple" },
+  { "value": " Bananas and strawberry  ", "label": " Bananas and strawberry" },
+  {
+    "value": " Bananas with apples and pears  ",
+    "label": " Bananas with apples and pears"
+  },
+  { "value": " Bananas with orange  ", "label": " Bananas with orange" },
+  { "value": " Barbecue sauce  ", "label": " Barbecue sauce" },
+  { "value": " Barfi or Burfi  ", "label": " Barfi or Burfi" },
+  { "value": " Barley  ", "label": " Barley" },
+  { "value": " Barley cereal  ", "label": " Barley cereal" },
+  { "value": " Barley soup  ", "label": " Barley soup" },
+  { "value": " Barracuda  ", "label": " Barracuda" },
+  { "value": " Basbousa  ", "label": " Basbousa" },
+  { "value": " Basil  ", "label": " Basil" },
+  { "value": " Bean and ham soup  ", "label": " Bean and ham soup" },
+  { "value": " Bean cake  ", "label": " Bean cake" },
+  { "value": " Bean chips  ", "label": " Bean chips" },
+  { "value": " Bean dip  ", "label": " Bean dip" },
+  { "value": " Bean paste  ", "label": " Bean paste" },
+  { "value": " Bean salad  ", "label": " Bean salad" },
+  { "value": " Bean soup  ", "label": " Bean soup" },
+  { "value": " Bean sprouts  ", "label": " Bean sprouts" },
+  {
+    "value": " Bean with bacon or ham soup  ",
+    "label": " Bean with bacon or ham soup"
+  },
+  { "value": " Beans  ", "label": " Beans" },
+  { "value": " Beans and brown rice  ", "label": " Beans and brown rice" },
+  { "value": " Beans and franks  ", "label": " Beans and franks" },
+  { "value": " Beans and rice  ", "label": " Beans and rice" },
+  { "value": " Beans and tomatoes  ", "label": " Beans and tomatoes" },
+  { "value": " Beans and white rice  ", "label": " Beans and white rice" },
+  { "value": " Beans with meat  ", "label": " Beans with meat" },
+  { "value": " Bear  ", "label": " Bear" },
+  { "value": " Beaver  ", "label": " Beaver" },
+  { "value": " Beef  ", "label": " Beef" },
+  { "value": " Beef and broccoli  ", "label": " Beef and broccoli" },
+  { "value": " Beef and egg noodles  ", "label": " Beef and egg noodles" },
+  {
+    "value": " Beef and macaroni with cheese sauce  ",
+    "label": " Beef and macaroni with cheese sauce"
+  },
+  { "value": " Beef and noodles  ", "label": " Beef and noodles" },
+  {
+    "value": " Beef and noodles with cream or white sauce  ",
+    "label": " Beef and noodles with cream or white sauce"
+  },
+  {
+    "value": " Beef and noodles with gravy  ",
+    "label": " Beef and noodles with gravy"
+  },
+  {
+    "value": " Beef and noodles with meat sauce and cheese  ",
+    "label": " Beef and noodles with meat sauce and cheese"
+  },
+  {
+    "value": " Beef and noodles with mushroom sauce  ",
+    "label": " Beef and noodles with mushroom sauce"
+  },
+  {
+    "value": " Beef and noodles with soy-based sauce  ",
+    "label": " Beef and noodles with soy-based sauce"
+  },
+  {
+    "value": " Beef and noodles with tomato-based sauce  ",
+    "label": " Beef and noodles with tomato-based sauce"
+  },
+  { "value": " Beef and potatoes  ", "label": " Beef and potatoes" },
+  {
+    "value": " Beef and potatoes with cheese sauce  ",
+    "label": " Beef and potatoes with cheese sauce"
+  },
+  {
+    "value": " Beef and potatoes with cream sauce  ",
+    "label": " Beef and potatoes with cream sauce"
+  },
+  { "value": " Beef and rice  ", "label": " Beef and rice" },
+  { "value": " Beef and rice soup  ", "label": " Beef and rice soup" },
+  {
+    "value": " Beef and rice with cheese sauce  ",
+    "label": " Beef and rice with cheese sauce"
+  },
+  {
+    "value": " Beef and rice with cream sauce  ",
+    "label": " Beef and rice with cream sauce"
+  },
+  {
+    "value": " Beef and rice with gravy  ",
+    "label": " Beef and rice with gravy"
+  },
+  {
+    "value": " Beef and rice with mushroom sauce  ",
+    "label": " Beef and rice with mushroom sauce"
+  },
+  {
+    "value": " Beef and rice with soy-based sauce  ",
+    "label": " Beef and rice with soy-based sauce"
+  },
+  {
+    "value": " Beef and rice with tomato-based sauce  ",
+    "label": " Beef and rice with tomato-based sauce"
+  },
+  { "value": " Beef and vegetables  ", "label": " Beef and vegetables" },
+  {
+    "value": " Beef and vegetables excluding carrots  ",
+    "label": " Beef and vegetables excluding carrots"
+  },
+  {
+    "value": " Beef and vegetables including carrots  ",
+    "label": " Beef and vegetables including carrots"
+  },
+  {
+    "value": " Beef barbecue submarine sandwich  ",
+    "label": " Beef barbecue submarine sandwich"
+  },
+  { "value": " Beef brisket  ", "label": " Beef brisket" },
+  { "value": " Beef broth  ", "label": " Beef broth" },
+  { "value": " Beef burgundy  ", "label": " Beef burgundy" },
+  {
+    "value": " Beef chow mein or chop suey  ",
+    "label": " Beef chow mein or chop suey"
+  },
+  {
+    "value": " Beef chow mein or chop suey with noodles  ",
+    "label": " Beef chow mein or chop suey with noodles"
+  },
+  { "value": " Beef curry  ", "label": " Beef curry" },
+  { "value": " Beef curry with rice  ", "label": " Beef curry with rice" },
+  { "value": " Beef dinner  ", "label": " Beef dinner" },
+  { "value": " Beef dumpling soup  ", "label": " Beef dumpling soup" },
+  { "value": " Beef egg foo yung  ", "label": " Beef egg foo yung" },
+  { "value": " Beef enchilada  ", "label": " Beef enchilada" },
+  { "value": " Beef enchilada dinner  ", "label": " Beef enchilada dinner" },
+  { "value": " Beef goulash  ", "label": " Beef goulash" },
+  {
+    "value": " Beef goulash with noodles  ",
+    "label": " Beef goulash with noodles"
+  },
+  {
+    "value": " Beef goulash with potatoes  ",
+    "label": " Beef goulash with potatoes"
+  },
+  { "value": " Beef jerky  ", "label": " Beef jerky" },
+  { "value": " Beef liver  ", "label": " Beef liver" },
+  { "value": " Beef noodle soup  ", "label": " Beef noodle soup" },
+  { "value": " Beef pot pie  ", "label": " Beef pot pie" },
+  { "value": " Beef rice soup  ", "label": " Beef rice soup" },
+  { "value": " Beef rolls  ", "label": " Beef rolls" },
+  { "value": " Beef salad  ", "label": " Beef salad" },
+  { "value": " Beef sandwich  ", "label": " Beef sandwich" },
+  { "value": " Beef sausage  ", "label": " Beef sausage" },
+  {
+    "value": " Beef sausage with cheese  ",
+    "label": " Beef sausage with cheese"
+  },
+  {
+    "value": " Beef shish kabob with vegetables  ",
+    "label": " Beef shish kabob with vegetables"
+  },
+  { "value": " Beef short ribs  ", "label": " Beef short ribs" },
+  { "value": " Beef sloppy joe  ", "label": " Beef sloppy joe" },
+  { "value": " Beef steak  ", "label": " Beef steak" },
+  { "value": " Beef steak with onions  ", "label": " Beef steak with onions" },
+  { "value": " Beef stew  ", "label": " Beef stew" },
+  {
+    "value": " Beef stew with potatoes  ",
+    "label": " Beef stew with potatoes"
+  },
+  {
+    "value": " Beef stew with potatoes and vegetables excluding carrots  ",
+    "label": " Beef stew with potatoes and vegetables excluding carrots"
+  },
+  {
+    "value": " Beef stew with potatoes and vegetables including carrots  ",
+    "label": " Beef stew with potatoes and vegetables including carrots"
+  },
+  {
+    "value": " Beef stew with vegetables excluding potatoes  ",
+    "label": " Beef stew with vegetables excluding potatoes"
+  },
+  { "value": " Beef stroganoff  ", "label": " Beef stroganoff" },
+  { "value": " Beef stroganoff soup  ", "label": " Beef stroganoff soup" },
+  {
+    "value": " Beef stroganoff with noodles  ",
+    "label": " Beef stroganoff with noodles"
+  },
+  {
+    "value": " Beef taco filling: beef  ",
+    "label": " Beef taco filling: beef"
+  },
+  { "value": " Beef vegetable soup  ", "label": " Beef vegetable soup" },
+  {
+    "value": " Beef vegetable soup with potato  ",
+    "label": " Beef vegetable soup with potato"
+  },
+  { "value": " Beef wellington  ", "label": " Beef wellington" },
+  {
+    "value": " Beef with barbecue sauce  ",
+    "label": " Beef with barbecue sauce"
+  },
+  {
+    "value": " Beef with cream or white sauce  ",
+    "label": " Beef with cream or white sauce"
+  },
+  { "value": " Beef with gravy  ", "label": " Beef with gravy" },
+  {
+    "value": " Beef with mushroom sauce  ",
+    "label": " Beef with mushroom sauce"
+  },
+  {
+    "value": " Beef with soy-based sauce  ",
+    "label": " Beef with soy-based sauce"
+  },
+  {
+    "value": " Beef with spaetzle or rice  ",
+    "label": " Beef with spaetzle or rice"
+  },
+  {
+    "value": " Beef with sweet and sour sauce  ",
+    "label": " Beef with sweet and sour sauce"
+  },
+  {
+    "value": " Beef with tomato-based sauce  ",
+    "label": " Beef with tomato-based sauce"
+  },
+  { "value": " Beef with vegetable  ", "label": " Beef with vegetable" },
+  { "value": " Beef with vegetables  ", "label": " Beef with vegetables" },
+  {
+    "value": " Beef with vegetables excluding carrots  ",
+    "label": " Beef with vegetables excluding carrots"
+  },
+  {
+    "value": " Beef with vegetables including carrots  ",
+    "label": " Beef with vegetables including carrots"
+  },
+  { "value": " Beer  ", "label": " Beer" },
+  { "value": " Beer cheese soup  ", "label": " Beer cheese soup" },
+  { "value": " Beet greens  ", "label": " Beet greens" },
+  { "value": " Beet juice  ", "label": " Beet juice" },
+  { "value": " Beets  ", "label": " Beets" },
+  { "value": " Beignet  ", "label": " Beignet" },
+  { "value": " Berries  ", "label": " Berries" },
+  { "value": " Bibimbap  ", "label": " Bibimbap" },
+  { "value": " Big Mac (McDonalds)  ", "label": " Big Mac (McDonalds)" },
+  { "value": " Bird's nest soup  ", "label": " Bird's nest soup" },
+  { "value": " Biryani with chicken  ", "label": " Biryani with chicken" },
+  { "value": " Biryani with meat  ", "label": " Biryani with meat" },
+  {
+    "value": " Biryani with vegetables  ",
+    "label": " Biryani with vegetables"
+  },
+  { "value": " Biscayne codfish  ", "label": " Biscayne codfish" },
+  { "value": " Biscuit  ", "label": " Biscuit" },
+  { "value": " Biscuit with fruit  ", "label": " Biscuit with fruit" },
+  { "value": " Biscuit with gravy  ", "label": " Biscuit with gravy" },
+  { "value": " Bison  ", "label": " Bison" },
+  { "value": " Bitter melon  ", "label": " Bitter melon" },
+  { "value": " Black bean salad  ", "label": " Black bean salad" },
+  { "value": " Black bean sauce  ", "label": " Black bean sauce" },
+  { "value": " Black bean soup  ", "label": " Black bean soup" },
+  { "value": " Black beans  ", "label": " Black beans" },
+  {
+    "value": " Black beans and brown rice  ",
+    "label": " Black beans and brown rice"
+  },
+  { "value": " Black beans and rice  ", "label": " Black beans and rice" },
+  {
+    "value": " Black beans and white rice  ",
+    "label": " Black beans and white rice"
+  },
+  { "value": " Black beans with meat  ", "label": " Black beans with meat" },
+  { "value": " Black Russian  ", "label": " Black Russian" },
+  { "value": " Blackberries  ", "label": " Blackberries" },
+  { "value": " Blackberry juice  ", "label": " Blackberry juice" },
+  { "value": " Blackeyed peas  ", "label": " Blackeyed peas" },
+  { "value": " Blintz  ", "label": " Blintz" },
+  { "value": " Blood sausage  ", "label": " Blood sausage" },
+  { "value": " Bloody Mary  ", "label": " Bloody Mary" },
+  { "value": " Bluberries  ", "label": " Bluberries" },
+  {
+    "value": " Blue or roquefort cheese dressing  ",
+    "label": " Blue or roquefort cheese dressing"
+  },
+  { "value": " Blueberries  ", "label": " Blueberries" },
+  { "value": " Blueberry juice  ", "label": " Blueberry juice" },
+  { "value": " Blueberry pie filling  ", "label": " Blueberry pie filling" },
+  { "value": " Blueberry syrup  ", "label": " Blueberry syrup" },
+  {
+    "value": " Blueberry yogurt dessert  ",
+    "label": " Blueberry yogurt dessert"
+  },
+  { "value": " Bologna  ", "label": " Bologna" },
+  {
+    "value": " Bologna and cheese sandwich  ",
+    "label": " Bologna and cheese sandwich"
+  },
+  { "value": " Bologna sandwich  ", "label": " Bologna sandwich" },
+  { "value": " Borscht  ", "label": " Borscht" },
+  { "value": " Bouillabaisse  ", "label": " Bouillabaisse" },
+  { "value": " Brains  ", "label": " Brains" },
+  { "value": " Brandy  ", "label": " Brandy" },
+  { "value": " Brandy and cola  ", "label": " Brandy and cola" },
+  { "value": " Bratwurst  ", "label": " Bratwurst" },
+  { "value": " Brazil nuts  ", "label": " Brazil nuts" },
+  { "value": " Bread  ", "label": " Bread" },
+  { "value": " Bread stuffing  ", "label": " Bread stuffing" },
+  {
+    "value": " Bread stuffing made with egg  ",
+    "label": " Bread stuffing made with egg"
+  },
+  { "value": " Breaded brains  ", "label": " Breaded brains" },
+  { "value": " Breadfruit  ", "label": " Breadfruit" },
+  {
+    "value": " Breading or batter as ingredient in food  ",
+    "label": " Breading or batter as ingredient in food"
+  },
+  { "value": " Breadsticks  ", "label": " Breadsticks" },
+  { "value": " Breakfast bar  ", "label": " Breakfast bar" },
+  { "value": " Breakfast link  ", "label": " Breakfast link" },
+  {
+    "value": " Breakfast meat as ingredient in omelet  ",
+    "label": " Breakfast meat as ingredient in omelet"
+  },
+  { "value": " Breakfast pastry  ", "label": " Breakfast pastry" },
+  {
+    "value": " Breakfast pizza with egg  ",
+    "label": " Breakfast pizza with egg"
+  },
+  { "value": " Breakfast tart  ", "label": " Breakfast tart" },
+  { "value": " Brioche  ", "label": " Brioche" },
+  { "value": " Broccoflower  ", "label": " Broccoflower" },
+  { "value": " Broccoli  ", "label": " Broccoli" },
+  {
+    "value": " Broccoli and cauliflower  ",
+    "label": " Broccoli and cauliflower"
+  },
+  { "value": " Broccoli and chicken  ", "label": " Broccoli and chicken" },
+  {
+    "value": " Broccoli casserole with noodles  ",
+    "label": " Broccoli casserole with noodles"
+  },
+  {
+    "value": " Broccoli casserole with rice  ",
+    "label": " Broccoli casserole with rice"
+  },
+  { "value": " Broccoli cheese soup  ", "label": " Broccoli cheese soup" },
+  { "value": " Broccoli raab  ", "label": " Broccoli raab" },
+  {
+    "value": " Broccoli salad with cauliflower  ",
+    "label": " Broccoli salad with cauliflower"
+  },
+  { "value": " Broccoli slaw salad  ", "label": " Broccoli slaw salad" },
+  { "value": " Broccoli soup  ", "label": " Broccoli soup" },
+  { "value": " Brown rice cereal  ", "label": " Brown rice cereal" },
+  { "value": " Brunswick stew  ", "label": " Brunswick stew" },
+  { "value": " Bruschetta  ", "label": " Bruschetta" },
+  { "value": " Brussels sprouts  ", "label": " Brussels sprouts" },
+  { "value": " Buckwheat groats  ", "label": " Buckwheat groats" },
+  {
+    "value": " Buffalo chicken submarine sandwich  ",
+    "label": " Buffalo chicken submarine sandwich"
+  },
+  {
+    "value": " Buffalo chicken submarine sandwich with cheese  ",
+    "label": " Buffalo chicken submarine sandwich with cheese"
+  },
+  { "value": " Buffalo sauce  ", "label": " Buffalo sauce" },
+  { "value": " Bulgur  ", "label": " Bulgur" },
+  { "value": " Burdock  ", "label": " Burdock" },
+  { "value": " Burrito  ", "label": " Burrito" },
+  { "value": " Burrito with beans  ", "label": " Burrito with beans" },
+  {
+    "value": " Burrito with beans and rice  ",
+    "label": " Burrito with beans and rice"
+  },
+  { "value": " Burrito with chicken  ", "label": " Burrito with chicken" },
+  {
+    "value": " Burrito with chicken and beans  ",
+    "label": " Burrito with chicken and beans"
+  },
+  {
+    "value": " Burrito with chicken and sour cream  ",
+    "label": " Burrito with chicken and sour cream"
+  },
+  { "value": " Burrito with meat  ", "label": " Burrito with meat" },
+  {
+    "value": " Burrito with meat and beans  ",
+    "label": " Burrito with meat and beans"
+  },
+  {
+    "value": " Burrito with meat and sour cream  ",
+    "label": " Burrito with meat and sour cream"
+  },
+  { "value": " Butter  ", "label": " Butter" },
+  { "value": " Butter replacement  ", "label": " Butter replacement" },
+  { "value": " Butterfinger  ", "label": " Butterfinger" },
+  { "value": " Butterfinger Crisp  ", "label": " Butterfinger Crisp" },
+  { "value": " Buttermilk  ", "label": " Buttermilk" },
+  { "value": " Butter-oil blend  ", "label": " Butter-oil blend" },
+  {
+    "value": " Butterscotch hard candy  ",
+    "label": " Butterscotch hard candy"
+  },
+  { "value": " Butterscotch morsels  ", "label": " Butterscotch morsels" },
+  { "value": " Cabbage  ", "label": " Cabbage" },
+  {
+    "value": " Cabbage salad or coleslaw  ",
+    "label": " Cabbage salad or coleslaw"
+  },
+  {
+    "value": " Cabbage salad or coleslaw with apples and/or raisins  ",
+    "label": " Cabbage salad or coleslaw with apples and/or raisins"
+  },
+  {
+    "value": " Cabbage salad or coleslaw with pineapple  ",
+    "label": " Cabbage salad or coleslaw with pineapple"
+  },
+  { "value": " Cabbage soup  ", "label": " Cabbage soup" },
+  { "value": " Cabbage with ham hocks  ", "label": " Cabbage with ham hocks" },
+  { "value": " Cabbage with meat soup  ", "label": " Cabbage with meat soup" },
+  { "value": " Cactus  ", "label": " Cactus" },
+  { "value": " Caesar dressing  ", "label": " Caesar dressing" },
+  { "value": " Caesar salad  ", "label": " Caesar salad" },
+  { "value": " Cake  ", "label": " Cake" },
+  { "value": " Cake batter  ", "label": " Cake batter" },
+  {
+    "value": " Cake made with glutinous rice  ",
+    "label": " Cake made with glutinous rice"
+  },
+  {
+    "value": " Cake made with glutinous rice and dried beans  ",
+    "label": " Cake made with glutinous rice and dried beans"
+  },
+  { "value": " Cake or cupcake  ", "label": " Cake or cupcake" },
+  {
+    "value": " Cake or pancake made with rice flour and/or dried beans  ",
+    "label": " Cake or pancake made with rice flour and/or dried beans"
+  },
+  { "value": " Calabaza  ", "label": " Calabaza" },
+  { "value": " Calzone  ", "label": " Calzone" },
+  { "value": " Canadian bacon  ", "label": " Canadian bacon" },
+  { "value": " Canadian Club and soda  ", "label": " Canadian Club and soda" },
+  { "value": " Candy  ", "label": " Candy" },
+  { "value": " Cannelloni  ", "label": " Cannelloni" },
+  { "value": " Canola oil  ", "label": " Canola oil" },
+  { "value": " Cantaloupe  ", "label": " Cantaloupe" },
+  { "value": " Cantaloupe nectar  ", "label": " Cantaloupe nectar" },
+  { "value": " Cape Cod  ", "label": " Cape Cod" },
+  { "value": " Caramel  ", "label": " Caramel" },
+  { "value": " Caramel candy  ", "label": " Caramel candy" },
+  { "value": " Caramel dip  ", "label": " Caramel dip" },
+  { "value": " Caramel with nuts  ", "label": " Caramel with nuts" },
+  {
+    "value": " Caramel with nuts and cereal  ",
+    "label": " Caramel with nuts and cereal"
+  },
+  { "value": " Carbonated water  ", "label": " Carbonated water" },
+  { "value": " Caribou  ", "label": " Caribou" },
+  { "value": " Carob chips  ", "label": " Carob chips" },
+  { "value": " Carp  ", "label": " Carp" },
+  { "value": " Carrot juice  ", "label": " Carrot juice" },
+  { "value": " Carrot soup  ", "label": " Carrot soup" },
+  { "value": " Carrot with rice soup  ", "label": " Carrot with rice soup" },
+  { "value": " Carrots  ", "label": " Carrots" },
+  { "value": " Carrots and beef  ", "label": " Carrots and beef" },
+  { "value": " Carrots and peas  ", "label": " Carrots and peas" },
+  { "value": " Casabe  ", "label": " Casabe" },
+  { "value": " Cashew butter  ", "label": " Cashew butter" },
+  { "value": " Cashews  ", "label": " Cashews" },
+  { "value": " Cassaba melon  ", "label": " Cassaba melon" },
+  { "value": " Cassava  ", "label": " Cassava" },
+  {
+    "value": " Cassava fritter stuffed with crab meat  ",
+    "label": " Cassava fritter stuffed with crab meat"
+  },
+  { "value": " Cassava Pasteles  ", "label": " Cassava Pasteles" },
+  { "value": " Category  ", "label": " Category" },
+  { "value": " Catfish  ", "label": " Catfish" },
+  { "value": " Cauliflower  ", "label": " Cauliflower" },
+  { "value": " Celeriac  ", "label": " Celeriac" },
+  { "value": " Celery  ", "label": " Celery" },
+  { "value": " Celery juice  ", "label": " Celery juice" },
+  { "value": " Celery soup  ", "label": " Celery soup" },
+  { "value": " Cereal  ", "label": " Cereal" },
+  {
+    "value": " Cereal (Barbara's Puffins)  ",
+    "label": " Cereal (Barbara's Puffins)"
+  },
+  {
+    "value": " Cereal (General Mills 25% Less Sugar Cinnamon Toast Crunch)  ",
+    "label": " Cereal (General Mills 25% Less Sugar Cinnamon Toast Crunch)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Apple Cinnamon)  ",
+    "label": " Cereal (General Mills Cheerios Apple Cinnamon)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Banana Nut)  ",
+    "label": " Cereal (General Mills Cheerios Banana Nut)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Berry Burst)  ",
+    "label": " Cereal (General Mills Cheerios Berry Burst)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Chocolate)  ",
+    "label": " Cereal (General Mills Cheerios Chocolate)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Frosted)  ",
+    "label": " Cereal (General Mills Cheerios Frosted)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Fruity)  ",
+    "label": " Cereal (General Mills Cheerios Fruity)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Honey Nut)  ",
+    "label": " Cereal (General Mills Cheerios Honey Nut)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Multigrain)  ",
+    "label": " Cereal (General Mills Cheerios Multigrain)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Oat Cluster Crunch)  ",
+    "label": " Cereal (General Mills Cheerios Oat Cluster Crunch)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios Protein)  ",
+    "label": " Cereal (General Mills Cheerios Protein)"
+  },
+  {
+    "value": " Cereal (General Mills Cheerios)  ",
+    "label": " Cereal (General Mills Cheerios)"
+  },
+  {
+    "value": " Cereal (General Mills Chex Chocolate)  ",
+    "label": " Cereal (General Mills Chex Chocolate)"
+  },
+  {
+    "value": " Cereal (General Mills Chex Cinnamon)  ",
+    "label": " Cereal (General Mills Chex Cinnamon)"
+  },
+  {
+    "value": " Cereal (General Mills Chex Corn)  ",
+    "label": " Cereal (General Mills Chex Corn)"
+  },
+  {
+    "value": " Cereal (General Mills Chex Honey Nut)  ",
+    "label": " Cereal (General Mills Chex Honey Nut)"
+  },
+  {
+    "value": " Cereal (General Mills Chex Rice)  ",
+    "label": " Cereal (General Mills Chex Rice)"
+  },
+  {
+    "value": " Cereal (General Mills Chex Wheat)  ",
+    "label": " Cereal (General Mills Chex Wheat)"
+  },
+  {
+    "value": " Cereal (General Mills Cinnamon Toast Crunch)  ",
+    "label": " Cereal (General Mills Cinnamon Toast Crunch)"
+  },
+  {
+    "value": " Cereal (General Mills Cocoa Puffs)  ",
+    "label": " Cereal (General Mills Cocoa Puffs)"
+  },
+  {
+    "value": " Cereal (General Mills Cookie Crisp)  ",
+    "label": " Cereal (General Mills Cookie Crisp)"
+  },
+  {
+    "value": " Cereal (General Mills Count Chocula)  ",
+    "label": " Cereal (General Mills Count Chocula)"
+  },
+  {
+    "value": " Cereal (General Mills Fiber One Honey Clusters)  ",
+    "label": " Cereal (General Mills Fiber One Honey Clusters)"
+  },
+  {
+    "value": " Cereal (General Mills Fiber One Raisin Bran Clusters)  ",
+    "label": " Cereal (General Mills Fiber One Raisin Bran Clusters)"
+  },
+  {
+    "value": " Cereal (General Mills Fiber One)  ",
+    "label": " Cereal (General Mills Fiber One)"
+  },
+  {
+    "value": " Cereal (General Mills Frankenberry)  ",
+    "label": " Cereal (General Mills Frankenberry)"
+  },
+  {
+    "value": " Cereal (General Mills Golden Grahams)  ",
+    "label": " Cereal (General Mills Golden Grahams)"
+  },
+  {
+    "value": " Cereal (General Mills Honey Kix)  ",
+    "label": " Cereal (General Mills Honey Kix)"
+  },
+  {
+    "value": " Cereal (General Mills Honey Nut Clusters)  ",
+    "label": " Cereal (General Mills Honey Nut Clusters)"
+  },
+  {
+    "value": " Cereal (General Mills Kix)  ",
+    "label": " Cereal (General Mills Kix)"
+  },
+  {
+    "value": " Cereal (General Mills Lucky Charms Chocolate)  ",
+    "label": " Cereal (General Mills Lucky Charms Chocolate)"
+  },
+  {
+    "value": " Cereal (General Mills Lucky Charms)  ",
+    "label": " Cereal (General Mills Lucky Charms)"
+  },
+  {
+    "value": " Cereal (General Mills Oatmeal Crisp with Almonds)  ",
+    "label": " Cereal (General Mills Oatmeal Crisp with Almonds)"
+  },
+  {
+    "value": " Cereal (General Mills Raisin Nut Bran)  ",
+    "label": " Cereal (General Mills Raisin Nut Bran)"
+  },
+  {
+    "value": " Cereal (General Mills Reese's Puffs)  ",
+    "label": " Cereal (General Mills Reese's Puffs)"
+  },
+  {
+    "value": " Cereal (General Mills Trix)  ",
+    "label": " Cereal (General Mills Trix)"
+  },
+  {
+    "value": " Cereal (General Mills Wheaties)  ",
+    "label": " Cereal (General Mills Wheaties)"
+  },
+  {
+    "value": " Cereal (Kashi 7 Whole Grain Puffs)  ",
+    "label": " Cereal (Kashi 7 Whole Grain Puffs)"
+  },
+  {
+    "value": " Cereal (Kashi Autumn Wheat)  ",
+    "label": " Cereal (Kashi Autumn Wheat)"
+  },
+  {
+    "value": " Cereal (Kashi GOLEAN Crunch Honey Almond Flax)  ",
+    "label": " Cereal (Kashi GOLEAN Crunch Honey Almond Flax)"
+  },
+  {
+    "value": " Cereal (Kashi GOLEAN Crunch)  ",
+    "label": " Cereal (Kashi GOLEAN Crunch)"
+  },
+  { "value": " Cereal (Kashi GOLEAN)  ", "label": " Cereal (Kashi GOLEAN)" },
+  {
+    "value": " Cereal (Kashi Heart to Heart Honey Toasted Oat)  ",
+    "label": " Cereal (Kashi Heart to Heart Honey Toasted Oat)"
+  },
+  {
+    "value": " Cereal (Kellogg's All-Bran Complete Wheat Flakes)  ",
+    "label": " Cereal (Kellogg's All-Bran Complete Wheat Flakes)"
+  },
+  {
+    "value": " Cereal (Kellogg's All-Bran)  ",
+    "label": " Cereal (Kellogg's All-Bran)"
+  },
+  {
+    "value": " Cereal (Kellogg's Apple Jacks)  ",
+    "label": " Cereal (Kellogg's Apple Jacks)"
+  },
+  {
+    "value": " Cereal (Kellogg's Cocoa Krispies)  ",
+    "label": " Cereal (Kellogg's Cocoa Krispies)"
+  },
+  {
+    "value": " Cereal (Kellogg's Corn Flakes)  ",
+    "label": " Cereal (Kellogg's Corn Flakes)"
+  },
+  {
+    "value": " Cereal (Kellogg's Corn Pops)  ",
+    "label": " Cereal (Kellogg's Corn Pops)"
+  },
+  {
+    "value": " Cereal (Kellogg's Cracklin' Oat Bran)  ",
+    "label": " Cereal (Kellogg's Cracklin' Oat Bran)"
+  },
+  {
+    "value": " Cereal (Kellogg's Crispix)  ",
+    "label": " Cereal (Kellogg's Crispix)"
+  },
+  {
+    "value": " Cereal (Kellogg's Froot Loops Marshmallow)  ",
+    "label": " Cereal (Kellogg's Froot Loops Marshmallow)"
+  },
+  {
+    "value": " Cereal (Kellogg's Froot Loops)  ",
+    "label": " Cereal (Kellogg's Froot Loops)"
+  },
+  {
+    "value": " Cereal (Kellogg's Frosted Flakes)  ",
+    "label": " Cereal (Kellogg's Frosted Flakes)"
+  },
+  {
+    "value": " Cereal (Kellogg's Frosted Mini-Wheats)  ",
+    "label": " Cereal (Kellogg's Frosted Mini-Wheats)"
+  },
+  {
+    "value": " Cereal (Kellogg's Honey Smacks)  ",
+    "label": " Cereal (Kellogg's Honey Smacks)"
+  },
+  {
+    "value": " Cereal (Kellogg's Krave)  ",
+    "label": " Cereal (Kellogg's Krave)"
+  },
+  {
+    "value": " Cereal (Kellogg's Low Fat Granola)  ",
+    "label": " Cereal (Kellogg's Low Fat Granola)"
+  },
+  {
+    "value": " Cereal (Kellogg's Raisin Bran Crunch)  ",
+    "label": " Cereal (Kellogg's Raisin Bran Crunch)"
+  },
+  {
+    "value": " Cereal (Kellogg's Raisin Bran)  ",
+    "label": " Cereal (Kellogg's Raisin Bran)"
+  },
+  {
+    "value": " Cereal (Kellogg's Rice Krispies Treats Cereal)  ",
+    "label": " Cereal (Kellogg's Rice Krispies Treats Cereal)"
+  },
+  {
+    "value": " Cereal (Kellogg's Rice Krispies)  ",
+    "label": " Cereal (Kellogg's Rice Krispies)"
+  },
+  {
+    "value": " Cereal (Kellogg's Smart Start Strong)  ",
+    "label": " Cereal (Kellogg's Smart Start Strong)"
+  },
+  {
+    "value": " Cereal (Kellogg's Smorz)  ",
+    "label": " Cereal (Kellogg's Smorz)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K Blueberry)  ",
+    "label": " Cereal (Kellogg's Special K Blueberry)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K Chocolatey Delight)  ",
+    "label": " Cereal (Kellogg's Special K Chocolatey Delight)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K Cinnamon Pecan)  ",
+    "label": " Cereal (Kellogg's Special K Cinnamon Pecan)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K Fruit & Yogurt)  ",
+    "label": " Cereal (Kellogg's Special K Fruit & Yogurt)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K Red Berries)  ",
+    "label": " Cereal (Kellogg's Special K Red Berries)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K Vanilla Almond)  ",
+    "label": " Cereal (Kellogg's Special K Vanilla Almond)"
+  },
+  {
+    "value": " Cereal (Kellogg's Special K)  ",
+    "label": " Cereal (Kellogg's Special K)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Blueberry Muffin Tops)  ",
+    "label": " Cereal (Malt-O-Meal Blueberry Muffin Tops)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Cinnamon Toasters)  ",
+    "label": " Cereal (Malt-O-Meal Cinnamon Toasters)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Cocoa Dyno-Bites)  ",
+    "label": " Cereal (Malt-O-Meal Cocoa Dyno-Bites)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Coco-Roos)  ",
+    "label": " Cereal (Malt-O-Meal Coco-Roos)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Colossal Crunch)  ",
+    "label": " Cereal (Malt-O-Meal Colossal Crunch)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Corn Bursts)  ",
+    "label": " Cereal (Malt-O-Meal Corn Bursts)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Frosted Flakes)  ",
+    "label": " Cereal (Malt-O-Meal Frosted Flakes)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Fruity Dyno-Bites)  ",
+    "label": " Cereal (Malt-O-Meal Fruity Dyno-Bites)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Golden Puffs)  ",
+    "label": " Cereal (Malt-O-Meal Golden Puffs)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Honey Graham Squares)  ",
+    "label": " Cereal (Malt-O-Meal Honey Graham Squares)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Honey Nut Toasty O's)  ",
+    "label": " Cereal (Malt-O-Meal Honey Nut Toasty O's)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Marshmallow Mateys)  ",
+    "label": " Cereal (Malt-O-Meal Marshmallow Mateys)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Toasted Oat Cereal)  ",
+    "label": " Cereal (Malt-O-Meal Toasted Oat Cereal)"
+  },
+  {
+    "value": " Cereal (Malt-O-Meal Tootie Fruities)  ",
+    "label": " Cereal (Malt-O-Meal Tootie Fruities)"
+  },
+  {
+    "value": " Cereal (Nature Valley Granola)  ",
+    "label": " Cereal (Nature Valley Granola)"
+  },
+  {
+    "value": " Cereal (Nature's Path Organic Flax Plus)  ",
+    "label": " Cereal (Nature's Path Organic Flax Plus)"
+  },
+  {
+    "value": " Cereal (Post Alpha-Bits)  ",
+    "label": " Cereal (Post Alpha-Bits)"
+  },
+  {
+    "value": " Cereal (Post Bran Flakes)  ",
+    "label": " Cereal (Post Bran Flakes)"
+  },
+  {
+    "value": " Cereal (Post Cocoa Pebbles)  ",
+    "label": " Cereal (Post Cocoa Pebbles)"
+  },
+  {
+    "value": " Cereal (Post Fruity Pebbles)  ",
+    "label": " Cereal (Post Fruity Pebbles)"
+  },
+  {
+    "value": " Cereal (Post Golden Crisp)  ",
+    "label": " Cereal (Post Golden Crisp)"
+  },
+  {
+    "value": " Cereal (Post Grape-Nuts)  ",
+    "label": " Cereal (Post Grape-Nuts)"
+  },
+  {
+    "value": " Cereal (Post Great Grains  ",
+    "label": " Cereal (Post Great Grains"
+  },
+  {
+    "value": " Cereal (Post Great Grains Banana Nut Crunch)  ",
+    "label": " Cereal (Post Great Grains Banana Nut Crunch)"
+  },
+  {
+    "value": " Cereal (Post Great Grains Raisins  ",
+    "label": " Cereal (Post Great Grains Raisins"
+  },
+  {
+    "value": " Cereal (Post Honey Bunches of Oats Honey Roasted)  ",
+    "label": " Cereal (Post Honey Bunches of Oats Honey Roasted)"
+  },
+  {
+    "value": " Cereal (Post Honey Bunches of Oats with Almonds)  ",
+    "label": " Cereal (Post Honey Bunches of Oats with Almonds)"
+  },
+  {
+    "value": " Cereal (Post Honey Bunches of Oats with Vanilla Bunches)  ",
+    "label": " Cereal (Post Honey Bunches of Oats with Vanilla Bunches)"
+  },
+  {
+    "value": " Cereal (Post Honeycomb)  ",
+    "label": " Cereal (Post Honeycomb)"
+  },
+  {
+    "value": " Cereal (Post Raisin Bran)  ",
+    "label": " Cereal (Post Raisin Bran)"
+  },
+  {
+    "value": " Cereal (Post Shredded Wheat Honey Nut)  ",
+    "label": " Cereal (Post Shredded Wheat Honey Nut)"
+  },
+  {
+    "value": " Cereal (Post Shredded Wheat)  ",
+    "label": " Cereal (Post Shredded Wheat)"
+  },
+  {
+    "value": " Cereal (Quaker Cap'n Crunch)  ",
+    "label": " Cereal (Quaker Cap'n Crunch)"
+  },
+  {
+    "value": " Cereal (Quaker Cap'n Crunch's Crunchberries)  ",
+    "label": " Cereal (Quaker Cap'n Crunch's Crunchberries)"
+  },
+  {
+    "value": " Cereal (Quaker Cap'n Crunch's Peanut Butter Crunch)  ",
+    "label": " Cereal (Quaker Cap'n Crunch's Peanut Butter Crunch)"
+  },
+  {
+    "value": " Cereal (Quaker Christmas Crunch)  ",
+    "label": " Cereal (Quaker Christmas Crunch)"
+  },
+  {
+    "value": " Cereal (Quaker Granola with Oats  ",
+    "label": " Cereal (Quaker Granola with Oats"
+  },
+  {
+    "value": " Cereal (Quaker Honey Graham Oh's)  ",
+    "label": " Cereal (Quaker Honey Graham Oh's)"
+  },
+  { "value": " Cereal (Quaker Life)  ", "label": " Cereal (Quaker Life)" },
+  {
+    "value": " Cereal (Quaker Oatmeal Squares)  ",
+    "label": " Cereal (Quaker Oatmeal Squares)"
+  },
+  {
+    "value": " Cereal (Quaker Toasted Oat Bran)  ",
+    "label": " Cereal (Quaker Toasted Oat Bran)"
+  },
+  { "value": " Cereal (Uncle Sam)  ", "label": " Cereal (Uncle Sam)" },
+  {
+    "value": " Cereal bar with fruit filling  ",
+    "label": " Cereal bar with fruit filling"
+  },
+  { "value": " Cereal beverage  ", "label": " Cereal beverage" },
+  {
+    "value": " Cereal beverage with beet roots  ",
+    "label": " Cereal beverage with beet roots"
+  },
+  { "value": " Cereal or granola bar  ", "label": " Cereal or granola bar" },
+  {
+    "value": " Cereal or granola bar (General Mills Fiber One Chewy Bar)  ",
+    "label": " Cereal or granola bar (General Mills Fiber One Chewy Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (General Mills Nature Valley Chewy Trail Mix)  ",
+    "label": " Cereal or granola bar (General Mills Nature Valley Chewy Trail Mix)"
+  },
+  {
+    "value": " Cereal or granola bar (General Mills Nature Valley Crunchy Granola Bar)  ",
+    "label": " Cereal or granola bar (General Mills Nature Valley Crunchy Granola Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (General Mills Nature Valley Sweet and Salty Granola Bar)  ",
+    "label": " Cereal or granola bar (General Mills Nature Valley Sweet and Salty Granola Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Kashi Chewy)  ",
+    "label": " Cereal or granola bar (Kashi Chewy)"
+  },
+  {
+    "value": " Cereal or granola bar (Kashi Crunchy)  ",
+    "label": " Cereal or granola bar (Kashi Crunchy)"
+  },
+  {
+    "value": " Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar)  ",
+    "label": " Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Kellogg's Nutri-Grain Fruit and Nut Bar)  ",
+    "label": " Cereal or granola bar (Kellogg's Nutri-Grain Fruit and Nut Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Kellogg's Nutri-Grain Yogurt Bar)  ",
+    "label": " Cereal or granola bar (Kellogg's Nutri-Grain Yogurt Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Kellogg's Special K bar)  ",
+    "label": " Cereal or granola bar (Kellogg's Special K bar)"
+  },
+  {
+    "value": " Cereal or granola bar (KIND Fruit and Nut Bar)  ",
+    "label": " Cereal or granola bar (KIND Fruit and Nut Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Quaker Chewy 25% Less Sugar Granola Bar)  ",
+    "label": " Cereal or granola bar (Quaker Chewy 25% Less Sugar Granola Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Quaker Chewy 90 Calorie Granola Bar)  ",
+    "label": " Cereal or granola bar (Quaker Chewy 90 Calorie Granola Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Quaker Chewy Dipps Granola Bar)  ",
+    "label": " Cereal or granola bar (Quaker Chewy Dipps Granola Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Quaker Chewy Granola Bar)  ",
+    "label": " Cereal or granola bar (Quaker Chewy Granola Bar)"
+  },
+  {
+    "value": " Cereal or granola bar (Quaker Granola Bites)  ",
+    "label": " Cereal or granola bar (Quaker Granola Bites)"
+  },
+  {
+    "value": " Cereal or granola bar with nuts  ",
+    "label": " Cereal or granola bar with nuts"
+  },
+  { "value": " Ceviche  ", "label": " Ceviche" },
+  { "value": " Champagne punch  ", "label": " Champagne punch" },
+  { "value": " Channa Saag  ", "label": " Channa Saag" },
+  { "value": " Chard  ", "label": " Chard" },
+  { "value": " Cheddar cheese soup  ", "label": " Cheddar cheese soup" },
+  { "value": " Cheese  ", "label": " Cheese" },
+  {
+    "value": " Cheese as ingredient in sandwiches  ",
+    "label": " Cheese as ingredient in sandwiches"
+  },
+  { "value": " Cheese ball  ", "label": " Cheese ball" },
+  { "value": " Cheese dip  ", "label": " Cheese dip" },
+  {
+    "value": " Cheese dip with chili pepper  ",
+    "label": " Cheese dip with chili pepper"
+  },
+  { "value": " Cheese enchilada  ", "label": " Cheese enchilada" },
+  {
+    "value": " Cheese flavored corn snacks  ",
+    "label": " Cheese flavored corn snacks"
+  },
+  {
+    "value": " Cheese flavored corn snacks (Cheetos)  ",
+    "label": " Cheese flavored corn snacks (Cheetos)"
+  },
+  { "value": " Cheese fondue  ", "label": " Cheese fondue" },
+  { "value": " Cheese pastry puffs  ", "label": " Cheese pastry puffs" },
+  { "value": " Cheese quiche  ", "label": " Cheese quiche" },
+  { "value": " Cheese sandwich  ", "label": " Cheese sandwich" },
+  { "value": " Cheese sauce  ", "label": " Cheese sauce" },
+  { "value": " Cheese souffle  ", "label": " Cheese souffle" },
+  { "value": " Cheese spread  ", "label": " Cheese spread" },
+  { "value": " Cheese turnover  ", "label": " Cheese turnover" },
+  { "value": " Cheeseburger  ", "label": " Cheeseburger" },
+  {
+    "value": " Cheeseburger (Burger King)  ",
+    "label": " Cheeseburger (Burger King)"
+  },
+  {
+    "value": " Cheeseburger (McDonalds)  ",
+    "label": " Cheeseburger (McDonalds)"
+  },
+  { "value": " Cheeseburger slider  ", "label": " Cheeseburger slider" },
+  {
+    "value": " Cheeseburger submarine sandwich with lettuce  ",
+    "label": " Cheeseburger submarine sandwich with lettuce"
+  },
+  { "value": " Cheesecake  ", "label": " Cheesecake" },
+  { "value": " Cheesecake with fruit  ", "label": " Cheesecake with fruit" },
+  { "value": " Cherries  ", "label": " Cherries" },
+  { "value": " Cherry cobbler  ", "label": " Cherry cobbler" },
+  { "value": " Cherry pie filling  ", "label": " Cherry pie filling" },
+  { "value": " Cherry vanilla pudding  ", "label": " Cherry vanilla pudding" },
+  { "value": " Chestnuts  ", "label": " Chestnuts" },
+  { "value": " Chewing gum  ", "label": " Chewing gum" },
+  { "value": " Chia seeds  ", "label": " Chia seeds" },
+  { "value": " Chicken  ", "label": " Chicken" },
+  { "value": " Chicken wings  ", "label": " Chicken wings" },
+  {
+    "value": " Chicken  wings with hot sauce  ",
+    "label": " Chicken wings with hot sauce"
+  },
+  {
+    "value": " Chicken wings  with other sauces or seasoning  ",
+    "label": " Chicken wings with other sauces or seasoning"
+  },
+  {
+    "value": " Chicken and noodles with vegetable  ",
+    "label": " Chicken and noodles with vegetable"
+  },
+  {
+    "value": " Chicken and rice dinner  ",
+    "label": " Chicken and rice dinner"
+  },
+  {
+    "value": " Chicken and vegetable entree with noodles  ",
+    "label": " Chicken and vegetable entree with noodles"
+  },
+  {
+    "value": " Chicken and vegetable entree with noodles and cream sauce  ",
+    "label": " Chicken and vegetable entree with noodles and cream sauce"
+  },
+  {
+    "value": " Chicken and vegetable entree with rice  ",
+    "label": " Chicken and vegetable entree with rice"
+  },
+  {
+    "value": " Chicken and vegetables au gratin with rice  ",
+    "label": " Chicken and vegetables au gratin with rice"
+  },
+  {
+    "value": " Chicken barbecue sandwich  ",
+    "label": " Chicken barbecue sandwich"
+  },
+  { "value": " Chicken breast  ", "label": " Chicken breast" },
+  {
+    "value": " Chicken chow mein with rice  ",
+    "label": " Chicken chow mein with rice"
+  },
+  { "value": " Chicken cornbread  ", "label": " Chicken cornbread" },
+  { "value": " Chicken curry  ", "label": " Chicken curry" },
+  {
+    "value": " Chicken curry with rice  ",
+    "label": " Chicken curry with rice"
+  },
+  { "value": " Chicken dinner  ", "label": " Chicken dinner" },
+  { "value": " Chicken drumstick  ", "label": " Chicken drumstick" },
+  { "value": " Chicken egg foo yung  ", "label": " Chicken egg foo yung" },
+  { "value": " Chicken feet  ", "label": " Chicken feet" },
+  { "value": " Chicken fillet  ", "label": " Chicken fillet" },
+  { "value": " Chicken fillet biscuit  ", "label": " Chicken fillet biscuit" },
+  {
+    "value": " Chicken fillet sandwich  ",
+    "label": " Chicken fillet sandwich"
+  },
+  {
+    "value": " Chicken fillet wrap sandwich  ",
+    "label": " Chicken fillet wrap sandwich"
+  },
+  { "value": " Chicken fricassee  ", "label": " Chicken fricassee" },
+  {
+    "value": " Chicken in butter sauce with potatoes and vegetable  ",
+    "label": " Chicken in butter sauce with potatoes and vegetable"
+  },
+  {
+    "value": " Chicken in cream sauce with noodles and vegetable  ",
+    "label": " Chicken in cream sauce with noodles and vegetable"
+  },
+  {
+    "value": " Chicken in mushroom sauce  ",
+    "label": " Chicken in mushroom sauce"
+  },
+  {
+    "value": " Chicken in soy-based sauce  ",
+    "label": " Chicken in soy-based sauce"
+  },
+  { "value": " Chicken kiev  ", "label": " Chicken kiev" },
+  { "value": " Chicken leg  ", "label": " Chicken leg" },
+  { "value": " Chicken liver  ", "label": " Chicken liver" },
+  { "value": " Chicken noodle dinner  ", "label": " Chicken noodle dinner" },
+  { "value": " Chicken nuggets  ", "label": " Chicken nuggets" },
+  { "value": " Chicken or turkey  ", "label": " Chicken or turkey" },
+  {
+    "value": " Chicken or turkey a la king with vegetables excluding carrorts  ",
+    "label": " Chicken or turkey a la king with vegetables excluding carrorts"
+  },
+  {
+    "value": " Chicken or turkey a la king with vegetables including carrots  ",
+    "label": " Chicken or turkey a la king with vegetables including carrots"
+  },
+  {
+    "value": " Chicken or turkey and corn hominy soup  ",
+    "label": " Chicken or turkey and corn hominy soup"
+  },
+  {
+    "value": " Chicken or turkey and noodles  ",
+    "label": " Chicken or turkey and noodles"
+  },
+  {
+    "value": " Chicken or turkey and noodles with cheese sauce  ",
+    "label": " Chicken or turkey and noodles with cheese sauce"
+  },
+  {
+    "value": " Chicken or turkey and noodles with cream or white sauce  ",
+    "label": " Chicken or turkey and noodles with cream or white sauce"
+  },
+  {
+    "value": " Chicken or turkey and noodles with gravy  ",
+    "label": " Chicken or turkey and noodles with gravy"
+  },
+  {
+    "value": " Chicken or turkey and noodles with mushroom sauce  ",
+    "label": " Chicken or turkey and noodles with mushroom sauce"
+  },
+  {
+    "value": " Chicken or turkey and noodles with soy-based sauce  ",
+    "label": " Chicken or turkey and noodles with soy-based sauce"
+  },
+  {
+    "value": " Chicken or turkey and noodles with tomato-based sauce  ",
+    "label": " Chicken or turkey and noodles with tomato-based sauce"
+  },
+  {
+    "value": " Chicken or turkey and potatoes with gravy  ",
+    "label": " Chicken or turkey and potatoes with gravy"
+  },
+  {
+    "value": " Chicken or turkey and rice  ",
+    "label": " Chicken or turkey and rice"
+  },
+  {
+    "value": " Chicken or turkey and rice with cream sauce  ",
+    "label": " Chicken or turkey and rice with cream sauce"
+  },
+  {
+    "value": " Chicken or turkey and rice with mushroom sauce  ",
+    "label": " Chicken or turkey and rice with mushroom sauce"
+  },
+  {
+    "value": " Chicken or turkey and rice with soy-based sauce  ",
+    "label": " Chicken or turkey and rice with soy-based sauce"
+  },
+  {
+    "value": " Chicken or turkey and rice with tomato-based sauce  ",
+    "label": " Chicken or turkey and rice with tomato-based sauce"
+  },
+  {
+    "value": " Chicken or turkey and vegetables excluding carrots  ",
+    "label": " Chicken or turkey and vegetables excluding carrots"
+  },
+  {
+    "value": " Chicken or turkey and vegetables including carrots  ",
+    "label": " Chicken or turkey and vegetables including carrots"
+  },
+  {
+    "value": " Chicken or turkey broth  ",
+    "label": " Chicken or turkey broth"
+  },
+  {
+    "value": " Chicken or turkey cacciatore  ",
+    "label": " Chicken or turkey cacciatore"
+  },
+  {
+    "value": " Chicken or turkey caesar garden salad  ",
+    "label": " Chicken or turkey caesar garden salad"
+  },
+  { "value": " Chicken or turkey cake  ", "label": " Chicken or turkey cake" },
+  {
+    "value": " Chicken or turkey chow mein or chop suey  ",
+    "label": " Chicken or turkey chow mein or chop suey"
+  },
+  {
+    "value": " Chicken or turkey chow mein or chop suey with noodles  ",
+    "label": " Chicken or turkey chow mein or chop suey with noodles"
+  },
+  {
+    "value": " Chicken or turkey cordon bleu  ",
+    "label": " Chicken or turkey cordon bleu"
+  },
+  {
+    "value": " Chicken or turkey corn soup with noodles  ",
+    "label": " Chicken or turkey corn soup with noodles"
+  },
+  {
+    "value": " Chicken or turkey creole  ",
+    "label": " Chicken or turkey creole"
+  },
+  {
+    "value": " Chicken or turkey divan  ",
+    "label": " Chicken or turkey divan"
+  },
+  {
+    "value": " Chicken or turkey fricassee  ",
+    "label": " Chicken or turkey fricassee"
+  },
+  {
+    "value": " Chicken or turkey garden salad  ",
+    "label": " Chicken or turkey garden salad"
+  },
+  {
+    "value": " Chicken or turkey garden salad with bacon and cheese  ",
+    "label": " Chicken or turkey garden salad with bacon and cheese"
+  },
+  {
+    "value": " Chicken or turkey garden salad with cheese  ",
+    "label": " Chicken or turkey garden salad with cheese"
+  },
+  {
+    "value": " Chicken or turkey gumbo soup  ",
+    "label": " Chicken or turkey gumbo soup"
+  },
+  { "value": " Chicken or turkey hash  ", "label": " Chicken or turkey hash" },
+  {
+    "value": " Chicken or turkey mushroom soup  ",
+    "label": " Chicken or turkey mushroom soup"
+  },
+  {
+    "value": " Chicken or turkey noodle soup  ",
+    "label": " Chicken or turkey noodle soup"
+  },
+  {
+    "value": " Chicken or turkey parmigiana  ",
+    "label": " Chicken or turkey parmigiana"
+  },
+  {
+    "value": " Chicken or turkey pot pie  ",
+    "label": " Chicken or turkey pot pie"
+  },
+  {
+    "value": " Chicken or turkey rice soup  ",
+    "label": " Chicken or turkey rice soup"
+  },
+  {
+    "value": " Chicken or turkey salad  ",
+    "label": " Chicken or turkey salad"
+  },
+  {
+    "value": " Chicken or turkey salad with egg  ",
+    "label": " Chicken or turkey salad with egg"
+  },
+  {
+    "value": " Chicken or turkey salad with nuts and/or fruits  ",
+    "label": " Chicken or turkey salad with nuts and/or fruits"
+  },
+  {
+    "value": " Chicken or turkey shish kabob with vegetables  ",
+    "label": " Chicken or turkey shish kabob with vegetables"
+  },
+  {
+    "value": " Chicken or turkey souffle  ",
+    "label": " Chicken or turkey souffle"
+  },
+  { "value": " Chicken or turkey soup  ", "label": " Chicken or turkey soup" },
+  {
+    "value": " Chicken or turkey soup with dumplings  ",
+    "label": " Chicken or turkey soup with dumplings"
+  },
+  {
+    "value": " Chicken or turkey soup with dumplings and potatoes  ",
+    "label": " Chicken or turkey soup with dumplings and potatoes"
+  },
+  {
+    "value": " Chicken or turkey soup with vegetables  ",
+    "label": " Chicken or turkey soup with vegetables"
+  },
+  {
+    "value": " Chicken or turkey soup with vegetables and fruit  ",
+    "label": " Chicken or turkey soup with vegetables and fruit"
+  },
+  {
+    "value": " Chicken or turkey stew with potatoes and vegetables excluding carrots  ",
+    "label": " Chicken or turkey stew with potatoes and vegetables excluding carrots"
+  },
+  {
+    "value": " Chicken or turkey stew with potatoes and vegetables including carrots  ",
+    "label": " Chicken or turkey stew with potatoes and vegetables including carrots"
+  },
+  {
+    "value": " Chicken or turkey tetrazzini  ",
+    "label": " Chicken or turkey tetrazzini"
+  },
+  {
+    "value": " Chicken or turkey vegetable soup  ",
+    "label": " Chicken or turkey vegetable soup"
+  },
+  {
+    "value": " Chicken or turkey vegetable soup with noodles  ",
+    "label": " Chicken or turkey vegetable soup with noodles"
+  },
+  {
+    "value": " Chicken or turkey vegetable soup with potato and cheese  ",
+    "label": " Chicken or turkey vegetable soup with potato and cheese"
+  },
+  {
+    "value": " Chicken or turkey vegetable soup with rice  ",
+    "label": " Chicken or turkey vegetable soup with rice"
+  },
+  {
+    "value": " Chicken or turkey with cheese sauce  ",
+    "label": " Chicken or turkey with cheese sauce"
+  },
+  {
+    "value": " Chicken or turkey with cream sauce  ",
+    "label": " Chicken or turkey with cream sauce"
+  },
+  {
+    "value": " Chicken or turkey with dumplings  ",
+    "label": " Chicken or turkey with dumplings"
+  },
+  {
+    "value": " Chicken or turkey with mushroom sauce  ",
+    "label": " Chicken or turkey with mushroom sauce"
+  },
+  {
+    "value": " Chicken or turkey with stuffing  ",
+    "label": " Chicken or turkey with stuffing"
+  },
+  {
+    "value": " Chicken or turkey with teriyaki  ",
+    "label": " Chicken or turkey with teriyaki"
+  },
+  { "value": " Chicken patty  ", "label": " Chicken patty" },
+  {
+    "value": " Chicken patty or nuggets  ",
+    "label": " Chicken patty or nuggets"
+  },
+  { "value": " Chicken rice soup  ", "label": " Chicken rice soup" },
+  {
+    "value": " Chicken salad or chicken spread sandwich  ",
+    "label": " Chicken salad or chicken spread sandwich"
+  },
+  { "value": " Chicken salad spread  ", "label": " Chicken salad spread" },
+  { "value": " Chicken skin  ", "label": " Chicken skin" },
+  { "value": " Chicken soup  ", "label": " Chicken soup" },
+  {
+    "value": " Chicken soup with noodles and potatoes  ",
+    "label": " Chicken soup with noodles and potatoes"
+  },
+  { "value": " Chicken stew  ", "label": " Chicken stew" },
+  { "value": " Chicken stick  ", "label": " Chicken stick" },
+  {
+    "value": " Chicken submarine sandwich  ",
+    "label": " Chicken submarine sandwich"
+  },
+  {
+    "value": " Chicken tenders or strips  ",
+    "label": " Chicken tenders or strips"
+  },
+  { "value": " Chicken thigh  ", "label": " Chicken thigh" },
+  { "value": " Chicken wing  ", "label": " Chicken wing" },
+  { "value": " Chicken with gravy  ", "label": " Chicken with gravy" },
+  {
+    "value": " Chicken with mole sauce  ",
+    "label": " Chicken with mole sauce"
+  },
+  {
+    "value": " Chicken with noodles and cheese sauce  ",
+    "label": " Chicken with noodles and cheese sauce"
+  },
+  {
+    "value": " Chicken with rice and vegetable  ",
+    "label": " Chicken with rice and vegetable"
+  },
+  { "value": " Chickpeas  ", "label": " Chickpeas" },
+  { "value": " Chicory beverage  ", "label": " Chicory beverage" },
+  { "value": " Chilaquiles  ", "label": " Chilaquiles" },
+  { "value": " Chiles rellenos  ", "label": " Chiles rellenos" },
+  { "value": " Chili con carne  ", "label": " Chili con carne" },
+  {
+    "value": " Chili con carne with beans  ",
+    "label": " Chili con carne with beans"
+  },
+  {
+    "value": " Chili con carne with beans and cheese  ",
+    "label": " Chili con carne with beans and cheese"
+  },
+  {
+    "value": " Chili con carne with beans and macaroni  ",
+    "label": " Chili con carne with beans and macaroni"
+  },
+  {
+    "value": " Chili con carne with beans and rice  ",
+    "label": " Chili con carne with beans and rice"
+  },
+  {
+    "value": " Chili con carne with chicken or turkey and beans  ",
+    "label": " Chili con carne with chicken or turkey and beans"
+  },
+  {
+    "value": " Chili con carne with venison/deer and beans  ",
+    "label": " Chili con carne with venison/deer and beans"
+  },
+  {
+    "value": " Chili con carne without beans  ",
+    "label": " Chili con carne without beans"
+  },
+  { "value": " Chili with beans  ", "label": " Chili with beans" },
+  { "value": " Chiliburger  ", "label": " Chiliburger" },
+  { "value": " Chimichanga  ", "label": " Chimichanga" },
+  {
+    "value": " Chimichanga with chicken  ",
+    "label": " Chimichanga with chicken"
+  },
+  {
+    "value": " Chimichanga with chicken and sour cream  ",
+    "label": " Chimichanga with chicken and sour cream"
+  },
+  { "value": " Chimichanga with meat  ", "label": " Chimichanga with meat" },
+  {
+    "value": " Chimichanga with meat and sour cream  ",
+    "label": " Chimichanga with meat and sour cream"
+  },
+  { "value": " Chinese pancake  ", "label": " Chinese pancake" },
+  { "value": " Chipotle dip  ", "label": " Chipotle dip" },
+  { "value": " Chips  ", "label": " Chips" },
+  { "value": " Chitterlings  ", "label": " Chitterlings" },
+  { "value": " Chives  ", "label": " Chives" },
+  { "value": " Chocolate  ", "label": " Chocolate" },
+  {
+    "value": " Chocolate beverage powder  ",
+    "label": " Chocolate beverage powder"
+  },
+  {
+    "value": " Chocolate candy with fondant and caramel  ",
+    "label": " Chocolate candy with fondant and caramel"
+  },
+  { "value": " Chocolate dip  ", "label": " Chocolate dip" },
+  { "value": " Chocolate milk  ", "label": " Chocolate milk" },
+  { "value": " Chocolate milk drink  ", "label": " Chocolate milk drink" },
+  { "value": " Chocolate syrup  ", "label": " Chocolate syrup" },
+  {
+    "value": " Chocolate-flavored sprinkles  ",
+    "label": " Chocolate-flavored sprinkles"
+  },
+  { "value": " Chorizo  ", "label": " Chorizo" },
+  {
+    "value": " Chow fun noodles with meat and vegetables  ",
+    "label": " Chow fun noodles with meat and vegetables"
+  },
+  {
+    "value": " Chow fun noodles with vegetables  ",
+    "label": " Chow fun noodles with vegetables"
+  },
+  { "value": " Chow mein or chop suey  ", "label": " Chow mein or chop suey" },
+  { "value": " Christophine  ", "label": " Christophine" },
+  { "value": " Churros  ", "label": " Churros" },
+  { "value": " Chutney  ", "label": " Chutney" },
+  { "value": " Cilantro  ", "label": " Cilantro" },
+  { "value": " Clam cake or patty  ", "label": " Clam cake or patty" },
+  { "value": " Clam chowder  ", "label": " Clam chowder" },
+  { "value": " Clams  ", "label": " Clams" },
+  { "value": " Clams Casino  ", "label": " Clams Casino" },
+  {
+    "value": " Classic mixed vegetables  ",
+    "label": " Classic mixed vegetables"
+  },
+  { "value": " Clementine  ", "label": " Clementine" },
+  { "value": " Cobb salad  ", "label": " Cobb salad" },
+  { "value": " Cobbler  ", "label": " Cobbler" },
+  { "value": " Cocktail  ", "label": " Cocktail" },
+  { "value": " Cocktail sauce  ", "label": " Cocktail sauce" },
+  { "value": " Cocoa powder  ", "label": " Cocoa powder" },
+  { "value": " Coconut  ", "label": " Coconut" },
+  { "value": " Coconut candy  ", "label": " Coconut candy" },
+  { "value": " Coconut cream  ", "label": " Coconut cream" },
+  { "value": " Coconut cream cake  ", "label": " Coconut cream cake" },
+  { "value": " Coconut milk  ", "label": " Coconut milk" },
+  { "value": " Coconut oil  ", "label": " Coconut oil" },
+  { "value": " Coconut water  ", "label": " Coconut water" },
+  { "value": " Cod  ", "label": " Cod" },
+  { "value": " Codfish  ", "label": " Codfish" },
+  { "value": " Codfish ball or cake  ", "label": " Codfish ball or cake" },
+  { "value": " Codfish fritter  ", "label": " Codfish fritter" },
+  { "value": " Codfish salad  ", "label": " Codfish salad" },
+  {
+    "value": " Codfish soup with noodles  ",
+    "label": " Codfish soup with noodles"
+  },
+  {
+    "value": " Codfish with starchy vegetables  ",
+    "label": " Codfish with starchy vegetables"
+  },
+  { "value": " Coffee  ", "label": " Coffee" },
+  { "value": " Coffee and chicory  ", "label": " Coffee and chicory" },
+  { "value": " Coffee cake  ", "label": " Coffee cake" },
+  { "value": " Coffee creamer  ", "label": " Coffee creamer" },
+  { "value": " Coffee substitute  ", "label": " Coffee substitute" },
+  {
+    "value": " Cold cut sumarine sandwich  ",
+    "label": " Cold cut sumarine sandwich"
+  },
+  { "value": " Coleslaw dressing  ", "label": " Coleslaw dressing" },
+  { "value": " Collards  ", "label": " Collards" },
+  { "value": " Congee  ", "label": " Congee" },
+  { "value": " Cookie  ", "label": " Cookie" },
+  { "value": " Cookie bar  ", "label": " Cookie bar" },
+  { "value": " Cookies  ", "label": " Cookies" },
+  { "value": " Cordial or liqueur  ", "label": " Cordial or liqueur" },
+  { "value": " Corn  ", "label": " Corn" },
+  {
+    "value": " Corn and sweet potatoes  ",
+    "label": " Corn and sweet potatoes"
+  },
+  { "value": " Corn beverage  ", "label": " Corn beverage" },
+  { "value": " Corn chips  ", "label": " Corn chips" },
+  { "value": " Corn dog  ", "label": " Corn dog" },
+  {
+    "value": " Corn flour patty or tart  ",
+    "label": " Corn flour patty or tart"
+  },
+  { "value": " Corn fritter  ", "label": " Corn fritter" },
+  { "value": " Corn nuts  ", "label": " Corn nuts" },
+  { "value": " Corn oil  ", "label": " Corn oil" },
+  { "value": " Corn pone  ", "label": " Corn pone" },
+  { "value": " Corn soup  ", "label": " Corn soup" },
+  { "value": " Corn syrup  ", "label": " Corn syrup" },
+  { "value": " Cornbread  ", "label": " Cornbread" },
+  { "value": " Cornbread muffin  ", "label": " Cornbread muffin" },
+  { "value": " Cornbread stuffing  ", "label": " Cornbread stuffing" },
+  { "value": " Corned beef  ", "label": " Corned beef" },
+  { "value": " Corned beef hash  ", "label": " Corned beef hash" },
+  { "value": " Corned beef patty  ", "label": " Corned beef patty" },
+  { "value": " Corned beef sandwich  ", "label": " Corned beef sandwich" },
+  {
+    "value": " Corned beef with tomato sauce and onion  ",
+    "label": " Corned beef with tomato sauce and onion"
+  },
+  { "value": " Cornish game hen  ", "label": " Cornish game hen" },
+  { "value": " Cornmeal  ", "label": " Cornmeal" },
+  { "value": " Cornmeal beverage  ", "label": " Cornmeal beverage" },
+  {
+    "value": " Cornmeal beverage with chocolate milk  ",
+    "label": " Cornmeal beverage with chocolate milk"
+  },
+  {
+    "value": " Cornmeal coconut dessert  ",
+    "label": " Cornmeal coconut dessert"
+  },
+  {
+    "value": " Cornmeal dressing with chicken or turkey and vegetables  ",
+    "label": " Cornmeal dressing with chicken or turkey and vegetables"
+  },
+  { "value": " Cornmeal dumpling  ", "label": " Cornmeal dumpling" },
+  { "value": " Cornmeal fritter  ", "label": " Cornmeal fritter" },
+  { "value": " Cornmeal mush  ", "label": " Cornmeal mush" },
+  { "value": " Cornmeal stick  ", "label": " Cornmeal stick" },
+  { "value": " Cottage cheese  ", "label": " Cottage cheese" },
+  { "value": " Cottonseed oil  ", "label": " Cottonseed oil" },
+  { "value": " Couscous  ", "label": " Couscous" },
+  { "value": " Crab  ", "label": " Crab" },
+  { "value": " Crab cake  ", "label": " Crab cake" },
+  { "value": " Crab cake sandwich  ", "label": " Crab cake sandwich" },
+  { "value": " Crab imperial  ", "label": " Crab imperial" },
+  { "value": " Crab salad  ", "label": " Crab salad" },
+  {
+    "value": " Crab salad made with imitation crab  ",
+    "label": " Crab salad made with imitation crab"
+  },
+  { "value": " Crab soup  ", "label": " Crab soup" },
+  {
+    "value": " Crabs in tomato-based sauce  ",
+    "label": " Crabs in tomato-based sauce"
+  },
+  { "value": " Cracker chips  ", "label": " Cracker chips" },
+  { "value": " Crackers  ", "label": " Crackers" },
+  { "value": " Cranberries  ", "label": " Cranberries" },
+  { "value": " Cranberry juice  ", "label": " Cranberry juice" },
+  { "value": " Cranberry juice blend  ", "label": " Cranberry juice blend" },
+  { "value": " Cranberry juice drink  ", "label": " Cranberry juice drink" },
+  { "value": " Cranberry sauce  ", "label": " Cranberry sauce" },
+  { "value": " Crayfish  ", "label": " Crayfish" },
+  { "value": " Cream  ", "label": " Cream" },
+  { "value": " Cream cheese  ", "label": " Cream cheese" },
+  { "value": " Cream cheese spread  ", "label": " Cream cheese spread" },
+  { "value": " Cream of rye  ", "label": " Cream of rye" },
+  { "value": " Cream of wheat  ", "label": " Cream of wheat" },
+  { "value": " Cream puff  ", "label": " Cream puff" },
+  { "value": " Cream sauce  ", "label": " Cream sauce" },
+  {
+    "value": " Creamed chipped or dried beef  ",
+    "label": " Creamed chipped or dried beef"
+  },
+  { "value": " Creamed christophine  ", "label": " Creamed christophine" },
+  { "value": " Creamsicle  ", "label": " Creamsicle" },
+  { "value": " Creamy dressing  ", "label": " Creamy dressing" },
+  { "value": " Creme brulee  ", "label": " Creme brulee" },
+  { "value": " Crepe  ", "label": " Crepe" },
+  { "value": " Cress  ", "label": " Cress" },
+  { "value": " Crisp  ", "label": " Crisp" },
+  { "value": " Croaker  ", "label": " Croaker" },
+  { "value": " Croissant  ", "label": " Croissant" },
+  { "value": " Croissant sandwich  ", "label": " Croissant sandwich" },
+  {
+    "value": " Croissant sandwich with bacon  ",
+    "label": " Croissant sandwich with bacon"
+  },
+  {
+    "value": " Croissant sandwich with bacon and egg  ",
+    "label": " Croissant sandwich with bacon and egg"
+  },
+  {
+    "value": " Croissant sandwich with ham  ",
+    "label": " Croissant sandwich with ham"
+  },
+  {
+    "value": " Croissant sandwich with sausage  ",
+    "label": " Croissant sandwich with sausage"
+  },
+  {
+    "value": " Croissant sandwich with sausage and egg  ",
+    "label": " Croissant sandwich with sausage and egg"
+  },
+  { "value": " Croutons  ", "label": " Croutons" },
+  { "value": " Crumpet  ", "label": " Crumpet" },
+  { "value": " Crunchy snacks  ", "label": " Crunchy snacks" },
+  { "value": " Cuban sandwich  ", "label": " Cuban sandwich" },
+  { "value": " Cucumber  ", "label": " Cucumber" },
+  {
+    "value": " Cucumber and vegetable namasu  ",
+    "label": " Cucumber and vegetable namasu"
+  },
+  { "value": " Cucumber salad  ", "label": " Cucumber salad" },
+  {
+    "value": " Cucumber salad made with cucumber and vinegar  ",
+    "label": " Cucumber salad made with cucumber and vinegar"
+  },
+  { "value": " Currants  ", "label": " Currants" },
+  { "value": " Curry sauce  ", "label": " Curry sauce" },
+  { "value": " Custard  ", "label": " Custard" },
+  { "value": " Custard pudding  ", "label": " Custard pudding" },
+  { "value": " Daikon radish  ", "label": " Daikon radish" },
+  { "value": " Daiquiri  ", "label": " Daiquiri" },
+  { "value": " Dandelion greens  ", "label": " Dandelion greens" },
+  { "value": " Danish pastry  ", "label": " Danish pastry" },
+  {
+    "value": " Dark green vegetables as ingredient in omelet  ",
+    "label": " Dark green vegetables as ingredient in omelet"
+  },
+  {
+    "value": " Dark-green leafy vegetable soup  ",
+    "label": " Dark-green leafy vegetable soup"
+  },
+  {
+    "value": " Dark-green leafy vegetable soup with meat  ",
+    "label": " Dark-green leafy vegetable soup with meat"
+  },
+  { "value": " Dasheen  ", "label": " Dasheen" },
+  { "value": " Date  ", "label": " Date" },
+  { "value": " Date candy  ", "label": " Date candy" },
+  { "value": " Deer chop  ", "label": " Deer chop" },
+  { "value": " Deer sausage  ", "label": " Deer sausage" },
+  { "value": " Dessert dip  ", "label": " Dessert dip" },
+  { "value": " Dessert pizza  ", "label": " Dessert pizza" },
+  { "value": " Dessert sauce  ", "label": " Dessert sauce" },
+  {
+    "value": " Dietetic or low calorie candy  ",
+    "label": " Dietetic or low calorie candy"
+  },
+  {
+    "value": " Dietetic or low calorie gumdrops  ",
+    "label": " Dietetic or low calorie gumdrops"
+  },
+  {
+    "value": " Dietetic or low calorie hard candy  ",
+    "label": " Dietetic or low calorie hard candy"
+  },
+  {
+    "value": " Dietetic or low calorie mints  ",
+    "label": " Dietetic or low calorie mints"
+  },
+  { "value": " Dill dip  ", "label": " Dill dip" },
+  { "value": " Dip  ", "label": " Dip" },
+  { "value": " Dirty rice  ", "label": " Dirty rice" },
+  { "value": " Dosa (Indian)  ", "label": " Dosa (Indian)" },
+  { "value": " Double cheeseburger  ", "label": " Double cheeseburger" },
+  {
+    "value": " Double cheeseburger (Burger King)  ",
+    "label": " Double cheeseburger (Burger King)"
+  },
+  {
+    "value": " Double cheeseburger (McDonalds)  ",
+    "label": " Double cheeseburger (McDonalds)"
+  },
+  { "value": " Double hamburger  ", "label": " Double hamburger" },
+  { "value": " Doughnut  ", "label": " Doughnut" },
+  { "value": " Doughnut holes  ", "label": " Doughnut holes" },
+  { "value": " Dove  ", "label": " Dove" },
+  {
+    "value": " Dressing with chicken or turkey and vegetables  ",
+    "label": " Dressing with chicken or turkey and vegetables"
+  },
+  {
+    "value": " Dressing with meat and vegetables  ",
+    "label": " Dressing with meat and vegetables"
+  },
+  { "value": " Dressing with oysters  ", "label": " Dressing with oysters" },
+  { "value": " Duck  ", "label": " Duck" },
+  { "value": " Duck egg  ", "label": " Duck egg" },
+  { "value": " Duck sauce  ", "label": " Duck sauce" },
+  { "value": " Dukboki or Tteokbokki  ", "label": " Dukboki or Tteokbokki" },
+  { "value": " Dumpling  ", "label": " Dumpling" },
+  { "value": " Dutch apple dessert  ", "label": " Dutch apple dessert" },
+  { "value": " Easter egg  ", "label": " Easter egg" },
+  { "value": " Edamame  ", "label": " Edamame" },
+  { "value": " Eel  ", "label": " Eel" },
+  { "value": " Egg  ", "label": " Egg" },
+  {
+    "value": " Egg and bacon on biscuit  ",
+    "label": " Egg and bacon on biscuit"
+  },
+  {
+    "value": " Egg and cheese on biscuit  ",
+    "label": " Egg and cheese on biscuit"
+  },
+  { "value": " Egg and ham on biscuit  ", "label": " Egg and ham on biscuit" },
+  {
+    "value": " Egg and sausage on biscuit  ",
+    "label": " Egg and sausage on biscuit"
+  },
+  {
+    "value": " Egg and steak on biscuit  ",
+    "label": " Egg and steak on biscuit"
+  },
+  {
+    "value": " Egg casserole with bread  ",
+    "label": " Egg casserole with bread"
+  },
+  { "value": " Egg drop soup  ", "label": " Egg drop soup" },
+  { "value": " Egg foo yung  ", "label": " Egg foo yung" },
+  {
+    "value": " Egg omelet or scrambled egg  ",
+    "label": " Egg omelet or scrambled egg"
+  },
+  { "value": " Egg roll  ", "label": " Egg roll" },
+  { "value": " Egg salad  ", "label": " Egg salad" },
+  { "value": " Egg salad sandwich  ", "label": " Egg salad sandwich" },
+  { "value": " Egg substitute  ", "label": " Egg substitute" },
+  { "value": " Egg white  ", "label": " Egg white" },
+  { "value": " Egg white omelet  ", "label": " Egg white omelet" },
+  { "value": " Eggnog  ", "label": " Eggnog" },
+  { "value": " Eggplant  ", "label": " Eggplant" },
+  {
+    "value": " Eggplant and meat casserole  ",
+    "label": " Eggplant and meat casserole"
+  },
+  { "value": " Eggplant dip  ", "label": " Eggplant dip" },
+  {
+    "value": " Eggplant parmesan casserole  ",
+    "label": " Eggplant parmesan casserole"
+  },
+  {
+    "value": " Eggplant with cheese and tomato sauce  ",
+    "label": " Eggplant with cheese and tomato sauce"
+  },
+  { "value": " Eggs a la Malaguena  ", "label": " Eggs a la Malaguena" },
+  { "value": " Empanada  ", "label": " Empanada" },
+  { "value": " Enchilada  ", "label": " Enchilada" },
+  { "value": " Enchilada sauce  ", "label": " Enchilada sauce" },
+  { "value": " Enchilada with beans  ", "label": " Enchilada with beans" },
+  { "value": " Enchilada with chicken  ", "label": " Enchilada with chicken" },
+  {
+    "value": " Enchilada with chicken and beans  ",
+    "label": " Enchilada with chicken and beans"
+  },
+  { "value": " Enchilada with meat  ", "label": " Enchilada with meat" },
+  {
+    "value": " Enchilada with meat and beans  ",
+    "label": " Enchilada with meat and beans"
+  },
+  { "value": " Energy Drink  ", "label": " Energy Drink" },
+  {
+    "value": " Energy drink (Full Throttle)  ",
+    "label": " Energy drink (Full Throttle)"
+  },
+  { "value": " Energy drink (Monster)  ", "label": " Energy drink (Monster)" },
+  {
+    "value": " Energy drink (Mountain Dew AMP)  ",
+    "label": " Energy drink (Mountain Dew AMP)"
+  },
+  {
+    "value": " Energy drink (No Fear Motherload)  ",
+    "label": " Energy drink (No Fear Motherload)"
+  },
+  { "value": " Energy drink (No Fear)  ", "label": " Energy drink (No Fear)" },
+  { "value": " Energy drink (NOS)  ", "label": " Energy drink (NOS)" },
+  {
+    "value": " Energy drink (Ocean Spray Cran-Energy Juice Drink)  ",
+    "label": " Energy drink (Ocean Spray Cran-Energy Juice Drink)"
+  },
+  {
+    "value": " Energy drink (Red Bull)  ",
+    "label": " Energy drink (Red Bull)"
+  },
+  {
+    "value": " Energy drink (Rockstar)  ",
+    "label": " Energy drink (Rockstar)"
+  },
+  {
+    "value": " Energy drink (SoBe Energize Energy Juice Drink)  ",
+    "label": " Energy drink (SoBe Energize Energy Juice Drink)"
+  },
+  { "value": " Energy drink (Vault)  ", "label": " Energy drink (Vault)" },
+  {
+    "value": " Energy drink (XS Gold Plus)  ",
+    "label": " Energy drink (XS Gold Plus)"
+  },
+  { "value": " Energy drink (XS)  ", "label": " Energy drink (XS)" },
+  { "value": " Escarole  ", "label": " Escarole" },
+  { "value": " Espresso coffee beans  ", "label": " Espresso coffee beans" },
+  {
+    "value": " Fajita with chicken and vegetables  ",
+    "label": " Fajita with chicken and vegetables"
+  },
+  {
+    "value": " Fajita with meat and vegetables  ",
+    "label": " Fajita with meat and vegetables"
+  },
+  { "value": " Fajita with vegetables  ", "label": " Fajita with vegetables" },
+  {
+    "value": " Fajita-style beef sandwich with cheese  ",
+    "label": " Fajita-style beef sandwich with cheese"
+  },
+  { "value": " Falafel  ", "label": " Falafel" },
+  { "value": " Fat back  ", "label": " Fat back" },
+  { "value": " Fava beans  ", "label": " Fava beans" },
+  { "value": " Fennel bulb  ", "label": " Fennel bulb" },
+  { "value": " Fig  ", "label": " Fig" },
+  { "value": " Finger Foods  ", "label": " Finger Foods" },
+  { "value": " Firni  ", "label": " Firni" },
+  { "value": " Fish  ", "label": " Fish" },
+  {
+    "value": " Fish and noodles with mushroom sauce  ",
+    "label": " Fish and noodles with mushroom sauce"
+  },
+  {
+    "value": " Fish and rice with cream sauce  ",
+    "label": " Fish and rice with cream sauce"
+  },
+  {
+    "value": " Fish and rice with mushroom sauce  ",
+    "label": " Fish and rice with mushroom sauce"
+  },
+  {
+    "value": " Fish and rice with tomato-based sauce  ",
+    "label": " Fish and rice with tomato-based sauce"
+  },
+  {
+    "value": " Fish and vegetable soup  ",
+    "label": " Fish and vegetable soup"
+  },
+  {
+    "value": " Fish and vegetables excluding  carrots  ",
+    "label": " Fish and vegetables excluding  carrots"
+  },
+  {
+    "value": " Fish and vegetables excluding carrots  ",
+    "label": " Fish and vegetables excluding carrots"
+  },
+  {
+    "value": " Fish and vegetables including carrots  ",
+    "label": " Fish and vegetables including carrots"
+  },
+  { "value": " Fish cake or patty  ", "label": " Fish cake or patty" },
+  { "value": " Fish chowder  ", "label": " Fish chowder" },
+  { "value": " Fish curry  ", "label": " Fish curry" },
+  { "value": " Fish curry with rice  ", "label": " Fish curry with rice" },
+  { "value": " Fish fillet  ", "label": " Fish fillet" },
+  {
+    "value": " Fish in lemon-butter sauce with starch item  ",
+    "label": " Fish in lemon-butter sauce with starch item"
+  },
+  { "value": " Fish moochim  ", "label": " Fish moochim" },
+  { "value": " Fish sandwich  ", "label": " Fish sandwich" },
+  { "value": " Fish sauce  ", "label": " Fish sauce" },
+  {
+    "value": " Fish shish kabob with vegetables  ",
+    "label": " Fish shish kabob with vegetables"
+  },
+  {
+    "value": " Fish soup with potatoes  ",
+    "label": " Fish soup with potatoes"
+  },
+  { "value": " Fish stick  ", "label": " Fish stick" },
+  { "value": " Fish stock  ", "label": " Fish stock" },
+  { "value": " Fish timbale or mousse  ", "label": " Fish timbale or mousse" },
+  {
+    "value": " Fish with cream or white sauce  ",
+    "label": " Fish with cream or white sauce"
+  },
+  {
+    "value": " Fish with tomato-based sauce  ",
+    "label": " Fish with tomato-based sauce"
+  },
+  { "value": " Fish wrap sandwich  ", "label": " Fish wrap sandwich" },
+  { "value": " Flan  ", "label": " Flan" },
+  { "value": " Flavored pasta  ", "label": " Flavored pasta" },
+  { "value": " Flavored rice  ", "label": " Flavored rice" },
+  {
+    "value": " Flavored rice and pasta mixture  ",
+    "label": " Flavored rice and pasta mixture"
+  },
+  { "value": " Flavored rice mixture  ", "label": " Flavored rice mixture" },
+  {
+    "value": " Flavored rice mixture with cheese  ",
+    "label": " Flavored rice mixture with cheese"
+  },
+  { "value": " Flax seeds  ", "label": " Flax seeds" },
+  { "value": " Flaxseed oil  ", "label": " Flaxseed oil" },
+  { "value": " Flounder  ", "label": " Flounder" },
+  {
+    "value": " Flounder with chopped broccoli  ",
+    "label": " Flounder with chopped broccoli"
+  },
+  {
+    "value": " Flounder with crab stuffing  ",
+    "label": " Flounder with crab stuffing"
+  },
+  {
+    "value": " Flowers or blossoms of sesbania  ",
+    "label": " Flowers or blossoms of sesbania"
+  },
+  { "value": " Fluid replacement  ", "label": " Fluid replacement" },
+  { "value": " Focaccia  ", "label": " Focaccia" },
+  { "value": " Fondant  ", "label": " Fondant" },
+  { "value": " Frankfurter or hot dog  ", "label": " Frankfurter or hot dog" },
+  {
+    "value": " Frankfurter or hot dog sandwich  ",
+    "label": " Frankfurter or hot dog sandwich"
+  },
+  {
+    "value": " Frankfurters or hot dogs and sauerkraut  ",
+    "label": " Frankfurters or hot dogs and sauerkraut"
+  },
+  {
+    "value": " Frankfurters or hot dogs with tomato-based sauce  ",
+    "label": " Frankfurters or hot dogs with tomato-based sauce"
+  },
+  { "value": " Freezer pop  ", "label": " Freezer pop" },
+  {
+    "value": " French or Catalina dressing  ",
+    "label": " French or Catalina dressing"
+  },
+  { "value": " French toast  ", "label": " French toast" },
+  { "value": " French toast sticks  ", "label": " French toast sticks" },
+  { "value": " Fried bread  ", "label": " Fried bread" },
+  { "value": " Fried broccoli  ", "label": " Fried broccoli" },
+  { "value": " Fried cauliflower  ", "label": " Fried cauliflower" },
+  { "value": " Fried chicken chunks  ", "label": " Fried chicken chunks" },
+  { "value": " Fried eggplant  ", "label": " Fried eggplant" },
+  { "value": " Fried fish with sauce  ", "label": " Fried fish with sauce" },
+  { "value": " Fried green beans  ", "label": " Fried green beans" },
+  { "value": " Fried green tomatoes  ", "label": " Fried green tomatoes" },
+  { "value": " Fried mushrooms  ", "label": " Fried mushrooms" },
+  { "value": " Fried okra  ", "label": " Fried okra" },
+  { "value": " Fried onion rings  ", "label": " Fried onion rings" },
+  { "value": " Fried pork chunks  ", "label": " Fried pork chunks" },
+  { "value": " Fried rice  ", "label": " Fried rice" },
+  { "value": " Fried seafood sandwich  ", "label": " Fried seafood sandwich" },
+  { "value": " Fried stuffed potatoes  ", "label": " Fried stuffed potatoes" },
+  { "value": " Fried summer squash  ", "label": " Fried summer squash" },
+  { "value": " Fritter  ", "label": " Fritter" },
+  { "value": " Frog legs  ", "label": " Frog legs" },
+  { "value": " Frozen coffee drink  ", "label": " Frozen coffee drink" },
+  { "value": " Frozen daiquiri  ", "label": " Frozen daiquiri" },
+  { "value": " Frozen daiquiri mix  ", "label": " Frozen daiquiri mix" },
+  { "value": " Frozen dessert  ", "label": " Frozen dessert" },
+  { "value": " Frozen dinner  ", "label": " Frozen dinner" },
+  { "value": " Frozen fruit juice bar  ", "label": " Frozen fruit juice bar" },
+  { "value": " Frozen margarita  ", "label": " Frozen margarita" },
+  {
+    "value": " Frozen mocha coffee drink  ",
+    "label": " Frozen mocha coffee drink"
+  },
+  { "value": " Frozen yogurt  ", "label": " Frozen yogurt" },
+  { "value": " Frozen yogurt bar  ", "label": " Frozen yogurt bar" },
+  { "value": " Frozen yogurt cone  ", "label": " Frozen yogurt cone" },
+  { "value": " Frozen yogurt sandwich  ", "label": " Frozen yogurt sandwich" },
+  { "value": " Fruit  ", "label": " Fruit" },
+  {
+    "value": " Fruit and vegetable smoothie  ",
+    "label": " Fruit and vegetable smoothie"
+  },
+  { "value": " Fruit bar  ", "label": " Fruit bar" },
+  { "value": " Fruit butter  ", "label": " Fruit butter" },
+  { "value": " Fruit cocktail  ", "label": " Fruit cocktail" },
+  { "value": " Fruit dessert  ", "label": " Fruit dessert" },
+  { "value": " Fruit flavored drink  ", "label": " Fruit flavored drink" },
+  { "value": " Fruit flavored snack  ", "label": " Fruit flavored snack" },
+  { "value": " Fruit juice  ", "label": " Fruit juice" },
+  {
+    "value": " Fruit juice and water drink  ",
+    "label": " Fruit juice and water drink"
+  },
+  { "value": " Fruit juice beverage  ", "label": " Fruit juice beverage" },
+  { "value": " Fruit juice blend  ", "label": " Fruit juice blend" },
+  { "value": " Fruit juice drink  ", "label": " Fruit juice drink" },
+  {
+    "value": " Fruit juice drink (Capri Sun)  ",
+    "label": " Fruit juice drink (Capri Sun)"
+  },
+  {
+    "value": " Fruit juice drink (Sunny D)  ",
+    "label": " Fruit juice drink (Sunny D)"
+  },
+  {
+    "value": " Fruit leather and fruit snacks candy  ",
+    "label": " Fruit leather and fruit snacks candy"
+  },
+  { "value": " Fruit mixture  ", "label": " Fruit mixture" },
+  { "value": " Fruit nectar  ", "label": " Fruit nectar" },
+  { "value": " Fruit peel  ", "label": " Fruit peel" },
+  { "value": " Fruit punch  ", "label": " Fruit punch" },
+  { "value": " Fruit salad  ", "label": " Fruit salad" },
+  { "value": " Fruit smoothie  ", "label": " Fruit smoothie" },
+  {
+    "value": " Fruit smoothie juice drink  ",
+    "label": " Fruit smoothie juice drink"
+  },
+  { "value": " Fruit snacks candy  ", "label": " Fruit snacks candy" },
+  { "value": " Fruit Supreme dessert  ", "label": " Fruit Supreme dessert" },
+  { "value": " Fry sauce  ", "label": " Fry sauce" },
+  { "value": " Fudge  ", "label": " Fudge" },
+  { "value": " Fudgesicle  ", "label": " Fudgesicle" },
+  { "value": " Fufu  ", "label": " Fufu" },
+  {
+    "value": " Fun Fruits Creme Supremes  ",
+    "label": " Fun Fruits Creme Supremes"
+  },
+  { "value": " Funnel cake with sugar  ", "label": " Funnel cake with sugar" },
+  {
+    "value": " Funnel cake with sugar and fruit  ",
+    "label": " Funnel cake with sugar and fruit"
+  },
+  { "value": " Fuzzy Navel  ", "label": " Fuzzy Navel" },
+  {
+    "value": " Garbanzo bean or chickpea soup  ",
+    "label": " Garbanzo bean or chickpea soup"
+  },
+  { "value": " Garlic  ", "label": " Garlic" },
+  { "value": " Garlic bread  ", "label": " Garlic bread" },
+  { "value": " Garlic egg soup  ", "label": " Garlic egg soup" },
+  { "value": " Garlic sauce  ", "label": " Garlic sauce" },
+  { "value": " Gazpacho  ", "label": " Gazpacho" },
+  { "value": " Gefilte fish  ", "label": " Gefilte fish" },
+  { "value": " Gelatin dessert  ", "label": " Gelatin dessert" },
+  {
+    "value": " Gelatin dessert with fruit  ",
+    "label": " Gelatin dessert with fruit"
+  },
+  {
+    "value": " Gelatin salad with vegetables  ",
+    "label": " Gelatin salad with vegetables"
+  },
+  { "value": " Gelatin shot  ", "label": " Gelatin shot" },
+  { "value": " Gelato  ", "label": " Gelato" },
+  { "value": " General Tso chicken  ", "label": " General Tso chicken" },
+  { "value": " Gerber Finger Foods  ", "label": " Gerber Finger Foods" },
+  {
+    "value": " Gerber Graduates Finger Snacks Cereal  ",
+    "label": " Gerber Graduates Finger Snacks Cereal"
+  },
+  { "value": " Ghee  ", "label": " Ghee" },
+  { "value": " Gimlet  ", "label": " Gimlet" },
+  { "value": " Gin  ", "label": " Gin" },
+  { "value": " Gin and Tonic  ", "label": " Gin and Tonic" },
+  { "value": " Gin fizz  ", "label": " Gin fizz" },
+  { "value": " Gin Rickey  ", "label": " Gin Rickey" },
+  { "value": " Ginger root  ", "label": " Ginger root" },
+  { "value": " Gizzard  ", "label": " Gizzard" },
+  { "value": " Glug  ", "label": " Glug" },
+  { "value": " Gnocchi  ", "label": " Gnocchi" },
+  { "value": " Goat  ", "label": " Goat" },
+  { "value": " Goat head  ", "label": " Goat head" },
+  { "value": " Goat ribs  ", "label": " Goat ribs" },
+  { "value": " Goat's milk  ", "label": " Goat's milk" },
+  { "value": " Golden Cadillac  ", "label": " Golden Cadillac" },
+  { "value": " Goose  ", "label": " Goose" },
+  { "value": " Goose egg  ", "label": " Goose egg" },
+  { "value": " Gordita  ", "label": " Gordita" },
+  { "value": " Gordita/sope shell  ", "label": " Gordita/sope shell" },
+  { "value": " Goulash  ", "label": " Goulash" },
+  { "value": " Graham crackers  ", "label": " Graham crackers" },
+  {
+    "value": " Graham crackers (Teddy Grahams)  ",
+    "label": " Graham crackers (Teddy Grahams)"
+  },
+  { "value": " Granola  ", "label": " Granola" },
+  { "value": " Grape juice  ", "label": " Grape juice" },
+  { "value": " Grape juice drink  ", "label": " Grape juice drink" },
+  {
+    "value": " Grape leaves stuffed with rice  ",
+    "label": " Grape leaves stuffed with rice"
+  },
+  { "value": " Grapefruit  ", "label": " Grapefruit" },
+  { "value": " Grapefruit juice  ", "label": " Grapefruit juice" },
+  { "value": " Grapes  ", "label": " Grapes" },
+  { "value": " Grasshopper  ", "label": " Grasshopper" },
+  { "value": " Gravy  ", "label": " Gravy" },
+  { "value": " Greek Salad  ", "label": " Greek Salad" },
+  { "value": " Green banana  ", "label": " Green banana" },
+  { "value": " Green bean casserole  ", "label": " Green bean casserole" },
+  { "value": " Green beans  ", "label": " Green beans" },
+  {
+    "value": " Green beans and potatoes  ",
+    "label": " Green beans and potatoes"
+  },
+  { "value": " Green peas  ", "label": " Green peas" },
+  { "value": " Green pepper  ", "label": " Green pepper" },
+  {
+    "value": " Green plantain with cracklings  ",
+    "label": " Green plantain with cracklings"
+  },
+  { "value": " Greens  ", "label": " Greens" },
+  {
+    "value": " Greens with ham or pork  ",
+    "label": " Greens with ham or pork"
+  },
+  { "value": " Greyhound  ", "label": " Greyhound" },
+  {
+    "value": " Grilled cheese sandwich  ",
+    "label": " Grilled cheese sandwich"
+  },
+  { "value": " Grits  ", "label": " Grits" },
+  { "value": " Ground beef  ", "label": " Ground beef" },
+  { "value": " Ground beef patty  ", "label": " Ground beef patty" },
+  {
+    "value": " Ground beef with tomato sauce and taco seasonings on a cornbread crust  ",
+    "label": " Ground beef with tomato sauce and taco seasonings on a cornbread crust"
+  },
+  { "value": " Ground hog  ", "label": " Ground hog" },
+  { "value": " Ground meat  ", "label": " Ground meat" },
+  { "value": " Guacamole  ", "label": " Guacamole" },
+  {
+    "value": " Guacamole with tomatoes  ",
+    "label": " Guacamole with tomatoes"
+  },
+  { "value": " Guava  ", "label": " Guava" },
+  { "value": " Guava nectar  ", "label": " Guava nectar" },
+  { "value": " Guava paste  ", "label": " Guava paste" },
+  { "value": " Gumbo  ", "label": " Gumbo" },
+  { "value": " Gumbo with rice  ", "label": " Gumbo with rice" },
+  { "value": " Gumdrops  ", "label": " Gumdrops" },
+  {
+    "value": " Gyro sandwich (pita bread  ",
+    "label": " Gyro sandwich (pita bread"
+  },
+  { "value": " Haddock  ", "label": " Haddock" },
+  { "value": " Haddock cake or patty  ", "label": " Haddock cake or patty" },
+  { "value": " Halibut  ", "label": " Halibut" },
+  { "value": " Halvah  ", "label": " Halvah" },
+  { "value": " Ham  ", "label": " Ham" },
+  {
+    "value": " Ham and cheese on English muffin  ",
+    "label": " Ham and cheese on English muffin"
+  },
+  {
+    "value": " Ham and cheese sandwich  ",
+    "label": " Ham and cheese sandwich"
+  },
+  {
+    "value": " Ham and cheese submarine sandwich  ",
+    "label": " Ham and cheese submarine sandwich"
+  },
+  { "value": " Ham and noodles  ", "label": " Ham and noodles" },
+  {
+    "value": " Ham and noodles with cream or white sauce  ",
+    "label": " Ham and noodles with cream or white sauce"
+  },
+  { "value": " Ham and pork  ", "label": " Ham and pork" },
+  {
+    "value": " Ham and rice with mushroom sauce  ",
+    "label": " Ham and rice with mushroom sauce"
+  },
+  {
+    "value": " Ham and vegetables excluding carrots  ",
+    "label": " Ham and vegetables excluding carrots"
+  },
+  {
+    "value": " Ham and vegetables including carrots broccoli  ",
+    "label": " Ham and vegetables including carrots broccoli"
+  },
+  { "value": " Ham croquette  ", "label": " Ham croquette" },
+  { "value": " Ham luncheon meat  ", "label": " Ham luncheon meat" },
+  { "value": " Ham on biscuit  ", "label": " Ham on biscuit" },
+  { "value": " Ham or pork  ", "label": " Ham or pork" },
+  {
+    "value": " Ham or pork and potatoes with cheese sauce  ",
+    "label": " Ham or pork and potatoes with cheese sauce"
+  },
+  {
+    "value": " Ham or pork and potatoes with gravy  ",
+    "label": " Ham or pork and potatoes with gravy"
+  },
+  { "value": " Ham or pork and rice  ", "label": " Ham or pork and rice" },
+  { "value": " Ham or pork salad  ", "label": " Ham or pork salad" },
+  {
+    "value": " Ham or pork with barbecue sauce  ",
+    "label": " Ham or pork with barbecue sauce"
+  },
+  { "value": " Ham or pork with gravy  ", "label": " Ham or pork with gravy" },
+  {
+    "value": " Ham or pork with mushroom sauce  ",
+    "label": " Ham or pork with mushroom sauce"
+  },
+  {
+    "value": " Ham or pork with stuffing  ",
+    "label": " Ham or pork with stuffing"
+  },
+  {
+    "value": " Ham or pork with tomato-based sauce  ",
+    "label": " Ham or pork with tomato-based sauce"
+  },
+  { "value": " Ham pot pie  ", "label": " Ham pot pie" },
+  { "value": " Ham salad sandwich  ", "label": " Ham salad sandwich" },
+  { "value": " Ham salad spread  ", "label": " Ham salad spread" },
+  { "value": " Ham sandwich  ", "label": " Ham sandwich" },
+  {
+    "value": " Ham sandwich with lettuce and spread  ",
+    "label": " Ham sandwich with lettuce and spread"
+  },
+  { "value": " Ham stroganoff  ", "label": " Ham stroganoff" },
+  { "value": " Hamburger  ", "label": " Hamburger" },
+  {
+    "value": " Hamburger (Burger King)  ",
+    "label": " Hamburger (Burger King)"
+  },
+  { "value": " Hamburger (McDonalds)  ", "label": " Hamburger (McDonalds)" },
+  { "value": " Hamburger slider  ", "label": " Hamburger slider" },
+  {
+    "value": " Hamburger wrap sandwich  ",
+    "label": " Hamburger wrap sandwich"
+  },
+  { "value": " Hard candy  ", "label": " Hard candy" },
+  { "value": " Hard cider  ", "label": " Hard cider" },
+  { "value": " Hash  ", "label": " Hash" },
+  { "value": " Haupia  ", "label": " Haupia" },
+  { "value": " Hayacas  ", "label": " Hayacas" },
+  { "value": " Hazelnuts  ", "label": " Hazelnuts" },
+  { "value": " Head cheese  ", "label": " Head cheese" },
+  { "value": " Heart  ", "label": " Heart" },
+  { "value": " Herring  ", "label": " Herring" },
+  { "value": " High ball  ", "label": " High ball" },
+  { "value": " Hog maws  ", "label": " Hog maws" },
+  { "value": " Hoisin sauce  ", "label": " Hoisin sauce" },
+  { "value": " Hollandaise sauce  ", "label": " Hollandaise sauce" },
+  { "value": " Hominy  ", "label": " Hominy" },
+  { "value": " Honey  ", "label": " Honey" },
+  { "value": " Honey butter  ", "label": " Honey butter" },
+  { "value": " Honey mustard dip  ", "label": " Honey mustard dip" },
+  { "value": " Honey mustard dressing  ", "label": " Honey mustard dressing" },
+  {
+    "value": " Honey-combed hard candy with peanut butter  ",
+    "label": " Honey-combed hard candy with peanut butter"
+  },
+  { "value": " Honeydew melon  ", "label": " Honeydew melon" },
+  { "value": " Horchata beverage  ", "label": " Horchata beverage" },
+  { "value": " Hors d'oeuvres  ", "label": " Hors d'oeuvres" },
+  { "value": " Horseradish  ", "label": " Horseradish" },
+  { "value": " Horseradish sauce  ", "label": " Horseradish sauce" },
+  { "value": " Hot and sour soup  ", "label": " Hot and sour soup" },
+  { "value": " Hot chocolate / Cocoa  ", "label": " Hot chocolate / Cocoa" },
+  {
+    "value": " Hot ham and cheese sandwich  ",
+    "label": " Hot ham and cheese sandwich"
+  },
+  { "value": " Hot pepper sauce  ", "label": " Hot pepper sauce" },
+  { "value": " Hot peppers  ", "label": " Hot peppers" },
+  { "value": " Hot Thai sauce  ", "label": " Hot Thai sauce" },
+  { "value": " Huevos rancheros  ", "label": " Huevos rancheros" },
+  { "value": " Hummus  ", "label": " Hummus" },
+  { "value": " Hunan beef  ", "label": " Hunan beef" },
+  { "value": " Hush puppy  ", "label": " Hush puppy" },
+  { "value": " Ice cream  ", "label": " Ice cream" },
+  { "value": " Ice cream bar  ", "label": " Ice cream bar" },
+  { "value": " Ice cream cake  ", "label": " Ice cream cake" },
+  { "value": " Ice cream candy bar  ", "label": " Ice cream candy bar" },
+  { "value": " Ice cream cone  ", "label": " Ice cream cone" },
+  {
+    "value": " Ice cream cookie sandwich  ",
+    "label": " Ice cream cookie sandwich"
+  },
+  { "value": " Ice cream sandwich  ", "label": " Ice cream sandwich" },
+  { "value": " Ice cream soda  ", "label": " Ice cream soda" },
+  { "value": " Ice cream sundae  ", "label": " Ice cream sundae" },
+  { "value": " Iced Coffee  ", "label": " Iced Coffee" },
+  {
+    "value": " Iced Tea / Lemonade juice drink  ",
+    "label": " Iced Tea / Lemonade juice drink"
+  },
+  { "value": " Icing  ", "label": " Icing" },
+  { "value": " Imitation cheese  ", "label": " Imitation cheese" },
+  {
+    "value": " Industrial oil as ingredient in food  ",
+    "label": " Industrial oil as ingredient in food"
+  },
+  { "value": " Injera  ", "label": " Injera" },
+  { "value": " Instant soup  ", "label": " Instant soup" },
+  { "value": " Irish Coffee  ", "label": " Irish Coffee" },
+  { "value": " Italian dressing  ", "label": " Italian dressing" },
+  { "value": " Italian Ice  ", "label": " Italian Ice" },
+  { "value": " Italian sausage  ", "label": " Italian sausage" },
+  { "value": " Italian Wedding Soup  ", "label": " Italian Wedding Soup" },
+  { "value": " Jagerbomb  ", "label": " Jagerbomb" },
+  { "value": " Jai  ", "label": " Jai" },
+  { "value": " Jam  ", "label": " Jam" },
+  {
+    "value": " Jambalaya with meat and rice  ",
+    "label": " Jambalaya with meat and rice"
+  },
+  { "value": " Jelly  ", "label": " Jelly" },
+  { "value": " Jelly sandwich  ", "label": " Jelly sandwich" },
+  { "value": " Jicama  ", "label": " Jicama" },
+  { "value": " Johnnycake  ", "label": " Johnnycake" },
+  { "value": " Julienne salad  ", "label": " Julienne salad" },
+  { "value": " Kale  ", "label": " Kale" },
+  { "value": " Kamikaze  ", "label": " Kamikaze" },
+  { "value": " Kefir  ", "label": " Kefir" },
+  { "value": " Ketchup  ", "label": " Ketchup" },
+  { "value": " Kibby  ", "label": " Kibby" },
+  { "value": " Kidney  ", "label": " Kidney" },
+  { "value": " Kidney beans  ", "label": " Kidney beans" },
+  {
+    "value": " Kidney beans and brown rice  ",
+    "label": " Kidney beans and brown rice"
+  },
+  { "value": " Kidney beans and rice  ", "label": " Kidney beans and rice" },
+  {
+    "value": " Kidney beans and white rice  ",
+    "label": " Kidney beans and white rice"
+  },
+  { "value": " Kidney beans with meat  ", "label": " Kidney beans with meat" },
+  { "value": " Kimchi  ", "label": " Kimchi" },
+  { "value": " Kishke  ", "label": " Kishke" },
+  { "value": " Kit Kat  ", "label": " Kit Kat" },
+  { "value": " Kit Kat White  ", "label": " Kit Kat White" },
+  { "value": " Kiwi fruit  ", "label": " Kiwi fruit" },
+  { "value": " Knish  ", "label": " Knish" },
+  { "value": " Knockwurst  ", "label": " Knockwurst" },
+  { "value": " Kohlrabi  ", "label": " Kohlrabi" },
+  {
+    "value": " Korean dressing or marinade  ",
+    "label": " Korean dressing or marinade"
+  },
+  { "value": " Kumquat  ", "label": " Kumquat" },
+  { "value": " Kung Pao beef  ", "label": " Kung Pao beef" },
+  { "value": " Kung pao chicken  ", "label": " Kung pao chicken" },
+  { "value": " Kung Pao pork  ", "label": " Kung Pao pork" },
+  { "value": " Kung Pao shrimp  ", "label": " Kung Pao shrimp" },
+  { "value": " Ladoo  ", "label": " Ladoo" },
+  { "value": " Lamb  ", "label": " Lamb" },
+  { "value": " Lamb chop  ", "label": " Lamb chop" },
+  { "value": " Lamb hocks  ", "label": " Lamb hocks" },
+  { "value": " Lamb or mutton  ", "label": " Lamb or mutton" },
+  {
+    "value": " Lamb or mutton and noodles with gravy  ",
+    "label": " Lamb or mutton and noodles with gravy"
+  },
+  {
+    "value": " Lamb or mutton and potatoes with gravy  ",
+    "label": " Lamb or mutton and potatoes with gravy"
+  },
+  {
+    "value": " Lamb or mutton and potatoes with tomato-based sauce  ",
+    "label": " Lamb or mutton and potatoes with tomato-based sauce"
+  },
+  { "value": " Lamb or mutton goulash  ", "label": " Lamb or mutton goulash" },
+  { "value": " Lamb or mutton loaf  ", "label": " Lamb or mutton loaf" },
+  {
+    "value": " Lamb or mutton stew with potatoes and vegetables excluding carrots  ",
+    "label": " Lamb or mutton stew with potatoes and vegetables excluding carrots"
+  },
+  {
+    "value": " Lamb or mutton stew with potatoes and vegetables including carrots  ",
+    "label": " Lamb or mutton stew with potatoes and vegetables including carrots"
+  },
+  {
+    "value": " Lamb or mutton stew with vegetables excluding carrots  ",
+    "label": " Lamb or mutton stew with vegetables excluding carrots"
+  },
+  {
+    "value": " Lamb or mutton stew with vegetables including carrots  ",
+    "label": " Lamb or mutton stew with vegetables including carrots"
+  },
+  {
+    "value": " Lamb or mutton with gravy  ",
+    "label": " Lamb or mutton with gravy"
+  },
+  {
+    "value": " Lamb shish kabob with vegetables  ",
+    "label": " Lamb shish kabob with vegetables"
+  },
+  { "value": " Lambsquarter  ", "label": " Lambsquarter" },
+  { "value": " Lard  ", "label": " Lard" },
+  { "value": " Lasagna  ", "label": " Lasagna" },
+  {
+    "value": " Lasagna with cheese and meat sauce  ",
+    "label": " Lasagna with cheese and meat sauce"
+  },
+  {
+    "value": " Lasagna with chicken or turkey  ",
+    "label": " Lasagna with chicken or turkey"
+  },
+  { "value": " Lasagna with meat  ", "label": " Lasagna with meat" },
+  {
+    "value": " Lasagna with meat and spinach  ",
+    "label": " Lasagna with meat and spinach"
+  },
+  { "value": " Lau lau  ", "label": " Lau lau" },
+  { "value": " Layer dip  ", "label": " Layer dip" },
+  { "value": " Leek  ", "label": " Leek" },
+  { "value": " Leek soup  ", "label": " Leek soup" },
+  { "value": " Lefse (Norwegian)  ", "label": " Lefse (Norwegian)" },
+  { "value": " Lemon  ", "label": " Lemon" },
+  { "value": " Lemon juice  ", "label": " Lemon juice" },
+  { "value": " Lemon pie filling  ", "label": " Lemon pie filling" },
+  { "value": " Lemonade  ", "label": " Lemonade" },
+  { "value": " Lemon-butter sauce  ", "label": " Lemon-butter sauce" },
+  { "value": " Lentil curry  ", "label": " Lentil curry" },
+  { "value": " Lentil curry with rice  ", "label": " Lentil curry with rice" },
+  { "value": " Lentil soup  ", "label": " Lentil soup" },
+  { "value": " Lentils  ", "label": " Lentils" },
+  { "value": " Lettuce  ", "label": " Lettuce" },
+  { "value": " Licorice  ", "label": " Licorice" },
+  { "value": " Licuado or Batido  ", "label": " Licuado or Batido" },
+  { "value": " Light ice cream  ", "label": " Light ice cream" },
+  { "value": " Light ice cream bar  ", "label": " Light ice cream bar" },
+  { "value": " Light ice cream cone  ", "label": " Light ice cream cone" },
+  {
+    "value": " Light ice cream sandwich  ",
+    "label": " Light ice cream sandwich"
+  },
+  { "value": " Lima bean soup  ", "label": " Lima bean soup" },
+  { "value": " Lima beans  ", "label": " Lima beans" },
+  { "value": " Lima beans and corn  ", "label": " Lima beans and corn" },
+  { "value": " Lime  ", "label": " Lime" },
+  { "value": " Lime juice  ", "label": " Lime juice" },
+  { "value": " Lime souffle  ", "label": " Lime souffle" },
+  {
+    "value": " Linguini with vegetables and seafood in white wine sauce  ",
+    "label": " Linguini with vegetables and seafood in white wine sauce"
+  },
+  { "value": " Liqueur with cream  ", "label": " Liqueur with cream" },
+  {
+    "value": " Liquid from stewed kidney beans  ",
+    "label": " Liquid from stewed kidney beans"
+  },
+  { "value": " Liver  ", "label": " Liver" },
+  { "value": " Liver dumpling  ", "label": " Liver dumpling" },
+  { "value": " Liver paste or pate  ", "label": " Liver paste or pate" },
+  { "value": " Livers  ", "label": " Livers" },
+  { "value": " Liverwurst  ", "label": " Liverwurst" },
+  { "value": " Lo mein  ", "label": " Lo mein" },
+  { "value": " Lobster  ", "label": " Lobster" },
+  { "value": " Lobster bisque  ", "label": " Lobster bisque" },
+  { "value": " Lobster gumbo  ", "label": " Lobster gumbo" },
+  { "value": " Lobster newburg  ", "label": " Lobster newburg" },
+  { "value": " Lobster salad  ", "label": " Lobster salad" },
+  {
+    "value": " Lobster with bread stuffing  ",
+    "label": " Lobster with bread stuffing"
+  },
+  {
+    "value": " Lobster with butter sauce  ",
+    "label": " Lobster with butter sauce"
+  },
+  { "value": " Lobster with sauce  ", "label": " Lobster with sauce" },
+  { "value": " Lomi salmon  ", "label": " Lomi salmon" },
+  { "value": " Long Island iced tea  ", "label": " Long Island iced tea" },
+  { "value": " Long rice noodles  ", "label": " Long rice noodles" },
+  { "value": " Lotus root  ", "label": " Lotus root" },
+  { "value": " Luffa  ", "label": " Luffa" },
+  { "value": " Luncheon meat  ", "label": " Luncheon meat" },
+  { "value": " Luncheon meat sandwich  ", "label": " Luncheon meat sandwich" },
+  { "value": " Luncheon slice  ", "label": " Luncheon slice" },
+  { "value": " Lychee  ", "label": " Lychee" },
+  {
+    "value": " M&M's Almond Chocolate Candies  ",
+    "label": " M&M's Almond Chocolate Candies"
+  },
+  {
+    "value": " M&M's Milk Chocolate Candies  ",
+    "label": " M&M's Milk Chocolate Candies"
+  },
+  {
+    "value": " M&M's Peanut Butter Chocolate Candies  ",
+    "label": " M&M's Peanut Butter Chocolate Candies"
+  },
+  {
+    "value": " M&M's Peanut Chocolate Candies  ",
+    "label": " M&M's Peanut Chocolate Candies"
+  },
+  {
+    "value": " M&M's Pretzel Chocolate Candies  ",
+    "label": " M&M's Pretzel Chocolate Candies"
+  },
+  { "value": " Macadamia nuts  ", "label": " Macadamia nuts" },
+  { "value": " Macaroni  ", "label": " Macaroni" },
+  { "value": " Macaroni and cheese  ", "label": " Macaroni and cheese" },
+  { "value": " Macaroni or noodles  ", "label": " Macaroni or noodles" },
+  {
+    "value": " Macaroni or noodles with cheese  ",
+    "label": " Macaroni or noodles with cheese"
+  },
+  {
+    "value": " Macaroni or noodles with cheese and chicken or turkey  ",
+    "label": " Macaroni or noodles with cheese and chicken or turkey"
+  },
+  {
+    "value": " Macaroni or noodles with cheese and egg  ",
+    "label": " Macaroni or noodles with cheese and egg"
+  },
+  {
+    "value": " Macaroni or noodles with cheese and frankfurters or hot dogs  ",
+    "label": " Macaroni or noodles with cheese and frankfurters or hot dogs"
+  },
+  {
+    "value": " Macaroni or noodles with cheese and meat  ",
+    "label": " Macaroni or noodles with cheese and meat"
+  },
+  {
+    "value": " Macaroni or noodles with cheese and tomato  ",
+    "label": " Macaroni or noodles with cheese and tomato"
+  },
+  {
+    "value": " Macaroni or noodles with cheese and tuna  ",
+    "label": " Macaroni or noodles with cheese and tuna"
+  },
+  {
+    "value": " Macaroni or pasta salad  ",
+    "label": " Macaroni or pasta salad"
+  },
+  {
+    "value": " Macaroni or pasta salad with cheese  ",
+    "label": " Macaroni or pasta salad with cheese"
+  },
+  {
+    "value": " Macaroni or pasta salad with chicken  ",
+    "label": " Macaroni or pasta salad with chicken"
+  },
+  {
+    "value": " Macaroni or pasta salad with crab meat  ",
+    "label": " Macaroni or pasta salad with crab meat"
+  },
+  {
+    "value": " Macaroni or pasta salad with egg  ",
+    "label": " Macaroni or pasta salad with egg"
+  },
+  {
+    "value": " Macaroni or pasta salad with meat  ",
+    "label": " Macaroni or pasta salad with meat"
+  },
+  {
+    "value": " Macaroni or pasta salad with shrimp  ",
+    "label": " Macaroni or pasta salad with shrimp"
+  },
+  {
+    "value": " Macaroni or pasta salad with tuna  ",
+    "label": " Macaroni or pasta salad with tuna"
+  },
+  {
+    "value": " Macaroni or pasta salad with tuna and egg  ",
+    "label": " Macaroni or pasta salad with tuna and egg"
+  },
+  {
+    "value": " Macaroni with beef and tomato sauce  ",
+    "label": " Macaroni with beef and tomato sauce"
+  },
+  { "value": " Macaroni with tuna  ", "label": " Macaroni with tuna" },
+  {
+    "value": " Macaroni with vegetables  ",
+    "label": " Macaroni with vegetables"
+  },
+  { "value": " Mackerel  ", "label": " Mackerel" },
+  { "value": " Mackerel cake or patty  ", "label": " Mackerel cake or patty" },
+  { "value": " Mai Tai  ", "label": " Mai Tai" },
+  { "value": " Mango  ", "label": " Mango" },
+  { "value": " Mango dessert  ", "label": " Mango dessert" },
+  { "value": " Mango nectar  ", "label": " Mango nectar" },
+  { "value": " Manhattan  ", "label": " Manhattan" },
+  { "value": " Manicotti  ", "label": " Manicotti" },
+  { "value": " Margarine  ", "label": " Margarine" },
+  { "value": " Margarine-oil blend  ", "label": " Margarine-oil blend" },
+  { "value": " Margarita  ", "label": " Margarita" },
+  { "value": " Margarita mix  ", "label": " Margarita mix" },
+  { "value": " Marie biscuit  ", "label": " Marie biscuit" },
+  { "value": " Marmalade  ", "label": " Marmalade" },
+  { "value": " MARS Almond Bar  ", "label": " MARS Almond Bar" },
+  { "value": " Marshmallow  ", "label": " Marshmallow" },
+  { "value": " Martini  ", "label": " Martini" },
+  { "value": " Masa harina  ", "label": " Masa harina" },
+  { "value": " Matzo ball soup  ", "label": " Matzo ball soup" },
+  { "value": " Mayonnaise  ", "label": " Mayonnaise" },
+  {
+    "value": " Mayonnaise-type salad dressing  ",
+    "label": " Mayonnaise-type salad dressing"
+  },
+  { "value": " McDouble (McDonalds)  ", "label": " McDouble (McDonalds)" },
+  { "value": " Meat  ", "label": " Meat" },
+  {
+    "value": " Meat and corn hominy soup  ",
+    "label": " Meat and corn hominy soup"
+  },
+  { "value": " Meat broth  ", "label": " Meat broth" },
+  { "value": " Meat loaf  ", "label": " Meat loaf" },
+  { "value": " Meat loaf dinner  ", "label": " Meat loaf dinner" },
+  {
+    "value": " Meat loaf made with beef  ",
+    "label": " Meat loaf made with beef"
+  },
+  {
+    "value": " Meat loaf made with beef and pork  ",
+    "label": " Meat loaf made with beef and pork"
+  },
+  {
+    "value": " Meat loaf made with chicken or turkey  ",
+    "label": " Meat loaf made with chicken or turkey"
+  },
+  {
+    "value": " Meat loaf made with ham  ",
+    "label": " Meat loaf made with ham"
+  },
+  {
+    "value": " Meat loaf made with venison/deer  ",
+    "label": " Meat loaf made with venison/deer"
+  },
+  {
+    "value": " Meat loaf with potatoes  ",
+    "label": " Meat loaf with potatoes"
+  },
+  { "value": " Meat pie  ", "label": " Meat pie" },
+  { "value": " Meat sandwich  ", "label": " Meat sandwich" },
+  {
+    "value": " Meat spread or potted meat  ",
+    "label": " Meat spread or potted meat"
+  },
+  {
+    "value": " Meat spread or potted meat sandwich  ",
+    "label": " Meat spread or potted meat sandwich"
+  },
+  { "value": " Meat stick  ", "label": " Meat stick" },
+  { "value": " Meat sticks  ", "label": " Meat sticks" },
+  { "value": " Meat substitute  ", "label": " Meat substitute" },
+  { "value": " Meat turnover  ", "label": " Meat turnover" },
+  {
+    "value": " Meat with barbecue sauce  ",
+    "label": " Meat with barbecue sauce"
+  },
+  { "value": " Meat with gravy  ", "label": " Meat with gravy" },
+  {
+    "value": " Meat with tomato-based sauce  ",
+    "label": " Meat with tomato-based sauce"
+  },
+  { "value": " Meatball  ", "label": " Meatball" },
+  {
+    "value": " Meatball and spaghetti sauce submarine sandwich  ",
+    "label": " Meatball and spaghetti sauce submarine sandwich"
+  },
+  { "value": " Meatball soup  ", "label": " Meatball soup" },
+  { "value": " Meatballs  ", "label": " Meatballs" },
+  { "value": " Melba toast  ", "label": " Melba toast" },
+  { "value": " Menudo soup  ", "label": " Menudo soup" },
+  { "value": " Meringues  ", "label": " Meringues" },
+  {
+    "value": " Mexican casserole made with ground beef  ",
+    "label": " Mexican casserole made with ground beef"
+  },
+  { "value": " Mexican chocolate  ", "label": " Mexican chocolate" },
+  {
+    "value": " Mexican style chicken broth soup stock  ",
+    "label": " Mexican style chicken broth soup stock"
+  },
+  { "value": " Midnight sandwich  ", "label": " Midnight sandwich" },
+  { "value": " Milk  ", "label": " Milk" },
+  { "value": " Milk chocolate candy  ", "label": " Milk chocolate candy" },
+  {
+    "value": " Milk dessert or milk candy  ",
+    "label": " Milk dessert or milk candy"
+  },
+  { "value": " Milk 'n Cereal bar  ", "label": " Milk 'n Cereal bar" },
+  { "value": " Milk shake  ", "label": " Milk shake" },
+  { "value": " Milk shake with malt  ", "label": " Milk shake with malt" },
+  { "value": " MILKY WAY Bar  ", "label": " MILKY WAY Bar" },
+  { "value": " MILKY WAY MIDNIGHT Bar  ", "label": " MILKY WAY MIDNIGHT Bar" },
+  { "value": " Millet  ", "label": " Millet" },
+  { "value": " Mimosa  ", "label": " Mimosa" },
+  { "value": " Minestrone soup  ", "label": " Minestrone soup" },
+  { "value": " Mint julep  ", "label": " Mint julep" },
+  { "value": " Miso  ", "label": " Miso" },
+  { "value": " Miso sauce  ", "label": " Miso sauce" },
+  { "value": " Mixed cereal  ", "label": " Mixed cereal" },
+  {
+    "value": " Mixed cereal with applesauce and bananas  ",
+    "label": " Mixed cereal with applesauce and bananas"
+  },
+  {
+    "value": " Mixed cereal with bananas  ",
+    "label": " Mixed cereal with bananas"
+  },
+  { "value": " Mixed fruit juice  ", "label": " Mixed fruit juice" },
+  {
+    "value": " Mixed fruit juice with lowfat yogurt  ",
+    "label": " Mixed fruit juice with lowfat yogurt"
+  },
+  {
+    "value": " Mixed fruit tart filled with custard or cream cheese  ",
+    "label": " Mixed fruit tart filled with custard or cream cheese"
+  },
+  {
+    "value": " Mixed fruit yogurt dessert  ",
+    "label": " Mixed fruit yogurt dessert"
+  },
+  { "value": " Mixed nuts  ", "label": " Mixed nuts" },
+  { "value": " Mixed salad greens  ", "label": " Mixed salad greens" },
+  { "value": " Mixed seeds  ", "label": " Mixed seeds" },
+  { "value": " Mixed vegetable juice  ", "label": " Mixed vegetable juice" },
+  { "value": " Mixed vegetables  ", "label": " Mixed vegetables" },
+  { "value": " Mock chicken legs  ", "label": " Mock chicken legs" },
+  { "value": " Mojito  ", "label": " Mojito" },
+  { "value": " Molasses  ", "label": " Molasses" },
+  { "value": " Mole sauce  ", "label": " Mole sauce" },
+  { "value": " Moo Goo Gai Pan  ", "label": " Moo Goo Gai Pan" },
+  { "value": " Moo Shu pork  ", "label": " Moo Shu pork" },
+  { "value": " Moose  ", "label": " Moose" },
+  { "value": " Mortadella  ", "label": " Mortadella" },
+  { "value": " Mousse  ", "label": " Mousse" },
+  { "value": " Mozzarella cheese  ", "label": " Mozzarella cheese" },
+  { "value": " Mozzarella sticks  ", "label": " Mozzarella sticks" },
+  { "value": " Muffin  ", "label": " Muffin" },
+  { "value": " Mullet  ", "label": " Mullet" },
+  { "value": " Multigrain  ", "label": " Multigrain" },
+  {
+    "value": " Multigrain chips (Sun Chips)  ",
+    "label": " Multigrain chips (Sun Chips)"
+  },
+  { "value": " Mung beans  ", "label": " Mung beans" },
+  { "value": " Mushroom  ", "label": " Mushroom" },
+  { "value": " Mushroom soup  ", "label": " Mushroom soup" },
+  {
+    "value": " Mushroom with chicken soup  ",
+    "label": " Mushroom with chicken soup"
+  },
+  { "value": " Mushrooms  ", "label": " Mushrooms" },
+  { "value": " Mussels  ", "label": " Mussels" },
+  {
+    "value": " Mussels with tomato-based sauce  ",
+    "label": " Mussels with tomato-based sauce"
+  },
+  { "value": " Mustard  ", "label": " Mustard" },
+  { "value": " Mustard cabbage  ", "label": " Mustard cabbage" },
+  { "value": " Mustard greens  ", "label": " Mustard greens" },
+  { "value": " Naan  ", "label": " Naan" },
+  { "value": " Nachos with cheese  ", "label": " Nachos with cheese" },
+  {
+    "value": " Nachos with cheese and sour cream  ",
+    "label": " Nachos with cheese and sour cream"
+  },
+  { "value": " Nachos with chicken  ", "label": " Nachos with chicken" },
+  {
+    "value": " Nachos with chicken and cheese  ",
+    "label": " Nachos with chicken and cheese"
+  },
+  { "value": " Nachos with chili  ", "label": " Nachos with chili" },
+  { "value": " Nachos with meat  ", "label": " Nachos with meat" },
+  {
+    "value": " Nachos with meat and cheese  ",
+    "label": " Nachos with meat and cheese"
+  },
+  { "value": " Natto  ", "label": " Natto" },
+  { "value": " Nectarine  ", "label": " Nectarine" },
+  {
+    "value": " Nonalcoholic malt beverage  ",
+    "label": " Nonalcoholic malt beverage"
+  },
+  { "value": " Non-dairy milk  ", "label": " Non-dairy milk" },
+  { "value": " Noodle and potato soup  ", "label": " Noodle and potato soup" },
+  { "value": " Noodle pudding  ", "label": " Noodle pudding" },
+  { "value": " Noodle soup  ", "label": " Noodle soup" },
+  {
+    "value": " Noodle soup with vegetables  ",
+    "label": " Noodle soup with vegetables"
+  },
+  { "value": " Noodles  ", "label": " Noodles" },
+  {
+    "value": " Noodles with vegetables in tomato-based sauce  ",
+    "label": " Noodles with vegetables in tomato-based sauce"
+  },
+  { "value": " Nougat  ", "label": " Nougat" },
+  { "value": " Nut roll  ", "label": " Nut roll" },
+  {
+    "value": " Nutrition bar (Balance Original Bar)  ",
+    "label": " Nutrition bar (Balance Original Bar)"
+  },
+  {
+    "value": " Nutrition bar (Clif Bar)  ",
+    "label": " Nutrition bar (Clif Bar)"
+  },
+  {
+    "value": " Nutrition bar (Clif Kids Organic Zbar)  ",
+    "label": " Nutrition bar (Clif Kids Organic Zbar)"
+  },
+  {
+    "value": " Nutrition bar (PowerBar)  ",
+    "label": " Nutrition bar (PowerBar)"
+  },
+  {
+    "value": " Nutrition bar (Slim Fast Original Meal Bar)  ",
+    "label": " Nutrition bar (Slim Fast Original Meal Bar)"
+  },
+  {
+    "value": " Nutrition bar (Snickers Marathon Protein Bar)  ",
+    "label": " Nutrition bar (Snickers Marathon Protein Bar)"
+  },
+  {
+    "value": " Nutrition bar (South Beach Living High Protein Bar)  ",
+    "label": " Nutrition bar (South Beach Living High Protein Bar)"
+  },
+  {
+    "value": " Nutrition bar (South Beach Living Meal Bar)  ",
+    "label": " Nutrition bar (South Beach Living Meal Bar)"
+  },
+  {
+    "value": " Nutrition bar (Tiger's Milk)  ",
+    "label": " Nutrition bar (Tiger's Milk)"
+  },
+  {
+    "value": " Nutrition bar (Zone Perfect Classic Crunch)  ",
+    "label": " Nutrition bar (Zone Perfect Classic Crunch)"
+  },
+  {
+    "value": " Nutrition bar or meal replacement bar  ",
+    "label": " Nutrition bar or meal replacement bar"
+  },
+  {
+    "value": " Nutritional drink or shake  ",
+    "label": " Nutritional drink or shake"
+  },
+  { "value": " Nutritional powder mix  ", "label": " Nutritional powder mix" },
+  {
+    "value": " Nutritional powder mix (Carnation Instant Breakfast)  ",
+    "label": " Nutritional powder mix (Carnation Instant Breakfast)"
+  },
+  {
+    "value": " Nutritional powder mix (EAS Soy Protein Powder)  ",
+    "label": " Nutritional powder mix (EAS Soy Protein Powder)"
+  },
+  {
+    "value": " Nutritional powder mix (EAS Whey Protein Powder)  ",
+    "label": " Nutritional powder mix (EAS Whey Protein Powder)"
+  },
+  {
+    "value": " Nutritional powder mix (Isopure)  ",
+    "label": " Nutritional powder mix (Isopure)"
+  },
+  {
+    "value": " Nutritional powder mix (Kellogg's Special K20 Protein Water)  ",
+    "label": " Nutritional powder mix (Kellogg's Special K20 Protein Water)"
+  },
+  {
+    "value": " Nutritional powder mix (Muscle Milk)  ",
+    "label": " Nutritional powder mix (Muscle Milk)"
+  },
+  {
+    "value": " Nutritional powder mix (Slim Fast)  ",
+    "label": " Nutritional powder mix (Slim Fast)"
+  },
+  { "value": " Nuts  ", "label": " Nuts" },
+  { "value": " Oat bran  ", "label": " Oat bran" },
+  { "value": " Oat bran cereal  ", "label": " Oat bran cereal" },
+  { "value": " Oatmeal  ", "label": " Oatmeal" },
+  {
+    "value": " Oatmeal beverage with milk  ",
+    "label": " Oatmeal beverage with milk"
+  },
+  {
+    "value": " Oatmeal beverage with water  ",
+    "label": " Oatmeal beverage with water"
+  },
+  { "value": " Oatmeal cereal  ", "label": " Oatmeal cereal" },
+  {
+    "value": " Oatmeal cereal with bananas  ",
+    "label": " Oatmeal cereal with bananas"
+  },
+  {
+    "value": " Oatmeal cereal with fruit  ",
+    "label": " Oatmeal cereal with fruit"
+  },
+  {
+    "value": " Oatmeal with applesauce and bananas  ",
+    "label": " Oatmeal with applesauce and bananas"
+  },
+  { "value": " Oats  ", "label": " Oats" },
+  { "value": " Ocean perch  ", "label": " Ocean perch" },
+  { "value": " Octopus  ", "label": " Octopus" },
+  { "value": " Octopus salad  ", "label": " Octopus salad" },
+  { "value": " Oil or table fat  ", "label": " Oil or table fat" },
+  { "value": " Okra  ", "label": " Okra" },
+  { "value": " Old fashioned  ", "label": " Old fashioned" },
+  { "value": " Olive oil  ", "label": " Olive oil" },
+  { "value": " Olive tapenade  ", "label": " Olive tapenade" },
+  { "value": " Olives  ", "label": " Olives" },
+  { "value": " Onion dip  ", "label": " Onion dip" },
+  { "value": " Onion flavored rings  ", "label": " Onion flavored rings" },
+  { "value": " Onion soup  ", "label": " Onion soup" },
+  { "value": " Onions  ", "label": " Onions" },
+  { "value": " Opossum  ", "label": " Opossum" },
+  { "value": " Orange  ", "label": " Orange" },
+  { "value": " Orange Blossom  ", "label": " Orange Blossom" },
+  { "value": " Orange chicken  ", "label": " Orange chicken" },
+  { "value": " Orange juice  ", "label": " Orange juice" },
+  { "value": " Orange juice beverage  ", "label": " Orange juice beverage" },
+  {
+    "value": " Orange-apple-banana juice  ",
+    "label": " Orange-apple-banana juice"
+  },
+  { "value": " Orange-carrot juice  ", "label": " Orange-carrot juice" },
+  { "value": " Ostrich  ", "label": " Ostrich" },
+  {
+    "value": " Other vegetables as ingredient in omelet  ",
+    "label": " Other vegetables as ingredient in omelet"
+  },
+  { "value": " Oxtail soup  ", "label": " Oxtail soup" },
+  { "value": " Oyster fritter  ", "label": " Oyster fritter" },
+  { "value": " Oyster pie  ", "label": " Oyster pie" },
+  { "value": " Oyster sauce  ", "label": " Oyster sauce" },
+  { "value": " Oyster stew  ", "label": " Oyster stew" },
+  { "value": " Oysters  ", "label": " Oysters" },
+  { "value": " Oysters Rockefeller  ", "label": " Oysters Rockefeller" },
+  { "value": " Pad Thai  ", "label": " Pad Thai" },
+  { "value": " Pad Thai with chicken  ", "label": " Pad Thai with chicken" },
+  { "value": " Pad Thai with meat  ", "label": " Pad Thai with meat" },
+  { "value": " Pad Thai with seafood  ", "label": " Pad Thai with seafood" },
+  { "value": " Paella  ", "label": " Paella" },
+  { "value": " Paella with meat  ", "label": " Paella with meat" },
+  { "value": " Paella with seafood  ", "label": " Paella with seafood" },
+  { "value": " Pakora  ", "label": " Pakora" },
+  { "value": " Palak Paneer  ", "label": " Palak Paneer" },
+  { "value": " Palm hearts  ", "label": " Palm hearts" },
+  { "value": " Pan Dulce  ", "label": " Pan Dulce" },
+  { "value": " Pancake syrup  ", "label": " Pancake syrup" },
+  { "value": " Pancakes  ", "label": " Pancakes" },
+  { "value": " Pancakes and sausage  ", "label": " Pancakes and sausage" },
+  { "value": " Pannetone  ", "label": " Pannetone" },
+  { "value": " Papad  ", "label": " Papad" },
+  { "value": " Papaya  ", "label": " Papaya" },
+  { "value": " Papaya juice  ", "label": " Papaya juice" },
+  { "value": " Papaya nectar  ", "label": " Papaya nectar" },
+  { "value": " Parsley  ", "label": " Parsley" },
+  { "value": " Parsnips  ", "label": " Parsnips" },
+  { "value": " Passion fruit  ", "label": " Passion fruit" },
+  { "value": " Passion fruit juice  ", "label": " Passion fruit juice" },
+  { "value": " Passion fruit nectar  ", "label": " Passion fruit nectar" },
+  { "value": " Pasta  ", "label": " Pasta" },
+  { "value": " Pasta with cream sauce  ", "label": " Pasta with cream sauce" },
+  {
+    "value": " Pasta with cream sauce and added vegetables  ",
+    "label": " Pasta with cream sauce and added vegetables"
+  },
+  {
+    "value": " Pasta with cream sauce and meat  ",
+    "label": " Pasta with cream sauce and meat"
+  },
+  {
+    "value": " Pasta with cream sauce and poultry  ",
+    "label": " Pasta with cream sauce and poultry"
+  },
+  {
+    "value": " Pasta with cream sauce and seafood  ",
+    "label": " Pasta with cream sauce and seafood"
+  },
+  { "value": " Pasta with sauce  ", "label": " Pasta with sauce" },
+  {
+    "value": " Pasta with sauce and meat  ",
+    "label": " Pasta with sauce and meat"
+  },
+  {
+    "value": " Pasta with tomato-based sauce  ",
+    "label": " Pasta with tomato-based sauce"
+  },
+  {
+    "value": " Pasta with tomato-based sauce and beans or lentils  ",
+    "label": " Pasta with tomato-based sauce and beans or lentils"
+  },
+  {
+    "value": " Pasta with tomato-based sauce and cheese  ",
+    "label": " Pasta with tomato-based sauce and cheese"
+  },
+  {
+    "value": " Pasta with tomato-based sauce and meat  ",
+    "label": " Pasta with tomato-based sauce and meat"
+  },
+  {
+    "value": " Pasta with tomato-based sauce and poultry  ",
+    "label": " Pasta with tomato-based sauce and poultry"
+  },
+  {
+    "value": " Pasta with tomato-based sauce and seafood  ",
+    "label": " Pasta with tomato-based sauce and seafood"
+  },
+  {
+    "value": " Pasta with vegetable and cheese sauce  ",
+    "label": " Pasta with vegetable and cheese sauce"
+  },
+  { "value": " Pasta with vegetables  ", "label": " Pasta with vegetables" },
+  { "value": " Pastrami  ", "label": " Pastrami" },
+  { "value": " Pastrami sandwich  ", "label": " Pastrami sandwich" },
+  { "value": " Pastry  ", "label": " Pastry" },
+  { "value": " Pea and ham soup  ", "label": " Pea and ham soup" },
+  { "value": " Pea salad  ", "label": " Pea salad" },
+  { "value": " Pea salad with cheese  ", "label": " Pea salad with cheese" },
+  { "value": " Pea soup  ", "label": " Pea soup" },
+  { "value": " Peach  ", "label": " Peach" },
+  { "value": " Peach cobbler  ", "label": " Peach cobbler" },
+  { "value": " Peach nectar  ", "label": " Peach nectar" },
+  { "value": " Peach yogurt dessert  ", "label": " Peach yogurt dessert" },
+  { "value": " Peaches  ", "label": " Peaches" },
+  { "value": " Peanut bar  ", "label": " Peanut bar" },
+  { "value": " Peanut brittle  ", "label": " Peanut brittle" },
+  { "value": " Peanut butter  ", "label": " Peanut butter" },
+  {
+    "value": " Peanut butter and chocolate spread  ",
+    "label": " Peanut butter and chocolate spread"
+  },
+  {
+    "value": " Peanut butter and jelly  ",
+    "label": " Peanut butter and jelly"
+  },
+  {
+    "value": " Peanut butter and jelly sandwich  ",
+    "label": " Peanut butter and jelly sandwich"
+  },
+  { "value": " Peanut butter morsels  ", "label": " Peanut butter morsels" },
+  { "value": " Peanut butter sandwich  ", "label": " Peanut butter sandwich" },
+  { "value": " Peanut oil  ", "label": " Peanut oil" },
+  { "value": " Peanut sauce  ", "label": " Peanut sauce" },
+  { "value": " Peanuts  ", "label": " Peanuts" },
+  { "value": " Pear  ", "label": " Pear" },
+  { "value": " Pear juice  ", "label": " Pear juice" },
+  { "value": " Pear nectar  ", "label": " Pear nectar" },
+  { "value": " Pears  ", "label": " Pears" },
+  { "value": " Pears and pineapple  ", "label": " Pears and pineapple" },
+  { "value": " Peas  ", "label": " Peas" },
+  { "value": " Peas and brown rice  ", "label": " Peas and brown rice" },
+  { "value": " Peas and carrots  ", "label": " Peas and carrots" },
+  { "value": " Peas and corn  ", "label": " Peas and corn" },
+  { "value": " Pecans  ", "label": " Pecans" },
+  { "value": " Pepper  ", "label": " Pepper" },
+  { "value": " Pepper steak  ", "label": " Pepper steak" },
+  { "value": " Pepperoni  ", "label": " Pepperoni" },
+  {
+    "value": " Pepperoni and salami submarine sandwich  ",
+    "label": " Pepperoni and salami submarine sandwich"
+  },
+  { "value": " Pepperpot soup  ", "label": " Pepperpot soup" },
+  { "value": " Peppers  ", "label": " Peppers" },
+  { "value": " Peppers and onions  ", "label": " Peppers and onions" },
+  { "value": " Perch  ", "label": " Perch" },
+  { "value": " Persimmon  ", "label": " Persimmon" },
+  { "value": " Peruvian beans  ", "label": " Peruvian beans" },
+  { "value": " Pesto sauce  ", "label": " Pesto sauce" },
+  { "value": " Pheasant  ", "label": " Pheasant" },
+  { "value": " Pho  ", "label": " Pho" },
+  { "value": " Pickled sausage  ", "label": " Pickled sausage" },
+  { "value": " Pickles  ", "label": " Pickles" },
+  { "value": " Pie  ", "label": " Pie" },
+  { "value": " Pie shell  ", "label": " Pie shell" },
+  { "value": " Pig in a blanket  ", "label": " Pig in a blanket" },
+  { "value": " Pike  ", "label": " Pike" },
+  { "value": " Pimiento  ", "label": " Pimiento" },
+  { "value": " Pina Colada  ", "label": " Pina Colada" },
+  { "value": " Pine nuts  ", "label": " Pine nuts" },
+  { "value": " Pineapple  ", "label": " Pineapple" },
+  { "value": " Pineapple candy  ", "label": " Pineapple candy" },
+  { "value": " Pineapple dessert  ", "label": " Pineapple dessert" },
+  { "value": " Pineapple juice  ", "label": " Pineapple juice" },
+  {
+    "value": " Pineapple salad with dressing  ",
+    "label": " Pineapple salad with dressing"
+  },
+  { "value": " Pink beans  ", "label": " Pink beans" },
+  { "value": " Pinto bean soup  ", "label": " Pinto bean soup" },
+  { "value": " Pinto beans  ", "label": " Pinto beans" },
+  {
+    "value": " Pinto beans and brown rice  ",
+    "label": " Pinto beans and brown rice"
+  },
+  { "value": " Pinto beans and rice  ", "label": " Pinto beans and rice" },
+  {
+    "value": " Pinto beans and white rice  ",
+    "label": " Pinto beans and white rice"
+  },
+  { "value": " Pinto beans with meat  ", "label": " Pinto beans with meat" },
+  { "value": " Pistachio nuts  ", "label": " Pistachio nuts" },
+  { "value": " Pita chips  ", "label": " Pita chips" },
+  { "value": " Pizza  ", "label": " Pizza" },
+  { "value": " Pizza rolls  ", "label": " Pizza rolls" },
+  {
+    "value": " Pizza with beans and vegetables  ",
+    "label": " Pizza with beans and vegetables"
+  },
+  {
+    "value": " Pizza with cheese and extra vegetables  ",
+    "label": " Pizza with cheese and extra vegetables"
+  },
+  { "value": " Pizza with extra meat  ", "label": " Pizza with extra meat" },
+  {
+    "value": " Pizza with extra meat and extra vegetables  ",
+    "label": " Pizza with extra meat and extra vegetables"
+  },
+  {
+    "value": " Pizza with meat and fruit  ",
+    "label": " Pizza with meat and fruit"
+  },
+  {
+    "value": " Pizza with meat and vegetables  ",
+    "label": " Pizza with meat and vegetables"
+  },
+  {
+    "value": " Pizza with meat other than pepperoni  ",
+    "label": " Pizza with meat other than pepperoni"
+  },
+  { "value": " Pizza with pepperoni  ", "label": " Pizza with pepperoni" },
+  { "value": " Plantain  ", "label": " Plantain" },
+  { "value": " Plantain chips  ", "label": " Plantain chips" },
+  { "value": " Plantain soup  ", "label": " Plantain soup" },
+  { "value": " Planters Peanut Bar  ", "label": " Planters Peanut Bar" },
+  { "value": " Plum  ", "label": " Plum" },
+  { "value": " Plums  ", "label": " Plums" },
+  { "value": " Pocky  ", "label": " Pocky" },
+  { "value": " Poi  ", "label": " Poi" },
+  { "value": " Poke greens  ", "label": " Poke greens" },
+  { "value": " Polish sausage  ", "label": " Polish sausage" },
+  { "value": " Pomegranate  ", "label": " Pomegranate" },
+  { "value": " Pomegranate juice  ", "label": " Pomegranate juice" },
+  {
+    "value": " Pomegranate juice beverage  ",
+    "label": " Pomegranate juice beverage"
+  },
+  { "value": " Pompano  ", "label": " Pompano" },
+  { "value": " Popcorn  ", "label": " Popcorn" },
+  { "value": " Popcorn cake  ", "label": " Popcorn cake" },
+  { "value": " Popcorn chips  ", "label": " Popcorn chips" },
+  { "value": " Popover  ", "label": " Popover" },
+  { "value": " Poppy seed dressing  ", "label": " Poppy seed dressing" },
+  { "value": " Popsicle  ", "label": " Popsicle" },
+  {
+    "value": " Porcupine balls with mushroom sauce  ",
+    "label": " Porcupine balls with mushroom sauce"
+  },
+  {
+    "value": " Porcupine balls with tomato-based sauce  ",
+    "label": " Porcupine balls with tomato-based sauce"
+  },
+  { "value": " Porgy  ", "label": " Porgy" },
+  { "value": " Pork  ", "label": " Pork" },
+  { "value": " Pork and beans  ", "label": " Pork and beans" },
+  { "value": " Pork and beef sausage  ", "label": " Pork and beef sausage" },
+  {
+    "value": " Pork and onions with soy-based sauce  ",
+    "label": " Pork and onions with soy-based sauce"
+  },
+  {
+    "value": " Pork and rice with tomato-based sauce  ",
+    "label": " Pork and rice with tomato-based sauce"
+  },
+  { "value": " Pork and vegetables  ", "label": " Pork and vegetables" },
+  {
+    "value": " Pork and vegetables excluding  carrots  ",
+    "label": " Pork and vegetables excluding  carrots"
+  },
+  {
+    "value": " Pork and vegetables excluding carrots  ",
+    "label": " Pork and vegetables excluding carrots"
+  },
+  {
+    "value": " Pork and vegetables including carrots  ",
+    "label": " Pork and vegetables including carrots"
+  },
+  {
+    "value": " Pork and watercress with soy-based sauce  ",
+    "label": " Pork and watercress with soy-based sauce"
+  },
+  { "value": " Pork bacon  ", "label": " Pork bacon" },
+  {
+    "value": " Pork barbecue sandwich or Sloppy Joe  ",
+    "label": " Pork barbecue sandwich or Sloppy Joe"
+  },
+  { "value": " Pork chop  ", "label": " Pork chop" },
+  {
+    "value": " Pork chop stewed with vegetables  ",
+    "label": " Pork chop stewed with vegetables"
+  },
+  {
+    "value": " Pork chow mein or chop suey  ",
+    "label": " Pork chow mein or chop suey"
+  },
+  {
+    "value": " Pork chow mein or chop suey with noodles  ",
+    "label": " Pork chow mein or chop suey with noodles"
+  },
+  { "value": " Pork ears  ", "label": " Pork ears" },
+  { "value": " Pork egg foo yung  ", "label": " Pork egg foo yung" },
+  { "value": " Pork hash  ", "label": " Pork hash" },
+  { "value": " Pork jerky  ", "label": " Pork jerky" },
+  {
+    "value": " Pork or ham with soy-based sauce  ",
+    "label": " Pork or ham with soy-based sauce"
+  },
+  { "value": " Pork roast  ", "label": " Pork roast" },
+  { "value": " Pork roll  ", "label": " Pork roll" },
+  { "value": " Pork sandwich  ", "label": " Pork sandwich" },
+  { "value": " Pork sausage  ", "label": " Pork sausage" },
+  {
+    "value": " Pork sausage rice links  ",
+    "label": " Pork sausage rice links"
+  },
+  {
+    "value": " Pork shish kabob with vegetables  ",
+    "label": " Pork shish kabob with vegetables"
+  },
+  { "value": " Pork skin  ", "label": " Pork skin" },
+  { "value": " Pork skin rinds  ", "label": " Pork skin rinds" },
+  { "value": " Pork steak or cutlet  ", "label": " Pork steak or cutlet" },
+  { "value": " Pork stew  ", "label": " Pork stew" },
+  {
+    "value": " Pork vegetable soup with potato  ",
+    "label": " Pork vegetable soup with potato"
+  },
+  {
+    "value": " Pork with chili and tomatoes  ",
+    "label": " Pork with chili and tomatoes"
+  },
+  {
+    "value": " Pork with vegetable excluding carrots  ",
+    "label": " Pork with vegetable excluding carrots"
+  },
+  { "value": " Potato  ", "label": " Potato" },
+  { "value": " Potato and cheese soup  ", "label": " Potato and cheese soup" },
+  {
+    "value": " Potato and ham fritters  ",
+    "label": " Potato and ham fritters"
+  },
+  { "value": " Potato chicken pie  ", "label": " Potato chicken pie" },
+  { "value": " Potato chips  ", "label": " Potato chips" },
+  { "value": " Potato chowder  ", "label": " Potato chowder" },
+  {
+    "value": " Potato from Puerto Rican beef stew  ",
+    "label": " Potato from Puerto Rican beef stew"
+  },
+  {
+    "value": " Potato from Puerto Rican chicken fricassee  ",
+    "label": " Potato from Puerto Rican chicken fricassee"
+  },
+  {
+    "value": " Potato from Puerto Rican style stuffed pot roast  ",
+    "label": " Potato from Puerto Rican style stuffed pot roast"
+  },
+  {
+    "value": " Potato only from Puerto Rican mixed dishes  ",
+    "label": " Potato only from Puerto Rican mixed dishes"
+  },
+  { "value": " Potato pancake  ", "label": " Potato pancake" },
+  { "value": " Potato patty  ", "label": " Potato patty" },
+  { "value": " Potato salad  ", "label": " Potato salad" },
+  { "value": " Potato salad with egg  ", "label": " Potato salad with egg" },
+  { "value": " Potato skins  ", "label": " Potato skins" },
+  {
+    "value": " Potato skins without topping  ",
+    "label": " Potato skins without topping"
+  },
+  { "value": " Potato soup  ", "label": " Potato soup" },
+  { "value": " Potato sticks  ", "label": " Potato sticks" },
+  { "value": " Potato tots  ", "label": " Potato tots" },
+  { "value": " Potatoes  ", "label": " Potatoes" },
+  {
+    "value": " Potatoes with cheese and broccoli  ",
+    "label": " Potatoes with cheese and broccoli"
+  },
+  { "value": " Pralines  ", "label": " Pralines" },
+  { "value": " Pretzel  ", "label": " Pretzel" },
+  { "value": " Pretzel chips  ", "label": " Pretzel chips" },
+  { "value": " Pretzels  ", "label": " Pretzels" },
+  { "value": " Prune  ", "label": " Prune" },
+  { "value": " Prune juice  ", "label": " Prune juice" },
+  { "value": " Prunes  ", "label": " Prunes" },
+  { "value": " Prunes with oatmeal  ", "label": " Prunes with oatmeal" },
+  { "value": " Pudding  ", "label": " Pudding" },
+  { "value": " Puerto Rican pasteles  ", "label": " Puerto Rican pasteles" },
+  { "value": " Puerto Rican sandwich  ", "label": " Puerto Rican sandwich" },
+  {
+    "value": " Puerto Rican seasoning with ham  ",
+    "label": " Puerto Rican seasoning with ham"
+  },
+  {
+    "value": " Puerto Rican seasoning with ham and tomato sauce  ",
+    "label": " Puerto Rican seasoning with ham and tomato sauce"
+  },
+  {
+    "value": " Puerto Rican seasoning without ham and tomato sauce  ",
+    "label": " Puerto Rican seasoning without ham and tomato sauce"
+  },
+  { "value": " Puerto Rican stew  ", "label": " Puerto Rican stew" },
+  {
+    "value": " Puerto Rican white cheese  ",
+    "label": " Puerto Rican white cheese"
+  },
+  { "value": " Puffs  ", "label": " Puffs" },
+  { "value": " Pumpkin  ", "label": " Pumpkin" },
+  { "value": " Pumpkin seeds  ", "label": " Pumpkin seeds" },
+  { "value": " Pupusa  ", "label": " Pupusa" },
+  { "value": " Quail  ", "label": " Quail" },
+  { "value": " Quail egg  ", "label": " Quail egg" },
+  {
+    "value": " Quarter Pounder (McDonalds)  ",
+    "label": " Quarter Pounder (McDonalds)"
+  },
+  {
+    "value": " Quarter Pounder with cheese (McDonalds)  ",
+    "label": " Quarter Pounder with cheese (McDonalds)"
+  },
+  { "value": " Quesadilla  ", "label": " Quesadilla" },
+  {
+    "value": " Quesadilla with chicken  ",
+    "label": " Quesadilla with chicken"
+  },
+  { "value": " Quesadilla with meat  ", "label": " Quesadilla with meat" },
+  {
+    "value": " Quesadilla with vegetables  ",
+    "label": " Quesadilla with vegetables"
+  },
+  {
+    "value": " Quesadilla with vegetables and chicken  ",
+    "label": " Quesadilla with vegetables and chicken"
+  },
+  {
+    "value": " Quesadilla with vegetables and meat  ",
+    "label": " Quesadilla with vegetables and meat"
+  },
+  { "value": " Queso Anejo  ", "label": " Queso Anejo" },
+  { "value": " Queso Asadero  ", "label": " Queso Asadero" },
+  { "value": " Queso cotija  ", "label": " Queso cotija" },
+  { "value": " Queso Fresco  ", "label": " Queso Fresco" },
+  { "value": " Quiche with meat  ", "label": " Quiche with meat" },
+  { "value": " Quinoa  ", "label": " Quinoa" },
+  { "value": " Rabbit  ", "label": " Rabbit" },
+  {
+    "value": " Rabbit stew with potatoes and vegetables  ",
+    "label": " Rabbit stew with potatoes and vegetables"
+  },
+  { "value": " Raccoon  ", "label": " Raccoon" },
+  { "value": " Radicchio  ", "label": " Radicchio" },
+  { "value": " Radish  ", "label": " Radish" },
+  { "value": " Radishes  ", "label": " Radishes" },
+  { "value": " Raisins  ", "label": " Raisins" },
+  { "value": " Ranch dip  ", "label": " Ranch dip" },
+  { "value": " Raspberries  ", "label": " Raspberries" },
+  { "value": " Ratatouille  ", "label": " Ratatouille" },
+  { "value": " Ravioli  ", "label": " Ravioli" },
+  { "value": " Raw vegetable  ", "label": " Raw vegetable" },
+  { "value": " Ray  ", "label": " Ray" },
+  { "value": " Red pepper  ", "label": " Red pepper" },
+  {
+    "value": " Reese's Crispy Crunchy Bar  ",
+    "label": " Reese's Crispy Crunchy Bar"
+  },
+  { "value": " Reese's Fast Break  ", "label": " Reese's Fast Break" },
+  {
+    "value": " Reese's Peanut Butter Cup  ",
+    "label": " Reese's Peanut Butter Cup"
+  },
+  { "value": " Reese's Pieces  ", "label": " Reese's Pieces" },
+  { "value": " Reese's Sticks  ", "label": " Reese's Sticks" },
+  { "value": " Refried beans  ", "label": " Refried beans" },
+  {
+    "value": " Refried beans with meat  ",
+    "label": " Refried beans with meat"
+  },
+  { "value": " Relish  ", "label": " Relish" },
+  { "value": " Reuben sandwich  ", "label": " Reuben sandwich" },
+  { "value": " Rhubarb  ", "label": " Rhubarb" },
+  { "value": " Rice  ", "label": " Rice" },
+  { "value": " Rice and potato soup  ", "label": " Rice and potato soup" },
+  { "value": " Rice cake  ", "label": " Rice cake" },
+  { "value": " Rice cereal  ", "label": " Rice cereal" },
+  {
+    "value": " Rice cereal with apples  ",
+    "label": " Rice cereal with apples"
+  },
+  {
+    "value": " Rice cereal with applesauce and bananas  ",
+    "label": " Rice cereal with applesauce and bananas"
+  },
+  {
+    "value": " Rice cereal with bananas  ",
+    "label": " Rice cereal with bananas"
+  },
+  {
+    "value": " Rice cereal with mixed fruit  ",
+    "label": " Rice cereal with mixed fruit"
+  },
+  {
+    "value": " Rice cereal with mixed fruits  ",
+    "label": " Rice cereal with mixed fruits"
+  },
+  { "value": " Rice croquette  ", "label": " Rice croquette" },
+  {
+    "value": " Rice dessert or salad with fruit  ",
+    "label": " Rice dessert or salad with fruit"
+  },
+  { "value": " Rice dressing  ", "label": " Rice dressing" },
+  { "value": " Rice meal fritter  ", "label": " Rice meal fritter" },
+  { "value": " Rice milk  ", "label": " Rice milk" },
+  { "value": " Rice noodles  ", "label": " Rice noodles" },
+  { "value": " Rice paper  ", "label": " Rice paper" },
+  { "value": " Rice pilaf  ", "label": " Rice pilaf" },
+  { "value": " Rice soup  ", "label": " Rice soup" },
+  { "value": " Rice with chicken  ", "label": " Rice with chicken" },
+  { "value": " Rice with onions  ", "label": " Rice with onions" },
+  { "value": " Rice with raisins  ", "label": " Rice with raisins" },
+  {
+    "value": " Rice with Spanish sausage  ",
+    "label": " Rice with Spanish sausage"
+  },
+  { "value": " Rice with squid  ", "label": " Rice with squid" },
+  { "value": " Rice with stewed beans  ", "label": " Rice with stewed beans" },
+  {
+    "value": " Rice with vienna sausage  ",
+    "label": " Rice with vienna sausage"
+  },
+  { "value": " Ripe plantain  ", "label": " Ripe plantain" },
+  { "value": " Ripe plantain fritters  ", "label": " Ripe plantain fritters" },
+  { "value": " Ripe plantain meat pie  ", "label": " Ripe plantain meat pie" },
+  { "value": " Ripe plantain omelet  ", "label": " Ripe plantain omelet" },
+  { "value": " Roast beef sandwich  ", "label": " Roast beef sandwich" },
+  {
+    "value": " Roast beef sandwich with bacon and cheese sauce  ",
+    "label": " Roast beef sandwich with bacon and cheese sauce"
+  },
+  {
+    "value": " Roast beef sandwich with cheese  ",
+    "label": " Roast beef sandwich with cheese"
+  },
+  {
+    "value": " Roast beef submarine sandwich  ",
+    "label": " Roast beef submarine sandwich"
+  },
+  { "value": " Rob Roy  ", "label": " Rob Roy" },
+  { "value": " Roe  ", "label": " Roe" },
+  { "value": " Roll  ", "label": " Roll" },
+  {
+    "value": " Roll with meat and/or shrimp  ",
+    "label": " Roll with meat and/or shrimp"
+  },
+  { "value": " Rolo  ", "label": " Rolo" },
+  { "value": " Romaine lettuce  ", "label": " Romaine lettuce" },
+  { "value": " Rum  ", "label": " Rum" },
+  { "value": " Rum and cola  ", "label": " Rum and cola" },
+  { "value": " Rum and diet cola  ", "label": " Rum and diet cola" },
+  { "value": " Rum cake  ", "label": " Rum cake" },
+  { "value": " Rum cooler  ", "label": " Rum cooler" },
+  { "value": " Russian dressing  ", "label": " Russian dressing" },
+  { "value": " Rusty Nail  ", "label": " Rusty Nail" },
+  { "value": " Rutabaga  ", "label": " Rutabaga" },
+  { "value": " Safflower oil  ", "label": " Safflower oil" },
+  { "value": " Salad dressing  ", "label": " Salad dressing" },
+  { "value": " Salami  ", "label": " Salami" },
+  { "value": " Salami sandwich  ", "label": " Salami sandwich" },
+  { "value": " Salisbury steak  ", "label": " Salisbury steak" },
+  { "value": " Salisbury steak dinner  ", "label": " Salisbury steak dinner" },
+  {
+    "value": " Salisbury steak with gravy  ",
+    "label": " Salisbury steak with gravy"
+  },
+  { "value": " Salmon  ", "label": " Salmon" },
+  { "value": " Salmon cake or patty  ", "label": " Salmon cake or patty" },
+  { "value": " Salmon cake sandwich  ", "label": " Salmon cake sandwich" },
+  { "value": " Salmon loaf  ", "label": " Salmon loaf" },
+  { "value": " Salmon salad  ", "label": " Salmon salad" },
+  { "value": " Salmon soup  ", "label": " Salmon soup" },
+  { "value": " Salsa  ", "label": " Salsa" },
+  { "value": " Salsa verde or salsa  ", "label": " Salsa verde or salsa" },
+  { "value": " Salsify  ", "label": " Salsify" },
+  { "value": " Salt pork  ", "label": " Salt pork" },
+  { "value": " Salty Dog  ", "label": " Salty Dog" },
+  { "value": " Sambar  ", "label": " Sambar" },
+  { "value": " Sandwich  ", "label": " Sandwich" },
+  { "value": " Sandwich spread  ", "label": " Sandwich spread" },
+  { "value": " Sangria  ", "label": " Sangria" },
+  { "value": " Sardine sandwich  ", "label": " Sardine sandwich" },
+  { "value": " Sardines  ", "label": " Sardines" },
+  {
+    "value": " Sardines with mustard sauce  ",
+    "label": " Sardines with mustard sauce"
+  },
+  {
+    "value": " Sardines with tomato-based sauce  ",
+    "label": " Sardines with tomato-based sauce"
+  },
+  {
+    "value": " Sauce as ingredient in hamburgers  ",
+    "label": " Sauce as ingredient in hamburgers"
+  },
+  { "value": " Sauerkraut  ", "label": " Sauerkraut" },
+  { "value": " Sausage  ", "label": " Sausage" },
+  {
+    "value": " Sausage and cheese on English muffin  ",
+    "label": " Sausage and cheese on English muffin"
+  },
+  {
+    "value": " Sausage and french toast  ",
+    "label": " Sausage and french toast"
+  },
+  {
+    "value": " Sausage and noodles with cream or white sauce  ",
+    "label": " Sausage and noodles with cream or white sauce"
+  },
+  { "value": " Sausage and peppers  ", "label": " Sausage and peppers" },
+  {
+    "value": " Sausage and rice with cheese sauce  ",
+    "label": " Sausage and rice with cheese sauce"
+  },
+  {
+    "value": " Sausage and rice with mushroom sauce  ",
+    "label": " Sausage and rice with mushroom sauce"
+  },
+  {
+    "value": " Sausage and rice with tomato-based sauce  ",
+    "label": " Sausage and rice with tomato-based sauce"
+  },
+  {
+    "value": " Sausage and spaghetti sauce sandwich  ",
+    "label": " Sausage and spaghetti sauce sandwich"
+  },
+  { "value": " Sausage and vegetables  ", "label": " Sausage and vegetables" },
+  {
+    "value": " Sausage and vegetables including  carrots  ",
+    "label": " Sausage and vegetables including  carrots"
+  },
+  { "value": " Sausage balls  ", "label": " Sausage balls" },
+  { "value": " Sausage gravy  ", "label": " Sausage gravy" },
+  {
+    "value": " Sausage griddle cake sandwich  ",
+    "label": " Sausage griddle cake sandwich"
+  },
+  { "value": " Sausage on biscuit  ", "label": " Sausage on biscuit" },
+  { "value": " Sausage sandwich  ", "label": " Sausage sandwich" },
+  {
+    "value": " Sausage with tomato-based sauce  ",
+    "label": " Sausage with tomato-based sauce"
+  },
+  { "value": " Scallops  ", "label": " Scallops" },
+  {
+    "value": " Scallops and noodles with cheese sauce  ",
+    "label": " Scallops and noodles with cheese sauce"
+  },
+  {
+    "value": " Scallops with cheese sauce  ",
+    "label": " Scallops with cheese sauce"
+  },
+  { "value": " Scone  ", "label": " Scone" },
+  { "value": " Scotch  ", "label": " Scotch" },
+  { "value": " Scrambled egg sandwich  ", "label": " Scrambled egg sandwich" },
+  {
+    "value": " Scrambled eggs with jerked beef  ",
+    "label": " Scrambled eggs with jerked beef"
+  },
+  { "value": " Scrapple  ", "label": " Scrapple" },
+  { "value": " Screwdriver  ", "label": " Screwdriver" },
+  { "value": " Sea bass  ", "label": " Sea bass" },
+  { "value": " Seabreeze  ", "label": " Seabreeze" },
+  { "value": " Seafood dip  ", "label": " Seafood dip" },
+  {
+    "value": " Seafood garden salad with seafood  ",
+    "label": " Seafood garden salad with seafood"
+  },
+  { "value": " Seafood newburg  ", "label": " Seafood newburg" },
+  { "value": " Seafood paella  ", "label": " Seafood paella" },
+  { "value": " Seafood restructured  ", "label": " Seafood restructured" },
+  { "value": " Seafood salad  ", "label": " Seafood salad" },
+  { "value": " Seafood salad sandwich  ", "label": " Seafood salad sandwich" },
+  { "value": " Seafood sauce  ", "label": " Seafood sauce" },
+  { "value": " Seafood souffle  ", "label": " Seafood souffle" },
+  {
+    "value": " Seafood soup with potatoes  ",
+    "label": " Seafood soup with potatoes"
+  },
+  {
+    "value": " Seafood soup with potatoes and vegetables including carrots  ",
+    "label": " Seafood soup with potatoes and vegetables including carrots"
+  },
+  {
+    "value": " Seafood soup with vegetables excluding carrots  ",
+    "label": " Seafood soup with vegetables excluding carrots"
+  },
+  {
+    "value": " Seafood soup with vegetables including carrots  ",
+    "label": " Seafood soup with vegetables including carrots"
+  },
+  {
+    "value": " Seafood stew with potatoes and vegetables excluding carrots  ",
+    "label": " Seafood stew with potatoes and vegetables excluding carrots"
+  },
+  {
+    "value": " Seafood stew with potatoes and vegetables including carrots  ",
+    "label": " Seafood stew with potatoes and vegetables including carrots"
+  },
+  {
+    "value": " Seasoned shredded soup meat  ",
+    "label": " Seasoned shredded soup meat"
+  },
+  { "value": " Seaweed  ", "label": " Seaweed" },
+  { "value": " Seaweed soup  ", "label": " Seaweed soup" },
+  { "value": " Sesame chicken  ", "label": " Sesame chicken" },
+  { "value": " Sesame Crunch  ", "label": " Sesame Crunch" },
+  { "value": " Sesame dressing  ", "label": " Sesame dressing" },
+  { "value": " Sesame oil  ", "label": " Sesame oil" },
+  { "value": " Sesame seeds  ", "label": " Sesame seeds" },
+  { "value": " Seven and Seven  ", "label": " Seven and Seven" },
+  { "value": " Seven-layer salad  ", "label": " Seven-layer salad" },
+  { "value": " Shark  ", "label": " Shark" },
+  { "value": " Shav soup  ", "label": " Shav soup" },
+  {
+    "value": " Shellfish and noodles with tomato-based sauce  ",
+    "label": " Shellfish and noodles with tomato-based sauce"
+  },
+  {
+    "value": " Shellfish mixture and vegetables excluding carrots  ",
+    "label": " Shellfish mixture and vegetables excluding carrots"
+  },
+  {
+    "value": " Shellfish mixture and vegetables including carrots  ",
+    "label": " Shellfish mixture and vegetables including carrots"
+  },
+  {
+    "value": " Shepherd's pie with beef  ",
+    "label": " Shepherd's pie with beef"
+  },
+  {
+    "value": " Shepherd's pie with lamb  ",
+    "label": " Shepherd's pie with lamb"
+  },
+  { "value": " Sherbet  ", "label": " Sherbet" },
+  { "value": " Shirley Temple  ", "label": " Shirley Temple" },
+  { "value": " Shortening  ", "label": " Shortening" },
+  { "value": " Shrimp  ", "label": " Shrimp" },
+  {
+    "value": " Shrimp and clams in tomato-based sauce  ",
+    "label": " Shrimp and clams in tomato-based sauce"
+  },
+  { "value": " Shrimp and noodles  ", "label": " Shrimp and noodles" },
+  {
+    "value": " Shrimp and noodles with cheese sauce  ",
+    "label": " Shrimp and noodles with cheese sauce"
+  },
+  {
+    "value": " Shrimp and noodles with cream or white sauce  ",
+    "label": " Shrimp and noodles with cream or white sauce"
+  },
+  {
+    "value": " Shrimp and noodles with gravy  ",
+    "label": " Shrimp and noodles with gravy"
+  },
+  {
+    "value": " Shrimp and noodles with mushroom sauce  ",
+    "label": " Shrimp and noodles with mushroom sauce"
+  },
+  {
+    "value": " Shrimp and noodles with soy-based sauce  ",
+    "label": " Shrimp and noodles with soy-based sauce"
+  },
+  {
+    "value": " Shrimp and noodles with tomato sauce  ",
+    "label": " Shrimp and noodles with tomato sauce"
+  },
+  {
+    "value": " Shrimp and vegetables excluding carrots  ",
+    "label": " Shrimp and vegetables excluding carrots"
+  },
+  {
+    "value": " Shrimp and vegetables in sauce with noodles  ",
+    "label": " Shrimp and vegetables in sauce with noodles"
+  },
+  {
+    "value": " Shrimp and vegetables including carrots  ",
+    "label": " Shrimp and vegetables including carrots"
+  },
+  { "value": " Shrimp cake or patty  ", "label": " Shrimp cake or patty" },
+  { "value": " Shrimp chips  ", "label": " Shrimp chips" },
+  {
+    "value": " Shrimp chow mein or chop suey  ",
+    "label": " Shrimp chow mein or chop suey"
+  },
+  {
+    "value": " Shrimp chow mein or chop suey with noodles  ",
+    "label": " Shrimp chow mein or chop suey with noodles"
+  },
+  { "value": " Shrimp cocktail  ", "label": " Shrimp cocktail" },
+  { "value": " Shrimp creole  ", "label": " Shrimp creole" },
+  { "value": " Shrimp egg foo yung  ", "label": " Shrimp egg foo yung" },
+  { "value": " Shrimp garden salad  ", "label": " Shrimp garden salad" },
+  { "value": " Shrimp gumbo  ", "label": " Shrimp gumbo" },
+  { "value": " Shrimp in garlic sauce  ", "label": " Shrimp in garlic sauce" },
+  { "value": " Shrimp salad  ", "label": " Shrimp salad" },
+  { "value": " Shrimp scampi  ", "label": " Shrimp scampi" },
+  {
+    "value": " Shrimp shish kabob with vegetables  ",
+    "label": " Shrimp shish kabob with vegetables"
+  },
+  { "value": " Shrimp soup  ", "label": " Shrimp soup" },
+  { "value": " Shrimp teriyaki  ", "label": " Shrimp teriyaki" },
+  { "value": " Shrimp toast  ", "label": " Shrimp toast" },
+  {
+    "value": " Shrimp with crab stuffing  ",
+    "label": " Shrimp with crab stuffing"
+  },
+  {
+    "value": " Shrimp with lobster sauce  ",
+    "label": " Shrimp with lobster sauce"
+  },
+  { "value": " Shrimp-egg patty  ", "label": " Shrimp-egg patty" },
+  { "value": " Simple syrup  ", "label": " Simple syrup" },
+  { "value": " Singapore Sling  ", "label": " Singapore Sling" },
+  { "value": " Sirloin  ", "label": " Sirloin" },
+  { "value": " Sirloin beef  ", "label": " Sirloin beef" },
+  { "value": " Sirloin tips  ", "label": " Sirloin tips" },
+  { "value": " Sixlets  ", "label": " Sixlets" },
+  { "value": " Skittles  ", "label": " Skittles" },
+  {
+    "value": " Sliced chicken sandwich  ",
+    "label": " Sliced chicken sandwich"
+  },
+  { "value": " Sloe gin fizz  ", "label": " Sloe gin fizz" },
+  { "value": " Slush frozen drink  ", "label": " Slush frozen drink" },
+  { "value": " Snack bar  ", "label": " Snack bar" },
+  { "value": " Snack cake  ", "label": " Snack cake" },
+  { "value": " Snack mix  ", "label": " Snack mix" },
+  { "value": " Snails  ", "label": " Snails" },
+  { "value": " SNICKERS Bar  ", "label": " SNICKERS Bar" },
+  { "value": " Snow cone  ", "label": " Snow cone" },
+  { "value": " Snowpea  ", "label": " Snowpea" },
+  { "value": " Snowpeas  ", "label": " Snowpeas" },
+  { "value": " Soft drink  ", "label": " Soft drink" },
+  { "value": " Soft fruit confections  ", "label": " Soft fruit confections" },
+  { "value": " Soft serve  ", "label": " Soft serve" },
+  { "value": " Soft taco with beans  ", "label": " Soft taco with beans" },
+  {
+    "value": " Soft taco with beans and sour cream  ",
+    "label": " Soft taco with beans and sour cream"
+  },
+  { "value": " Soft taco with chicken  ", "label": " Soft taco with chicken" },
+  {
+    "value": " Soft taco with chicken and beans  ",
+    "label": " Soft taco with chicken and beans"
+  },
+  {
+    "value": " Soft taco with chicken and sour cream  ",
+    "label": " Soft taco with chicken and sour cream"
+  },
+  { "value": " Soft taco with fish  ", "label": " Soft taco with fish" },
+  { "value": " Soft taco with meat  ", "label": " Soft taco with meat" },
+  {
+    "value": " Soft taco with meat and beans  ",
+    "label": " Soft taco with meat and beans"
+  },
+  {
+    "value": " Soft taco with meat and sour cream  ",
+    "label": " Soft taco with meat and sour cream"
+  },
+  { "value": " Sopa de Fideo Aguada  ", "label": " Sopa de Fideo Aguada" },
+  { "value": " Sopa de tortilla  ", "label": " Sopa de tortilla" },
+  { "value": " Sopa seca  ", "label": " Sopa seca" },
+  { "value": " Sopa seca de arroz  ", "label": " Sopa seca de arroz" },
+  { "value": " Sopa Seca de Fideo  ", "label": " Sopa Seca de Fideo" },
+  { "value": " Sopaipilla  ", "label": " Sopaipilla" },
+  {
+    "value": " Sopaipilla with syrup or honey  ",
+    "label": " Sopaipilla with syrup or honey"
+  },
+  { "value": " Sorbet  ", "label": " Sorbet" },
+  { "value": " Soup  ", "label": " Soup" },
+  {
+    "value": " Soupy rice mixture with chicken and potatoes  ",
+    "label": " Soupy rice mixture with chicken and potatoes"
+  },
+  {
+    "value": " Soupy rice with chicken  ",
+    "label": " Soupy rice with chicken"
+  },
+  { "value": " Sour cream  ", "label": " Sour cream" },
+  { "value": " Soursop  ", "label": " Soursop" },
+  { "value": " Soy based sauce  ", "label": " Soy based sauce" },
+  { "value": " Soy chips  ", "label": " Soy chips" },
+  { "value": " Soy milk  ", "label": " Soy milk" },
+  { "value": " Soy nut butter  ", "label": " Soy nut butter" },
+  { "value": " Soy nuts  ", "label": " Soy nuts" },
+  { "value": " Soy sauce  ", "label": " Soy sauce" },
+  { "value": " Soybean curd  ", "label": " Soybean curd" },
+  { "value": " Soybean curd cheese  ", "label": " Soybean curd cheese" },
+  { "value": " Soybean oil  ", "label": " Soybean oil" },
+  { "value": " Soybean soup  ", "label": " Soybean soup" },
+  { "value": " Soybeans  ", "label": " Soybeans" },
+  { "value": " Soyburger  ", "label": " Soyburger" },
+  { "value": " Spaghetti  ", "label": " Spaghetti" },
+  {
+    "value": " Spaghetti and meatballs dinner  ",
+    "label": " Spaghetti and meatballs dinner"
+  },
+  { "value": " Spaghetti sauce  ", "label": " Spaghetti sauce" },
+  {
+    "value": " Spaghetti sauce with added vegetables  ",
+    "label": " Spaghetti sauce with added vegetables"
+  },
+  {
+    "value": " Spaghetti sauce with meat  ",
+    "label": " Spaghetti sauce with meat"
+  },
+  {
+    "value": " Spaghetti sauce with meat and added vegetables  ",
+    "label": " Spaghetti sauce with meat and added vegetables"
+  },
+  {
+    "value": " Spaghetti sauce with poultry  ",
+    "label": " Spaghetti sauce with poultry"
+  },
+  {
+    "value": " Spaghetti sauce with poultry and added vegetables  ",
+    "label": " Spaghetti sauce with poultry and added vegetables"
+  },
+  {
+    "value": " Spaghetti sauce with seafood  ",
+    "label": " Spaghetti sauce with seafood"
+  },
+  {
+    "value": " Spaghetti sauce with seafood and added vegetables  ",
+    "label": " Spaghetti sauce with seafood and added vegetables"
+  },
+  { "value": " Spaghetti squash  ", "label": " Spaghetti squash" },
+  {
+    "value": " Spaghetti with corned beef  ",
+    "label": " Spaghetti with corned beef"
+  },
+  {
+    "value": " Spaghetti with meat and mushroom sauce  ",
+    "label": " Spaghetti with meat and mushroom sauce"
+  },
+  {
+    "value": " Spaghetti with meat sauce  ",
+    "label": " Spaghetti with meat sauce"
+  },
+  { "value": " Spanakopitta  ", "label": " Spanakopitta" },
+  { "value": " Spanish rice  ", "label": " Spanish rice" },
+  {
+    "value": " Spanish rice with ground beef  ",
+    "label": " Spanish rice with ground beef"
+  },
+  { "value": " Spanish stew  ", "label": " Spanish stew" },
+  { "value": " Spanish vegetable soup  ", "label": " Spanish vegetable soup" },
+  { "value": " Spinach  ", "label": " Spinach" },
+  {
+    "value": " Spinach and artichoke dip  ",
+    "label": " Spinach and artichoke dip"
+  },
+  {
+    "value": " Spinach and cheese casserole  ",
+    "label": " Spinach and cheese casserole"
+  },
+  { "value": " Spinach dip  ", "label": " Spinach dip" },
+  { "value": " Spinach quiche  ", "label": " Spinach quiche" },
+  { "value": " Spinach salad  ", "label": " Spinach salad" },
+  { "value": " Spinach souffle  ", "label": " Spinach souffle" },
+  { "value": " Spinach soup  ", "label": " Spinach soup" },
+  { "value": " Split pea and ham soup  ", "label": " Split pea and ham soup" },
+  { "value": " Split pea soup  ", "label": " Split pea soup" },
+  { "value": " Split peas  ", "label": " Split peas" },
+  { "value": " Spoonbread  ", "label": " Spoonbread" },
+  { "value": " Sports drink  ", "label": " Sports drink" },
+  {
+    "value": " Sports drink (Gatorade G)  ",
+    "label": " Sports drink (Gatorade G)"
+  },
+  {
+    "value": " Sports drink (Powerade)  ",
+    "label": " Sports drink (Powerade)"
+  },
+  { "value": " Sprouts  ", "label": " Sprouts" },
+  { "value": " Squash  ", "label": " Squash" },
+  { "value": " Squash and corn  ", "label": " Squash and corn" },
+  { "value": " Squash fritter or cake  ", "label": " Squash fritter or cake" },
+  { "value": " Squid  ", "label": " Squid" },
+  { "value": " Squirrel  ", "label": " Squirrel" },
+  { "value": " Starfruit  ", "label": " Starfruit" },
+  { "value": " Steak  ", "label": " Steak" },
+  {
+    "value": " Steak and cheese sandwich  ",
+    "label": " Steak and cheese sandwich"
+  },
+  {
+    "value": " Steak and cheese submarine sandwich  ",
+    "label": " Steak and cheese submarine sandwich"
+  },
+  { "value": " Steak sandwich  ", "label": " Steak sandwich" },
+  { "value": " Steak sauce  ", "label": " Steak sauce" },
+  {
+    "value": " Steak submarine sandwich with lettuce and tomato  ",
+    "label": " Steak submarine sandwich with lettuce and tomato"
+  },
+  { "value": " Steak tartare  ", "label": " Steak tartare" },
+  { "value": " Steak teriyaki  ", "label": " Steak teriyaki" },
+  { "value": " Stew  ", "label": " Stew" },
+  { "value": " Stewed  ", "label": " Stewed" },
+  {
+    "value": " Stewed chicken with tomato-based sauce  ",
+    "label": " Stewed chicken with tomato-based sauce"
+  },
+  { "value": " Stewed chitterlings  ", "label": " Stewed chitterlings" },
+  { "value": " Stewed codfish  ", "label": " Stewed codfish" },
+  { "value": " Stewed corned beef  ", "label": " Stewed corned beef" },
+  { "value": " Stewed dried beef  ", "label": " Stewed dried beef" },
+  { "value": " Stewed gizzards  ", "label": " Stewed gizzards" },
+  { "value": " Stewed goat  ", "label": " Stewed goat" },
+  { "value": " Stewed pig's feet  ", "label": " Stewed pig's feet" },
+  { "value": " Stewed pork  ", "label": " Stewed pork" },
+  { "value": " Stewed potatoes  ", "label": " Stewed potatoes" },
+  {
+    "value": " Stewed potatoes with tomatoes  ",
+    "label": " Stewed potatoes with tomatoes"
+  },
+  { "value": " Stewed rabbit  ", "label": " Stewed rabbit" },
+  { "value": " Stewed rice  ", "label": " Stewed rice" },
+  { "value": " Stewed salmon  ", "label": " Stewed salmon" },
+  {
+    "value": " Stewed seasoned ground beef  ",
+    "label": " Stewed seasoned ground beef"
+  },
+  { "value": " Stewed tripe  ", "label": " Stewed tripe" },
+  { "value": " Stewed variety meats  ", "label": " Stewed variety meats" },
+  { "value": " Stinger  ", "label": " Stinger" },
+  {
+    "value": " Stir fried beef and vegetables in soy sauce  ",
+    "label": " Stir fried beef and vegetables in soy sauce"
+  },
+  { "value": " Strawberries  ", "label": " Strawberries" },
+  {
+    "value": " Strawberry beverage powder  ",
+    "label": " Strawberry beverage powder"
+  },
+  { "value": " Strawberry drink syrup  ", "label": " Strawberry drink syrup" },
+  { "value": " Strawberry juice  ", "label": " Strawberry juice" },
+  { "value": " Strawberry milk  ", "label": " Strawberry milk" },
+  { "value": " Strudel  ", "label": " Strudel" },
+  { "value": " Stuffed cabbage  ", "label": " Stuffed cabbage" },
+  {
+    "value": " Stuffed cabbage rolls with beef and rice  ",
+    "label": " Stuffed cabbage rolls with beef and rice"
+  },
+  { "value": " Stuffed chicken  ", "label": " Stuffed chicken" },
+  { "value": " Stuffed christophine  ", "label": " Stuffed christophine" },
+  {
+    "value": " Stuffed grape leaves with beef and rice  ",
+    "label": " Stuffed grape leaves with beef and rice"
+  },
+  {
+    "value": " Stuffed grape leaves with lamb and rice  ",
+    "label": " Stuffed grape leaves with lamb and rice"
+  },
+  { "value": " Stuffed green pepper  ", "label": " Stuffed green pepper" },
+  {
+    "value": " Stuffed jalapeno pepper  ",
+    "label": " Stuffed jalapeno pepper"
+  },
+  { "value": " Stuffed pepper  ", "label": " Stuffed pepper" },
+  { "value": " Stuffed pork roast  ", "label": " Stuffed pork roast" },
+  { "value": " Stuffed pot roast  ", "label": " Stuffed pot roast" },
+  { "value": " Stuffed shells  ", "label": " Stuffed shells" },
+  {
+    "value": " Stuffed tannier fritters  ",
+    "label": " Stuffed tannier fritters"
+  },
+  { "value": " Stuffed tomato  ", "label": " Stuffed tomato" },
+  { "value": " Sturgeon  ", "label": " Sturgeon" },
+  { "value": " Sugar  ", "label": " Sugar" },
+  { "value": " Sugar cane beverage  ", "label": " Sugar cane beverage" },
+  { "value": " Sugar substitute  ", "label": " Sugar substitute" },
+  {
+    "value": " Sugar substitute and sugar blend  ",
+    "label": " Sugar substitute and sugar blend"
+  },
+  {
+    "value": " Sugar-coated chocolate discs  ",
+    "label": " Sugar-coated chocolate discs"
+  },
+  { "value": " Sugared pecans  ", "label": " Sugared pecans" },
+  { "value": " Summer squash  ", "label": " Summer squash" },
+  { "value": " Sun-dried tomatoes  ", "label": " Sun-dried tomatoes" },
+  { "value": " Sunflower oil  ", "label": " Sunflower oil" },
+  { "value": " Sunflower seeds  ", "label": " Sunflower seeds" },
+  { "value": " Sushi  ", "label": " Sushi" },
+  { "value": " Sushi roll  ", "label": " Sushi roll" },
+  { "value": " Sushi roll tuna  ", "label": " Sushi roll tuna" },
+  {
+    "value": " Swedish meatballs with cream or white sauce  ",
+    "label": " Swedish meatballs with cream or white sauce"
+  },
+  {
+    "value": " Sweet and sour chicken or turkey  ",
+    "label": " Sweet and sour chicken or turkey"
+  },
+  { "value": " Sweet and sour pork  ", "label": " Sweet and sour pork" },
+  {
+    "value": " Sweet and sour pork with rice  ",
+    "label": " Sweet and sour pork with rice"
+  },
+  { "value": " Sweet and sour sauce  ", "label": " Sweet and sour sauce" },
+  { "value": " Sweet and sour shrimp  ", "label": " Sweet and sour shrimp" },
+  { "value": " Sweet and sour soup  ", "label": " Sweet and sour soup" },
+  { "value": " Sweet bread dough  ", "label": " Sweet bread dough" },
+  { "value": " Sweet potato  ", "label": " Sweet potato" },
+  {
+    "value": " Sweet potato and pumpkin casserole  ",
+    "label": " Sweet potato and pumpkin casserole"
+  },
+  { "value": " Sweet potato chips  ", "label": " Sweet potato chips" },
+  { "value": " Sweet potato fries  ", "label": " Sweet potato fries" },
+  { "value": " Sweet potato paste  ", "label": " Sweet potato paste" },
+  { "value": " Sweet potato tots  ", "label": " Sweet potato tots" },
+  { "value": " Sweet potatoes  ", "label": " Sweet potatoes" },
+  {
+    "value": " Sweet potatoes and chicken  ",
+    "label": " Sweet potatoes and chicken"
+  },
+  { "value": " Sweetbreads  ", "label": " Sweetbreads" },
+  { "value": " Swiss steak  ", "label": " Swiss steak" },
+  { "value": " Swordfish  ", "label": " Swordfish" },
+  { "value": " Syrup  ", "label": " Syrup" },
+  { "value": " Szechuan beef  ", "label": " Szechuan beef" },
+  { "value": " Tabbouleh  ", "label": " Tabbouleh" },
+  { "value": " Table fat  ", "label": " Table fat" },
+  { "value": " Taco or tostada salad  ", "label": " Taco or tostada salad" },
+  {
+    "value": " Taco or tostada salad with chicken  ",
+    "label": " Taco or tostada salad with chicken"
+  },
+  {
+    "value": " Taco or tostada salad with chicken and sour cream  ",
+    "label": " Taco or tostada salad with chicken and sour cream"
+  },
+  {
+    "value": " Taco or tostada salad with meat  ",
+    "label": " Taco or tostada salad with meat"
+  },
+  {
+    "value": " Taco or tostada salad with meat and sour cream  ",
+    "label": " Taco or tostada salad with meat and sour cream"
+  },
+  {
+    "value": " Taco or tostada with beans  ",
+    "label": " Taco or tostada with beans"
+  },
+  {
+    "value": " Taco or tostada with beans and sour cream  ",
+    "label": " Taco or tostada with beans and sour cream"
+  },
+  {
+    "value": " Taco or tostada with chicken  ",
+    "label": " Taco or tostada with chicken"
+  },
+  {
+    "value": " Taco or tostada with chicken and beans  ",
+    "label": " Taco or tostada with chicken and beans"
+  },
+  {
+    "value": " Taco or tostada with chicken and sour cream  ",
+    "label": " Taco or tostada with chicken and sour cream"
+  },
+  {
+    "value": " Taco or tostada with fish  ",
+    "label": " Taco or tostada with fish"
+  },
+  {
+    "value": " Taco or tostada with meat  ",
+    "label": " Taco or tostada with meat"
+  },
+  {
+    "value": " Taco or tostada with meat and beans  ",
+    "label": " Taco or tostada with meat and beans"
+  },
+  {
+    "value": " Taco or tostada with meat and sour cream  ",
+    "label": " Taco or tostada with meat and sour cream"
+  },
+  { "value": " Taco sauce  ", "label": " Taco sauce" },
+  { "value": " Taco shell  ", "label": " Taco shell" },
+  { "value": " Taco with crab meat  ", "label": " Taco with crab meat" },
+  { "value": " Taffy  ", "label": " Taffy" },
+  { "value": " Tahini  ", "label": " Tahini" },
+  { "value": " Tamal in a leaf  ", "label": " Tamal in a leaf" },
+  { "value": " Tamale  ", "label": " Tamale" },
+  { "value": " Tamale casserole  ", "label": " Tamale casserole" },
+  {
+    "value": " Tamale casserole with meat  ",
+    "label": " Tamale casserole with meat"
+  },
+  { "value": " Tamale with chicken  ", "label": " Tamale with chicken" },
+  { "value": " Tamale with meat  ", "label": " Tamale with meat" },
+  { "value": " Tamarind  ", "label": " Tamarind" },
+  { "value": " Tamarind candy  ", "label": " Tamarind candy" },
+  { "value": " Tamarind drink  ", "label": " Tamarind drink" },
+  { "value": " Tangerine  ", "label": " Tangerine" },
+  { "value": " Tangerine juice  ", "label": " Tangerine juice" },
+  { "value": " Tannier  ", "label": " Tannier" },
+  {
+    "value": " Taquito or flauta with cheese  ",
+    "label": " Taquito or flauta with cheese"
+  },
+  {
+    "value": " Taquito or flauta with chicken  ",
+    "label": " Taquito or flauta with chicken"
+  },
+  {
+    "value": " Taquito or flauta with chicken and cheese  ",
+    "label": " Taquito or flauta with chicken and cheese"
+  },
+  {
+    "value": " Taquito or flauta with egg  ",
+    "label": " Taquito or flauta with egg"
+  },
+  {
+    "value": " Taquito or flauta with egg and breakfast meat  ",
+    "label": " Taquito or flauta with egg and breakfast meat"
+  },
+  {
+    "value": " Taquito or flauta with meat  ",
+    "label": " Taquito or flauta with meat"
+  },
+  {
+    "value": " Taquito or flauta with meat and cheese  ",
+    "label": " Taquito or flauta with meat and cheese"
+  },
+  { "value": " Taro  ", "label": " Taro" },
+  { "value": " Taro chips  ", "label": " Taro chips" },
+  { "value": " Taro leaves  ", "label": " Taro leaves" },
+  { "value": " Tartar sauce  ", "label": " Tartar sauce" },
+  { "value": " Tea  ", "label": " Tea" },
+  { "value": " Tequila  ", "label": " Tequila" },
+  { "value": " Tequila Sunrise  ", "label": " Tequila Sunrise" },
+  {
+    "value": " Teriyaki chicken with rice and vegetable  ",
+    "label": " Teriyaki chicken with rice and vegetable"
+  },
+  { "value": " Teriyaki sauce  ", "label": " Teriyaki sauce" },
+  {
+    "value": " Textured vegetable protein  ",
+    "label": " Textured vegetable protein"
+  },
+  { "value": " Thistle leaves  ", "label": " Thistle leaves" },
+  {
+    "value": " Thousand Island dressing  ",
+    "label": " Thousand Island dressing"
+  },
+  { "value": " Thuringer  ", "label": " Thuringer" },
+  { "value": " Tilapia  ", "label": " Tilapia" },
+  { "value": " Tiramisu  ", "label": " Tiramisu" },
+  { "value": " Toblerone  ", "label": " Toblerone" },
+  { "value": " Toffee  ", "label": " Toffee" },
+  {
+    "value": " Tofu and vegetables excluding carrots  ",
+    "label": " Tofu and vegetables excluding carrots"
+  },
+  {
+    "value": " Tofu and vegetables including carrots  ",
+    "label": " Tofu and vegetables including carrots"
+  },
+  { "value": " Tom Collins  ", "label": " Tom Collins" },
+  { "value": " Tomato  ", "label": " Tomato" },
+  {
+    "value": " Tomato and cucumber salad made with tomato  ",
+    "label": " Tomato and cucumber salad made with tomato"
+  },
+  {
+    "value": " Tomato and vegetable juice  ",
+    "label": " Tomato and vegetable juice"
+  },
+  { "value": " Tomato aspic  ", "label": " Tomato aspic" },
+  {
+    "value": " Tomato beef noodle soup  ",
+    "label": " Tomato beef noodle soup"
+  },
+  { "value": " Tomato beef rice soup  ", "label": " Tomato beef rice soup" },
+  { "value": " Tomato beef soup  ", "label": " Tomato beef soup" },
+  { "value": " Tomato chili sauce  ", "label": " Tomato chili sauce" },
+  { "value": " Tomato juice  ", "label": " Tomato juice" },
+  { "value": " Tomato juice cocktail  ", "label": " Tomato juice cocktail" },
+  { "value": " Tomato noodle soup  ", "label": " Tomato noodle soup" },
+  { "value": " Tomato rice soup  ", "label": " Tomato rice soup" },
+  { "value": " Tomato sandwich  ", "label": " Tomato sandwich" },
+  { "value": " Tomato sauce  ", "label": " Tomato sauce" },
+  { "value": " Tomato soup  ", "label": " Tomato soup" },
+  { "value": " Tomato vegetable soup  ", "label": " Tomato vegetable soup" },
+  {
+    "value": " Tomato vegetable soup with noodles  ",
+    "label": " Tomato vegetable soup with noodles"
+  },
+  { "value": " Tomatoes  ", "label": " Tomatoes" },
+  {
+    "value": " Tomatoes as ingredient in omelet  ",
+    "label": " Tomatoes as ingredient in omelet"
+  },
+  { "value": " Tongue  ", "label": " Tongue" },
+  { "value": " Tongue pot roast  ", "label": " Tongue pot roast" },
+  { "value": " Topping  ", "label": " Topping" },
+  {
+    "value": " Topping from cheese pizza  ",
+    "label": " Topping from cheese pizza"
+  },
+  {
+    "value": " Topping from meat and vegetable pizza  ",
+    "label": " Topping from meat and vegetable pizza"
+  },
+  {
+    "value": " Topping from meat pizza  ",
+    "label": " Topping from meat pizza"
+  },
+  {
+    "value": " Topping from vegetable pizza  ",
+    "label": " Topping from vegetable pizza"
+  },
+  { "value": " Tortellini  ", "label": " Tortellini" },
+  { "value": " Tortilla  ", "label": " Tortilla" },
+  { "value": " Tortilla chips  ", "label": " Tortilla chips" },
+  { "value": " Trail mix  ", "label": " Trail mix" },
+  {
+    "value": " Trail mix with chocolate  ",
+    "label": " Trail mix with chocolate"
+  },
+  { "value": " Trail mix with nuts  ", "label": " Trail mix with nuts" },
+  {
+    "value": " Trail mix with nuts and fruit  ",
+    "label": " Trail mix with nuts and fruit"
+  },
+  {
+    "value": " Trail mix with pretzels  ",
+    "label": " Trail mix with pretzels"
+  },
+  { "value": " Trifle  ", "label": " Trifle" },
+  { "value": " Tripe  ", "label": " Tripe" },
+  { "value": " Tropical fruit medley  ", "label": " Tropical fruit medley" },
+  { "value": " Trout  ", "label": " Trout" },
+  { "value": " Truffles  ", "label": " Truffles" },
+  { "value": " Tuna  ", "label": " Tuna" },
+  {
+    "value": " Tuna and rice with mushroom sauce  ",
+    "label": " Tuna and rice with mushroom sauce"
+  },
+  { "value": " Tuna cake or patty  ", "label": " Tuna cake or patty" },
+  {
+    "value": " Tuna casserole with vegetables and mushroom sauce  ",
+    "label": " Tuna casserole with vegetables and mushroom sauce"
+  },
+  { "value": " Tuna loaf  ", "label": " Tuna loaf" },
+  {
+    "value": " Tuna noodle casserole with cream or white sauce  ",
+    "label": " Tuna noodle casserole with cream or white sauce"
+  },
+  {
+    "value": " Tuna noodle casserole with mushroom sauce  ",
+    "label": " Tuna noodle casserole with mushroom sauce"
+  },
+  {
+    "value": " Tuna noodle casserole with vegetables  ",
+    "label": " Tuna noodle casserole with vegetables"
+  },
+  {
+    "value": " Tuna noodle casserole with vegetables and mushroom sauce  ",
+    "label": " Tuna noodle casserole with vegetables and mushroom sauce"
+  },
+  { "value": " Tuna pot pie  ", "label": " Tuna pot pie" },
+  { "value": " Tuna salad  ", "label": " Tuna salad" },
+  { "value": " Tuna salad sandwich  ", "label": " Tuna salad sandwich" },
+  { "value": " Tuna salad with cheese  ", "label": " Tuna salad with cheese" },
+  { "value": " Tuna salad with egg  ", "label": " Tuna salad with egg" },
+  {
+    "value": " Tuna salad wrap sandwich  ",
+    "label": " Tuna salad wrap sandwich"
+  },
+  {
+    "value": " Tuna with cream or white sauce  ",
+    "label": " Tuna with cream or white sauce"
+  },
+  { "value": " Turkey  ", "label": " Turkey" },
+  {
+    "value": " Turkey and bacon submarine sandwich  ",
+    "label": " Turkey and bacon submarine sandwich"
+  },
+  { "value": " Turkey bacon  ", "label": " Turkey bacon" },
+  { "value": " Turkey dinner  ", "label": " Turkey dinner" },
+  { "value": " Turkey ham  ", "label": " Turkey ham" },
+  {
+    "value": " Turkey light or dark meat  ",
+    "label": " Turkey light or dark meat"
+  },
+  { "value": " Turkey or chicken  ", "label": " Turkey or chicken" },
+  {
+    "value": " Turkey or chicken and beef sausage  ",
+    "label": " Turkey or chicken and beef sausage"
+  },
+  {
+    "value": " Turkey or chicken and pork sausage  ",
+    "label": " Turkey or chicken and pork sausage"
+  },
+  {
+    "value": " Turkey or chicken burger  ",
+    "label": " Turkey or chicken burger"
+  },
+  {
+    "value": " Turkey or chicken sausage  ",
+    "label": " Turkey or chicken sausage"
+  },
+  {
+    "value": " Turkey salad or turkey spread sandwich  ",
+    "label": " Turkey salad or turkey spread sandwich"
+  },
+  { "value": " Turkey sandwich  ", "label": " Turkey sandwich" },
+  { "value": " Turkey stick  ", "label": " Turkey stick" },
+  {
+    "value": " Turkey submarine sandwich  ",
+    "label": " Turkey submarine sandwich"
+  },
+  {
+    "value": " Turkey with barbecue sauce  ",
+    "label": " Turkey with barbecue sauce"
+  },
+  { "value": " Turkey with gravy  ", "label": " Turkey with gravy" },
+  { "value": " Turkey with vegetable  ", "label": " Turkey with vegetable" },
+  { "value": " Turnip  ", "label": " Turnip" },
+  { "value": " Turnip greens  ", "label": " Turnip greens" },
+  { "value": " Turnover  ", "label": " Turnover" },
+  {
+    "value": " Turnover filled with ground beef and cabbage  ",
+    "label": " Turnover filled with ground beef and cabbage"
+  },
+  {
+    "value": " Turnover filled with meat and vegetable  ",
+    "label": " Turnover filled with meat and vegetable"
+  },
+  { "value": " Turnover or dumpling  ", "label": " Turnover or dumpling" },
+  { "value": " Turrnip greens  ", "label": " Turrnip greens" },
+  { "value": " Turtle  ", "label": " Turtle" },
+  {
+    "value": " Turtle and vegetable soup  ",
+    "label": " Turtle and vegetable soup"
+  },
+  { "value": " Tutti-fruitti pudding  ", "label": " Tutti-fruitti pudding" },
+  {
+    "value": " TWIX Caramel Cookie Bars  ",
+    "label": " TWIX Caramel Cookie Bars"
+  },
+  {
+    "value": " TWIX Chocolate Fudge Cookie Bars  ",
+    "label": " TWIX Chocolate Fudge Cookie Bars"
+  },
+  {
+    "value": " TWIX Peanut Butter Cookie Bars  ",
+    "label": " TWIX Peanut Butter Cookie Bars"
+  },
+  { "value": " Tzatziki dip  ", "label": " Tzatziki dip" },
+  { "value": " Upma  ", "label": " Upma" },
+  { "value": " Vada  ", "label": " Vada" },
+  {
+    "value": " Vanilla wafer dessert base  ",
+    "label": " Vanilla wafer dessert base"
+  },
+  { "value": " Veal  ", "label": " Veal" },
+  {
+    "value": " Veal and noodles with cream or white sauce  ",
+    "label": " Veal and noodles with cream or white sauce"
+  },
+  { "value": " Veal chop  ", "label": " Veal chop" },
+  { "value": " Veal cordon bleu  ", "label": " Veal cordon bleu" },
+  { "value": " Veal cutlet or steak  ", "label": " Veal cutlet or steak" },
+  { "value": " Veal fricassee  ", "label": " Veal fricassee" },
+  {
+    "value": " Veal goulash with vegetables excluding carrots  ",
+    "label": " Veal goulash with vegetables excluding carrots"
+  },
+  {
+    "value": " Veal goulash with vegetables including carrots  ",
+    "label": " Veal goulash with vegetables including carrots"
+  },
+  { "value": " Veal Marsala  ", "label": " Veal Marsala" },
+  { "value": " Veal parmigiana  ", "label": " Veal parmigiana" },
+  { "value": " Veal patty  ", "label": " Veal patty" },
+  { "value": " Veal scallopini  ", "label": " Veal scallopini" },
+  {
+    "value": " Veal stew with potatoes and vegetables excluding carrots  ",
+    "label": " Veal stew with potatoes and vegetables excluding carrots"
+  },
+  {
+    "value": " Veal stew with potatoes and vegetables including carrots  ",
+    "label": " Veal stew with potatoes and vegetables including carrots"
+  },
+  { "value": " Veal with butter sauce  ", "label": " Veal with butter sauce" },
+  { "value": " Veal with cream sauce  ", "label": " Veal with cream sauce" },
+  { "value": " Veal with gravy  ", "label": " Veal with gravy" },
+  {
+    "value": " Veal with vegetables excluding carrots  ",
+    "label": " Veal with vegetables excluding carrots"
+  },
+  {
+    "value": " Veal with vegetables including carrots  ",
+    "label": " Veal with vegetables including carrots"
+  },
+  { "value": " Vegan mayonnaise  ", "label": " Vegan mayonnaise" },
+  { "value": " Vegetable and beef  ", "label": " Vegetable and beef" },
+  { "value": " Vegetable and chicken  ", "label": " Vegetable and chicken" },
+  {
+    "value": " Vegetable and fruit juice  ",
+    "label": " Vegetable and fruit juice"
+  },
+  {
+    "value": " Vegetable and fruit juice drink  ",
+    "label": " Vegetable and fruit juice drink"
+  },
+  { "value": " Vegetable and turkey  ", "label": " Vegetable and turkey" },
+  {
+    "value": " Vegetable beef noodle soup  ",
+    "label": " Vegetable beef noodle soup"
+  },
+  { "value": " Vegetable beef soup  ", "label": " Vegetable beef soup" },
+  {
+    "value": " Vegetable beef soup with noodles or pasta  ",
+    "label": " Vegetable beef soup with noodles or pasta"
+  },
+  {
+    "value": " Vegetable beef soup with rice  ",
+    "label": " Vegetable beef soup with rice"
+  },
+  { "value": " Vegetable broth  ", "label": " Vegetable broth" },
+  {
+    "value": " Vegetable chicken rice soup  ",
+    "label": " Vegetable chicken rice soup"
+  },
+  { "value": " Vegetable chips  ", "label": " Vegetable chips" },
+  { "value": " Vegetable curry  ", "label": " Vegetable curry" },
+  {
+    "value": " Vegetable curry with rice  ",
+    "label": " Vegetable curry with rice"
+  },
+  { "value": " Vegetable dip  ", "label": " Vegetable dip" },
+  { "value": " Vegetable lasagna  ", "label": " Vegetable lasagna" },
+  { "value": " Vegetable mixture  ", "label": " Vegetable mixture" },
+  { "value": " Vegetable noodle soup  ", "label": " Vegetable noodle soup" },
+  { "value": " Vegetable oil  ", "label": " Vegetable oil" },
+  { "value": " Vegetable rice soup  ", "label": " Vegetable rice soup" },
+  { "value": " Vegetable smoothie  ", "label": " Vegetable smoothie" },
+  { "value": " Vegetable soup  ", "label": " Vegetable soup" },
+  {
+    "value": " Vegetable soup with chicken broth  ",
+    "label": " Vegetable soup with chicken broth"
+  },
+  {
+    "value": " Vegetable stew without meat  ",
+    "label": " Vegetable stew without meat"
+  },
+  {
+    "value": " Vegetable submarine sandwich  ",
+    "label": " Vegetable submarine sandwich"
+  },
+  { "value": " Vegetable tempura  ", "label": " Vegetable tempura" },
+  { "value": " Vegetables  ", "label": " Vegetables" },
+  {
+    "value": " Vegetables and cheese in pastry  ",
+    "label": " Vegetables and cheese in pastry"
+  },
+  { "value": " Vegetables and rice  ", "label": " Vegetables and rice" },
+  {
+    "value": " Vegetables as ingredient in curry  ",
+    "label": " Vegetables as ingredient in curry"
+  },
+  { "value": " Vegetables in pastry  ", "label": " Vegetables in pastry" },
+  { "value": " Vegetarian  ", "label": " Vegetarian" },
+  {
+    "value": " Vegetarian burger or patty  ",
+    "label": " Vegetarian burger or patty"
+  },
+  { "value": " Vegetarian chili  ", "label": " Vegetarian chili" },
+  { "value": " Vegetarian pot pie  ", "label": " Vegetarian pot pie" },
+  { "value": " Vegetarian stew  ", "label": " Vegetarian stew" },
+  { "value": " Vegetarian stroganoff  ", "label": " Vegetarian stroganoff" },
+  {
+    "value": " Vegetarian vegetable soup  ",
+    "label": " Vegetarian vegetable soup"
+  },
+  { "value": " Venison or deer  ", "label": " Venison or deer" },
+  {
+    "value": " Venison or deer and noodles with cream or white sauce  ",
+    "label": " Venison or deer and noodles with cream or white sauce"
+  },
+  {
+    "value": " Venison or deer stew with potatoes and vegetables excluding carrots  ",
+    "label": " Venison or deer stew with potatoes and vegetables excluding carrots"
+  },
+  {
+    "value": " Venison or deer stew with potatoes and vegetables including carrots  ",
+    "label": " Venison or deer stew with potatoes and vegetables including carrots"
+  },
+  {
+    "value": " Venison or deer with gravy  ",
+    "label": " Venison or deer with gravy"
+  },
+  {
+    "value": " Venison or deer with tomato-based sauce  ",
+    "label": " Venison or deer with tomato-based sauce"
+  },
+  { "value": " Venison/deer  ", "label": " Venison/deer" },
+  { "value": " Venison/deer jerky  ", "label": " Venison/deer jerky" },
+  { "value": " Venison/deer ribs  ", "label": " Venison/deer ribs" },
+  { "value": " Venison/deer steak  ", "label": " Venison/deer steak" },
+  { "value": " Vermicelli  ", "label": " Vermicelli" },
+  { "value": " Vienna sausage  ", "label": " Vienna sausage" },
+  {
+    "value": " Vienna sausages stewed with potatoes  ",
+    "label": " Vienna sausages stewed with potatoes"
+  },
+  { "value": " Vinegar  ", "label": " Vinegar" },
+  { "value": " Vodka  ", "label": " Vodka" },
+  { "value": " Vodka and cola  ", "label": " Vodka and cola" },
+  { "value": " Vodka and diet cola  ", "label": " Vodka and diet cola" },
+  { "value": " Vodka and energy drink  ", "label": " Vodka and energy drink" },
+  { "value": " Vodka and lemonade  ", "label": " Vodka and lemonade" },
+  { "value": " Vodka and soda  ", "label": " Vodka and soda" },
+  { "value": " Vodka and tonic  ", "label": " Vodka and tonic" },
+  { "value": " Vodka and water  ", "label": " Vodka and water" },
+  {
+    "value": " Vodka sauce with tomatoes and cream  ",
+    "label": " Vodka sauce with tomatoes and cream"
+  },
+  { "value": " Waffle  ", "label": " Waffle" },
+  { "value": " Walnut oil  ", "label": " Walnut oil" },
+  { "value": " Walnuts  ", "label": " Walnuts" },
+  { "value": " Wasabi paste  ", "label": " Wasabi paste" },
+  { "value": " Wasabi peas  ", "label": " Wasabi peas" },
+  { "value": " Water  ", "label": " Water" },
+  { "value": " Water Chesnut  ", "label": " Water Chesnut" },
+  { "value": " Watercress  ", "label": " Watercress" },
+  {
+    "value": " Watercress broth with shrimp  ",
+    "label": " Watercress broth with shrimp"
+  },
+  { "value": " Watermelon  ", "label": " Watermelon" },
+  { "value": " Watermelon juice  ", "label": " Watermelon juice" },
+  { "value": " Wax candy  ", "label": " Wax candy" },
+  { "value": " Welsh rarebit  ", "label": " Welsh rarebit" },
+  { "value": " Whatchamacallit  ", "label": " Whatchamacallit" },
+  { "value": " Wheat  ", "label": " Wheat" },
+  { "value": " Wheat bran  ", "label": " Wheat bran" },
+  {
+    "value": " Wheat bread as ingredient in sandwiches  ",
+    "label": " Wheat bread as ingredient in sandwiches"
+  },
+  {
+    "value": " Wheat bun as ingredient in sandwiches  ",
+    "label": " Wheat bun as ingredient in sandwiches"
+  },
+  { "value": " Wheat cereal  ", "label": " Wheat cereal" },
+  { "value": " Wheat flour fritter  ", "label": " Wheat flour fritter" },
+  { "value": " Wheat germ  ", "label": " Wheat germ" },
+  { "value": " Wheat germ oil  ", "label": " Wheat germ oil" },
+  { "value": " Whey  ", "label": " Whey" },
+  { "value": " Whipped topping  ", "label": " Whipped topping" },
+  { "value": " Whiskey  ", "label": " Whiskey" },
+  { "value": " Whiskey and cola  ", "label": " Whiskey and cola" },
+  { "value": " Whiskey and diet cola  ", "label": " Whiskey and diet cola" },
+  { "value": " Whiskey and ginger ale  ", "label": " Whiskey and ginger ale" },
+  { "value": " Whiskey and soda  ", "label": " Whiskey and soda" },
+  { "value": " Whiskey and water  ", "label": " Whiskey and water" },
+  { "value": " Whiskey sour  ", "label": " Whiskey sour" },
+  { "value": " White beans  ", "label": " White beans" },
+  { "value": " White pizza  ", "label": " White pizza" },
+  { "value": " White Russian  ", "label": " White Russian" },
+  { "value": " White sauce or gravy  ", "label": " White sauce or gravy" },
+  { "value": " Whiting  ", "label": " Whiting" },
+  { "value": " Whole wheat cereal  ", "label": " Whole wheat cereal" },
+  {
+    "value": " Whole wheat cereal with apples  ",
+    "label": " Whole wheat cereal with apples"
+  },
+  { "value": " Whopper (Burger King)  ", "label": " Whopper (Burger King)" },
+  {
+    "value": " Whopper Jr (Burger King)  ",
+    "label": " Whopper Jr (Burger King)"
+  },
+  {
+    "value": " Whopper Jr with cheese (Burger King)  ",
+    "label": " Whopper Jr with cheese (Burger King)"
+  },
+  {
+    "value": " Whopper with cheese (Burger King)  ",
+    "label": " Whopper with cheese (Burger King)"
+  },
+  { "value": " Wild pig  ", "label": " Wild pig" },
+  { "value": " Wine  ", "label": " Wine" },
+  { "value": " Wine cooler  ", "label": " Wine cooler" },
+  { "value": " Wine spritzer  ", "label": " Wine spritzer" },
+  { "value": " Winter melon  ", "label": " Winter melon" },
+  { "value": " Winter squash  ", "label": " Winter squash" },
+  { "value": " Wonton  ", "label": " Wonton" },
+  { "value": " Wonton soup  ", "label": " Wonton soup" },
+  { "value": " Worcestershire sauce  ", "label": " Worcestershire sauce" },
+  { "value": " Wrap sandwich  ", "label": " Wrap sandwich" },
+  { "value": " Yam  ", "label": " Yam" },
+  {
+    "value": " Yam buns; Puerto Rican style  ",
+    "label": " Yam buns; Puerto Rican style"
+  },
+  { "value": " Yat Ga Mein with meat  ", "label": " Yat Ga Mein with meat" },
+  { "value": " Yeast  ", "label": " Yeast" },
+  { "value": " Yeast extract spread  ", "label": " Yeast extract spread" },
+  { "value": " Yellow rice  ", "label": " Yellow rice" },
+  { "value": " Yellow string beans  ", "label": " Yellow string beans" },
+  { "value": " Yogurt  ", "label": " Yogurt" },
+  { "value": " Yogurt and fruit snack  ", "label": " Yogurt and fruit snack" },
+  {
+    "value": " Yogurt covered fruit snacks candy  ",
+    "label": " Yogurt covered fruit snacks candy"
+  },
+  {
+    "value": " Yogurt covered fruit snacks candy rolls  ",
+    "label": " Yogurt covered fruit snacks candy rolls"
+  },
+  { "value": " Yogurt dressing  ", "label": " Yogurt dressing" },
+  { "value": " Yogurt parfait  ", "label": " Yogurt parfait" },
+  { "value": " Yokan  ", "label": " Yokan" },
+  { "value": " Yuca fries  ", "label": " Yuca fries" },
+  { "value": " Zombie  ", "label": " Zombie" },
+  { "value": " Zucchini  ", "label": " Zucchini" },
+  { "value": " Zucchini lasagna  ", "label": " Zucchini lasagna" },
+  { "value": " Zucchini soup  ", "label": " Zucchini soup" },
+  { "value": " Zwieback toast  ", "label": " Zwieback toast" }
+]

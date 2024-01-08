@@ -4,21 +4,20 @@ import InputGroup from "react-bootstrap/InputGroup";
 
 function CardForm() {
   return (
-    <Form className="d-flex flex-column p-4">
+    <Form className="d-flex flex-column p-3">
       <Form.Control type="text" placeholder="Dish Name" className="mt-1" />
 
       <Form.Control
         as="textarea"
         placeholder="Dish Description"
-        style={{ height: "75px", resize: "none" }}
         className="mt-3"
         rows="3"
       />
-      <InputGroup className="mt-3 w-50 ">
+      <InputGroup className="my-3 w-75 ms-auto ">
         <Form.Control
           type="number"
           step="0.01"
-          placeholder="5.59"
+          placeholder="5.50"
           className="ms-auto"
         />
         <InputGroup.Text id="money">€</InputGroup.Text>
@@ -27,7 +26,7 @@ function CardForm() {
       <Button
         variant="warning"
         type="submit"
-        className="mt-2 text-dark ms-auto fw-semibold"
+        className=" text-dark ms-auto fw-semibold"
       >
         Submit
       </Button>
