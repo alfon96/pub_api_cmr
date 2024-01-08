@@ -1,0 +1,78 @@
+[
+  {
+    "value": "Cereals containing gluten",
+    "label": "Cereals containing gluten"
+  },
+  {
+    "value": "Crustaceans",
+    "label": "Crustaceans"
+  },
+  {
+    "value": "Eggs",
+    "label": "Eggs"
+  },
+  {
+    "value": "Fish",
+    "label": "Fish"
+  },
+  {
+    "value": "Peanuts",
+    "label": "Peanuts"
+  },
+  {
+    "value": "Soybeans",
+    "label": "Soybeans"
+  },
+  {
+    "value": "Milk",
+    "label": "Milk"
+  },
+  {
+    "value": "Nuts (e.g., almonds, hazelnuts, walnuts, cashews, etc.)",
+    "label": "Nuts (e.g., almonds, hazelnuts, walnuts, cashews, etc.)"
+  },
+  {
+    "value": "Celery",
+    "label": "Celery"
+  },
+  {
+    "value": "Mustard",
+    "label": "Mustard"
+  },
+  {
+    "value": "Sesame seeds",
+    "label": "Sesame seeds"
+  },
+  {
+    "value": "Sulfur dioxide and sulfites (at concentrations of more than 10 mg/kg or 10 mg/liter in terms of the total SO2)",
+    "label": "Sulfur dioxide and sulfites (at concentrations of more than 10 mg/kg or 10 mg/liter in terms of the total SO2)"
+  },
+  {
+    "value": "Lupin",
+    "label": "Lupin"
+  },
+  {
+    "value": "Mollusks",
+    "label": "Mollusks"
+  },
+  {
+    "value": "Treenuts (e.g., pecans, pistachios, macadamia nuts, etc.)",
+    "label": "Treenuts (e.g., pecans, pistachios, macadamia nuts, etc.)"
+  },
+  {
+    "value": "Wheat",
+    "label": "Wheat"
+  },
+  {
+    "value": "Shellfish",
+    "label": "Shellfish"
+  },
+  {
+    "value": "Soy",
+    "label": "Soy"
+  },
+  {
+    "value": "Sesame",
+    "label": "Sesame"
+  }
+]

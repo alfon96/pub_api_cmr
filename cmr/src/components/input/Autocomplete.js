@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import CreatableSelect from "react-select/creatable";
 import { components } from "react-select";
-import allDietOptions from "../../food.json"; // Full list of options
-import { buildTrieFromWords } from "../utils/Trie"; // Adjust the path
+import allDietOptions from "../../food.json";
+import allAllergens from "../../allergens.json";
+import { buildTrieFromWords } from "../utils/Trie";
 
 const MultiValueLabel = ({ children, ...props }) => {
   return (
@@ -12,20 +13,26 @@ const MultiValueLabel = ({ children, ...props }) => {
   );
 };
 
-const Autocomplete = () => {
-  const trie = buildTrieFromWords(allDietOptions); // Usa tutto l'array di oggetti
+const Autocomplete = (props) => {
+  const referringData = props.ingredients ? allDietOptions : allAllergens;
+
+  const trie = buildTrieFromWords(referringData);
 
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [inputValue, setInputValue] = useState("");
-  const [dietOptions, setDietOptions] = useState(allDietOptions.slice(0, 10)); // Initial subset
+  const [dietOptions, setDietOptions] = useState(
+    props.sliceResults ? referringData.slice(0, 5) : referringData
+  ); // Initial subset
 
   const handleInputChange = (input) => {
     setInputValue(input);
     if (!input) {
-      setDietOptions(allDietOptions.slice(0, 10));
+      setDietOptions(
+        props.sliceResults ? referringData.slice(0, 5) : referringData
+      );
     } else {
       const filteredWords = trie.search(input.trim().toLowerCase());
-      const filteredOptions = allDietOptions.filter((option) =>
+      const filteredOptions = referringData.filter((option) =>
         filteredWords.includes(option.label.trim().toLowerCase())
       );
       setDietOptions(filteredOptions);
@@ -38,7 +45,7 @@ const Autocomplete = () => {
 
   const handleCreate = (inputValue) => {
     const newValue = { value: inputValue.toLowerCase(), label: inputValue };
-    allDietOptions.push(newValue); // Add the new option to the full list
+    referringData.push(newValue); // Add the new option to the full list
     setSelectedOptions([...selectedOptions, newValue]);
   };
 

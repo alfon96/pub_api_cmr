@@ -10,7 +10,7 @@ const Keywords = () => {
   return (
     <>
       <p className="text-center">Diet Type & Allergens</p>
-      <Autocomplete />
+      <Autocomplete ingredients={false} sliceResults={false} />
     </>
   );
 };

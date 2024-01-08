@@ -9,7 +9,7 @@ const Keywords = () => {
     <>
       <p className="text-center">Ingredients</p>
 
-      <Autocomplete />
+      <Autocomplete ingredients={true} sliceResults={true} />
     </>
   );
 };
