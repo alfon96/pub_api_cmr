@@ -8,17 +8,34 @@ import Button from "react-bootstrap/Button";
 import { TiDelete } from "react-icons/ti";
 import { useDispatch } from "react-redux";
 import { allowDrag, stopDrag } from "../store/draggableSlice";
+import useTicketHandler from "../hook/ticketHandler";
 
 const ImgDropAndCrop = (props) => {
   const dispatch = useDispatch();
-  const [img, setImg] = useState(props.foodData.imagePreview ?? null);
+
+  const [img, setImg, handleImageFileTicket] = useTicketHandler({
+    initialValue: props.foodData.imagePreview ?? null,
+    sectionName: props.sectionName,
+    elementId: props.foodData.id,
+    fieldName: "imagePreview",
+  });
+
+  const [offset, setOffset, handleImageOffsetTicket] = useTicketHandler({
+    initialValue: props.foodData.Offset,
+    sectionName: props.sectionName,
+    elementId: props.foodData.id,
+    fieldName: "offset",
+  });
+
+  const [scale, setScale, handleImageScaleTicket] = useTicketHandler({
+    initialValue: parseFloat(props.foodData.scale),
+    sectionName: props.sectionName,
+    elementId: props.foodData.id,
+    fieldName: "scale",
+  });
+
   const [imageWidth, setImageWidth] = useState(null);
   const [imageHeight, setImageHeight] = useState(null);
-  const [scale, setScale] = useState(parseFloat(props.foodData.scale));
-  const [position, setPosition] = useState({
-    x: parseFloat(props.foodData.xOffset),
-    y: parseFloat(props.foodData.yOffset),
-  });
 
   useEffect(() => {
     if (img) {
@@ -72,7 +89,7 @@ const ImgDropAndCrop = (props) => {
 
   const handleChangedPosition = (newPosition) => {
     // Aggiorna lo stato con le nuove informazioni sulla traslazione
-    setPosition(newPosition);
+    setOffset(newPosition);
     console.log(
       "Nuova posizione:",
       newPosition,
@@ -94,7 +111,7 @@ const ImgDropAndCrop = (props) => {
         width: "100%",
         height: "100%",
         background: "#777",
-        maxHeight: "300px",
+        maxHeight: "250px",
       }}
       className=" position-relative rounded-start-4  overflow-hidden d-flex flex-column align-items-center justify-content-center"
       onMouseEnter={() => dispatch(stopDrag())}
@@ -124,12 +141,13 @@ const ImgDropAndCrop = (props) => {
           height={imageHeight}
           width={imageWidth}
           scale={scale}
-          position={position}
+          position={offset}
           color={[255, 255, 255, 0.6]} // RGBA
           rotate={0}
           style={divStyle}
           className=""
           onPositionChange={handleChangedPosition}
+          onMouseUp={handleImageOffsetTicket}
         />
       )}
 
@@ -143,6 +161,7 @@ const ImgDropAndCrop = (props) => {
               max="2"
               step="0.05"
               className=" opacity-75 rounded-pill"
+              onMouseUp={handleImageScaleTicket}
             />
           </Col>
           <Col xs={6}>

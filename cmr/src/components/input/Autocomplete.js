@@ -1,31 +1,39 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CreatableSelect from "react-select/creatable";
-import { components } from "react-select";
-
 import { buildTrieFromWords } from "../utils/Trie";
 import { useDispatch } from "react-redux";
 import { allowDrag, stopDrag } from "../store/draggableSlice";
-
-const MultiValueLabel = ({ children, ...props }) => {
-  return (
-    <components.MultiValueLabel {...props}>
-      {children}
-    </components.MultiValueLabel>
-  );
-};
+import useTicketHandler from "../hook/ticketHandler";
 
 const Autocomplete = (props) => {
   const referringData = props.referringData;
   const dispatch = useDispatch();
   const trie = buildTrieFromWords(referringData);
-  const [selectedOptions, setSelectedOptions] = useState([]);
-  const [inputValue, setInputValue] = useState("");
+
+  const [selectedOptions, setSelectedOptions, handleSelectedOptionsTicket] =
+    useTicketHandler({
+      initialValue: props.foodData[props.fieldName],
+      sectionName: props.sectionName,
+      elementId: props.foodData.id,
+      fieldName: props.fieldName,
+    });
+
+  const [transformedData, setTransformedData] = useState([]);
+
+  useEffect(() => {
+    const transformedData = selectedOptions?.map((item) => ({
+      value: item.toLowerCase(),
+      label: item,
+    }));
+    handleSelectedOptionsTicket();
+    setTransformedData(transformedData);
+  }, [selectedOptions]);
+
   const [dietOptions, setDietOptions] = useState(
     props.sliceResults ? referringData.slice(0, 5) : referringData
-  ); // Initial subset
+  );
 
   const handleInputChange = (input) => {
-    setInputValue(input);
     if (!input) {
       setDietOptions(
         props.sliceResults ? referringData.slice(0, 5) : referringData
@@ -40,13 +48,13 @@ const Autocomplete = (props) => {
   };
 
   const handleChange = (options) => {
-    setSelectedOptions(options);
+    setSelectedOptions([...selectedOptions, options[options.length - 1].value]);
   };
 
   const handleCreate = (inputValue) => {
     const newValue = { value: inputValue.toLowerCase(), label: inputValue };
     referringData.push(newValue); // Add the new option to the full list
-    setSelectedOptions([...selectedOptions, newValue]);
+    setSelectedOptions([...selectedOptions, newValue.value]);
   };
 
   return (
@@ -62,8 +70,9 @@ const Autocomplete = (props) => {
         onChange={handleChange}
         onCreateOption={handleCreate}
         options={dietOptions}
-        value={selectedOptions}
+        value={transformedData}
         placeholder="Select or create an item."
+        // onBlur={handleSelectedOptionsTicket}
       />
     </div>
   );

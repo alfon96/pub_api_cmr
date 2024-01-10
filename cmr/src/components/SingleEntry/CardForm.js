@@ -1,22 +1,36 @@
-import { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import { useDispatch } from "react-redux";
-import { updateMasterTicket } from "../store/foodSlice";
+import useTicketHandler from "../hook/ticketHandler";
 
 function CardForm(props) {
-  const [name, setName] = useState(props.foodData.name);
-  const [description, setDescription] = useState(props.foodData.description);
-  const [price, setPrice] = useState(props.foodData.price);
-  const dispatch = useDispatch();
+  const [name, setName, handleNameTicket] = useTicketHandler({
+    initialValue: props.foodData.name,
+    sectionName: props.sectionName,
+    elementId: props.foodData.id,
+    fieldName: "name",
+  });
+
+  const [description, setDescription, handleDescriptionTicket] =
+    useTicketHandler({
+      initialValue: props.foodData.description,
+      sectionName: props.sectionName,
+      elementId: props.foodData.id,
+      fieldName: "description",
+    });
+
+  const [price, setPrice, handlePriceTicket] = useTicketHandler({
+    initialValue: props.foodData.price,
+    sectionName: props.sectionName,
+    elementId: props.foodData.id,
+    fieldName: "price",
+  });
   const handleSubmit = (e) => {
     e.preventDefault();
   };
 
   return (
     <Form
-      className="d-flex flex-column p-3 bg-light rounded-end-4"
+      className="d-flex flex-column p-3 rounded-end-4"
       onClick={handleSubmit}
     >
       <Form.Control
@@ -27,16 +41,7 @@ function CardForm(props) {
         onChange={(e) => {
           setName(e.target.value);
         }}
-        onMouseLeave={() => {
-          dispatch(
-            updateMasterTicket({
-              sectionName: props.sectionName,
-              elementId: props.foodData.id,
-              fieldName: "name",
-              newValue: name,
-            })
-          );
-        }}
+        onBlur={handleNameTicket}
       />
 
       <Form.Control
@@ -48,8 +53,9 @@ function CardForm(props) {
         onChange={(e) => {
           setDescription(e.target.value);
         }}
+        onBlur={handleDescriptionTicket}
       />
-      <InputGroup className="my-3 w-50 mx-auto ">
+      <InputGroup className="my-3 w-75 mx-auto ">
         <Form.Control
           type="number"
           step="0.01"
@@ -59,6 +65,7 @@ function CardForm(props) {
           onChange={(e) => {
             setPrice(e.target.value);
           }}
+          onBlur={handlePriceTicket}
         />
         <InputGroup.Text id="money">€</InputGroup.Text>
       </InputGroup>

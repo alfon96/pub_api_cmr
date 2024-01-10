@@ -1,76 +1,86 @@
-import { createSlice, current } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
-const newTicket = (ticketTitle, ticketValue, oldValue = null) => {
-  const ticket = {
-    [ticketTitle]: oldValue ? [oldValue, ticketValue] : [ticketValue],
-    index: oldValue ? 1 : 0,
-  };
-  return ticket;
-};
+const newTicket = (ticketTitle, ticketValue, oldValue) => ({
+  [ticketTitle]: [oldValue ?? ticketValue].concat(
+    oldValue ? [ticketValue] : []
+  ),
+  index: oldValue ? 1 : 0,
+});
 
 const updateTicketValue = (ticket, ticketTitle, newValue) => {
-  if (
-    ticket &&
-    ticket[ticketTitle] &&
-    ticket[ticketTitle][ticket[ticketTitle].length - 1] !== newValue
-  ) {
-    ticket[ticketTitle].push(newValue);
-    ticket.index = ticket[ticketTitle].length - 1;
+  if (!ticket || !ticket[ticketTitle]) return;
+  const ticketValues = ticket[ticketTitle];
+  if (ticketValues.at(-1) !== newValue) {
+    ticketValues.push(newValue);
+    ticket.index = ticketValues.length - 1;
   }
 };
 
-const updateTicketIndex = (ticket, ticketTitle, increment) => {
-  if (ticket && ticket[ticketTitle]) {
-    const newIndex = ticket.index + increment;
-    if (newIndex >= 0 && newIndex < ticket[ticketTitle].length) {
-      ticket.index = newIndex;
-    }
-  }
-};
-
-const getTicket = (ticketTitle, masterTicket) => {
-  return masterTicket.find((item) => item && item.hasOwnProperty(ticketTitle));
-};
+const getTicket = (ticketTitle, masterTicket) =>
+  masterTicket.find((item) => item?.hasOwnProperty(ticketTitle));
 
 const foodSlice = createSlice({
   name: "food",
   initialState: {
     menu: {},
     masterTicket: [],
+    editedMap: {},
+    masterTicketIndex: 0,
   },
   reducers: {
     setMenu: (state, action) => {
       state.menu = action.payload;
     },
-
     updateMasterTicket: (state, action) => {
-      const { sectionName, elementId, fieldName, newValue, undo, redo } =
-        action.payload;
-      const ticketTitle = `${sectionName}?-?${fieldName}?-?${elementId}`;
-      let ticket = getTicket(ticketTitle, state.masterTicket);
-      console.log(current(state));
-      if (ticket) {
-        if (undo && ticket.index > 0) {
-          updateTicketIndex(ticket, ticketTitle, -1);
-        } else if (redo && ticket.index < ticket[ticketTitle].length - 1) {
-          updateTicketIndex(ticket, ticketTitle, 1);
-        } else {
-          updateTicketValue(ticket, ticketTitle, newValue);
+      const { sectionName, elementId, fieldName, newValue } = action.payload;
+      const ticketTitle = `${sectionName}?-?${elementId}?-?${fieldName}`;
+      const foundTicket = getTicket(ticketTitle, state.masterTicket);
+
+      const oldValue = foundTicket
+        ? foundTicket[ticketTitle]?.[foundTicket.index]
+        : state.menu[sectionName]?.find((item) => item.id === elementId)?.[
+            fieldName
+          ];
+
+      if (JSON.stringify(oldValue) === JSON.stringify(newValue)) return;
+
+      foundTicket
+        ? updateTicketValue(foundTicket, ticketTitle, newValue)
+        : state.masterTicket.push(newTicket(ticketTitle, newValue, oldValue));
+
+      state.masterTicketIndex = state.masterTicket.length - 1;
+    },
+    updateTicketHistory: (state, action) => {
+      const { undo, redo } = action.payload;
+      if (state.masterTicket.length === 0) return;
+
+      let { masterTicketIndex } = state;
+      const direction = undo ? -1 : redo ? 1 : 0;
+
+      for (
+        let i = masterTicketIndex;
+        i >= 0 && i < state.masterTicket.length;
+        i += direction
+      ) {
+        const ticket = state.masterTicket[i];
+        const ticketTitle = Object.keys(ticket)[0];
+        const newTicketItemIndex = ticket.index + direction;
+
+        if (
+          newTicketItemIndex >= 0 &&
+          newTicketItemIndex < ticket[ticketTitle].length
+        ) {
+          ticket.index = newTicketItemIndex;
+          state.editedMap[ticketTitle] =
+            ticket[ticketTitle][newTicketItemIndex];
+          state.masterTicketIndex = i;
+          break;
         }
-      } else {
-        const oldValue = state.menu[sectionName]?.find(
-          (item) => item.id === elementId
-        )?.[fieldName];
-        const newTicketItem = newTicket(
-          ticketTitle,
-          newValue,
-          oldValue != newValue ? oldValue : null
-        );
-        state.masterTicket.push(newTicketItem);
       }
     },
   },
 });
 
-export const { setMenu, updateMasterTicket } = foodSlice.actions;
+export const { setMenu, updateMasterTicket, updateTicketHistory } =
+  foodSlice.actions;
 export default foodSlice.reducer;

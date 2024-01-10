@@ -17,7 +17,10 @@ const SingleEntry = (props) => {
           ></ItemCard>
         </Col>
         <Col xs={12} md={12} lg={5}>
-          <AdditionalData></AdditionalData>
+          <AdditionalData
+            foodData={props.foodData}
+            sectionName={props.sectionName}
+          ></AdditionalData>
         </Col>
 
         {/* Second Row */}
