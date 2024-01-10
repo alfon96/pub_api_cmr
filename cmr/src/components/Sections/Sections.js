@@ -1,38 +1,20 @@
-import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
+import SingleSection from "./SingleSection";
+import { useSelector } from "react-redux";
 
-function SectionsAccordion(props) {
-  const items = props.items;
-  const [title, setTitle] = useState(props.title);
-  const handleFormClick = (e) => {
-    e.stopPropagation();
-  };
+function SectionsAccordion() {
+  const fullMenu = useSelector((state) => state.food.menu);
+
   return (
-    <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0" className="text-dark">
-        <Accordion.Header>
-          <Form onClick={handleFormClick}>
-            <Form.Control
-              type="text"
-              placeholder="Enter email"
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              className="border-0  fs-5 "
-              style={{ background: "transparent" }}
-            />
-          </Form>
-        </Accordion.Header>
-        <Accordion.Body className="my-5">
-          {items.map((item, index) => (
-            <React.Fragment key={index}>
-              {item}
-              {index < items.length - 1 && <hr className="my-5" />}
-            </React.Fragment>
-          ))}
-        </Accordion.Body>
-      </Accordion.Item>
+    <Accordion defaultActiveKey="0" className="my-5">
+      {Object.entries(fullMenu).map(([sectionName, sectionItems], index) => (
+        <Accordion.Item key={index} eventKey={index} className="text-dark">
+          <SingleSection
+            sectionName={sectionName}
+            sectionItems={sectionItems}
+          />
+        </Accordion.Item>
+      ))}
     </Accordion>
   );
 }

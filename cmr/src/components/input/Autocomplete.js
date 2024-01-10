@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import CreatableSelect from "react-select/creatable";
 import { components } from "react-select";
-import allDietOptions from "../../food.json";
-import allAllergens from "../../allergens.json";
+
 import { buildTrieFromWords } from "../utils/Trie";
+import { useDispatch } from "react-redux";
+import { allowDrag, stopDrag } from "../store/draggableSlice";
 
 const MultiValueLabel = ({ children, ...props }) => {
   return (
@@ -14,10 +15,9 @@ const MultiValueLabel = ({ children, ...props }) => {
 };
 
 const Autocomplete = (props) => {
-  const referringData = props.ingredients ? allDietOptions : allAllergens;
-
+  const referringData = props.referringData;
+  const dispatch = useDispatch();
   const trie = buildTrieFromWords(referringData);
-
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [dietOptions, setDietOptions] = useState(
@@ -50,7 +50,10 @@ const Autocomplete = (props) => {
   };
 
   return (
-    <div>
+    <div
+      onMouseEnter={() => dispatch(stopDrag())}
+      onMouseLeave={() => dispatch(allowDrag())}
+    >
       <CreatableSelect
         isMulti
         isClearable
@@ -60,7 +63,7 @@ const Autocomplete = (props) => {
         onCreateOption={handleCreate}
         options={dietOptions}
         value={selectedOptions}
-        placeholder="Seleziona o crea una dieta..."
+        placeholder="Select or create an item."
       />
     </div>
   );

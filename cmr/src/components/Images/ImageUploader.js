@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import AvatarEditor from "react-avatar-editor";
 import { useDropzone } from "react-dropzone";
 import Form from "react-bootstrap/Form";
@@ -6,13 +6,31 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { TiDelete } from "react-icons/ti";
+import { useDispatch } from "react-redux";
+import { allowDrag, stopDrag } from "../store/draggableSlice";
 
 const ImgDropAndCrop = (props) => {
-  const [file, setFile] = useState(null);
+  const dispatch = useDispatch();
+  const [img, setImg] = useState(props.foodData.imagePreview ?? null);
   const [imageWidth, setImageWidth] = useState(null);
   const [imageHeight, setImageHeight] = useState(null);
-  const [scale, setScale] = useState(1);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [scale, setScale] = useState(parseFloat(props.foodData.scale));
+  const [position, setPosition] = useState({
+    x: parseFloat(props.foodData.xOffset),
+    y: parseFloat(props.foodData.yOffset),
+  });
+
+  useEffect(() => {
+    if (img) {
+      const image = new Image();
+      image.src = img;
+
+      image.onload = () => {
+        setImageWidth(image.naturalWidth);
+        setImageHeight(image.naturalHeight);
+      };
+    }
+  }, [img]);
 
   const divStyle = {
     borderTopLeftRadius: "10px",
@@ -27,7 +45,7 @@ const ImgDropAndCrop = (props) => {
 
     const uploadedFile = acceptedFiles[0];
     if (uploadedFile.type.startsWith("image/")) {
-      setFile(uploadedFile);
+      setImg(uploadedFile);
 
       // Create a URL for the file
       const imageUrl = URL.createObjectURL(uploadedFile);
@@ -65,17 +83,24 @@ const ImgDropAndCrop = (props) => {
     ); // Mostra le informazioni sulla traslazione con console.log
   };
   const handleDeleteImg = () => {
-    setFile(null);
+    setImg(null);
   };
 
   const onChangeScale = (e) => setScale(parseFloat(e.target.value));
 
   return (
     <div
-      style={{ width: "100%", height: "100%", background: "#777" }}
+      style={{
+        width: "100%",
+        height: "100%",
+        background: "#777",
+        maxHeight: "300px",
+      }}
       className=" position-relative rounded-start-4  overflow-hidden d-flex flex-column align-items-center justify-content-center"
+      onMouseEnter={() => dispatch(stopDrag())}
+      onMouseLeave={() => dispatch(allowDrag())}
     >
-      {file === null && (
+      {img === null && (
         <div
           {...getRootProps()}
           style={{
@@ -92,13 +117,14 @@ const ImgDropAndCrop = (props) => {
           </p>
         </div>
       )}
-      {file && (
+      {img && (
         <AvatarEditor
-          image={file}
+          image={img}
           border={0}
           height={imageHeight}
           width={imageWidth}
           scale={scale}
+          position={position}
           color={[255, 255, 255, 0.6]} // RGBA
           rotate={0}
           style={divStyle}
@@ -107,7 +133,7 @@ const ImgDropAndCrop = (props) => {
         />
       )}
 
-      {file && (
+      {img && (
         <Row className="position-absolute fixed-bottom  p-1 d-flex align-items-center justify-content-center">
           <Col xs={6}>
             <Form.Range

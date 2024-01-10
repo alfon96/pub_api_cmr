@@ -1,32 +1,26 @@
-import Ingredients from "./Ingredients";
 import ItemCard from "./ItemCard";
-import Keywords from "./Keywords";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const SingleEntry = () => {
+import AdditionalData from "./AdditionalData";
+
+const SingleEntry = (props) => {
   return (
-    <Container fluid className="m-0 p-0">
+    <Container fluid className="m-0 p-0" id={props.id}>
       {/* First Row */}
-      <Row className="g-0 gy-5 d-flex align-items-center justify-content-center">
-        <Col xs={3}></Col>
-
-        <Col xs={6}>
-          <ItemCard></ItemCard>
+      <Row className="g-5 gy-5 px-2 d-flex align-items-center justify-content-center">
+        <Col xs={12} md={12} lg={6}>
+          <ItemCard
+            foodData={props.foodData}
+            sectionName={props.sectionName}
+          ></ItemCard>
         </Col>
-
-        <Col xs={3}></Col>
+        <Col xs={12} md={12} lg={5}>
+          <AdditionalData></AdditionalData>
+        </Col>
 
         {/* Second Row */}
-
-        <Col xs={10}>
-          <Ingredients></Ingredients>
-        </Col>
-
-        <Col xs={10}>
-          <Keywords></Keywords>
-        </Col>
       </Row>
     </Container>
   );

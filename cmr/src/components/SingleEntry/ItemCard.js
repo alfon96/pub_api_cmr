@@ -8,15 +8,16 @@ import CardForm from "./CardForm";
 import ImgDropAndCrop from "../Images/ImageUploader";
 import Form from "react-bootstrap/Form";
 
-function ItemCard() {
+function ItemCard(props) {
+  
   return (
     <>
-      <Row className="border shadow-lg rounded-4">
+      <Row className="border shadow-lg rounded-4 ">
         <Col xs={12} md={6} className="p-0  ">
-          <ImgDropAndCrop></ImgDropAndCrop>
+          <ImgDropAndCrop foodData={props.foodData}></ImgDropAndCrop>
         </Col>
         <Col xs={12} md={6} className="p-0  rounded-end-4 ">
-          <CardForm></CardForm>
+          <CardForm foodData={props.foodData} sectionName={props.sectionName}></CardForm>
         </Col>
       </Row>
     </>
