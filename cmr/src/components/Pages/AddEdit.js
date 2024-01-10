@@ -144,27 +144,10 @@ const AddEdit = () => {
         <Row className="g-0">
           <Sidebar></Sidebar>
 
-          <Col xs={2}>
-            <div className="bg-primary"></div>
-          </Col>
-
-          <Col xs={6}>
+          <Col xs={12} className="">
             <Title></Title>
           </Col>
 
-          <Col xs={3}>
-            <div className="bg-dark"></div>
-          </Col>
-
-          <Col xs={3}>
-            <div className="bg-primary"></div>
-          </Col>
-
-          <Col xs={6}>{/* <SearchBar></SearchBar> */}</Col>
-
-          <Col xs={3}>
-            <div className="bg-dark"></div>
-          </Col>
           <Col xs={1}>
             <div className="bg-dark"></div>
           </Col>

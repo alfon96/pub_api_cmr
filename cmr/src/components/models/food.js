@@ -9,8 +9,7 @@ class Food {
     images,
     ingredients,
     food_beverage,
-    xOffset,
-    yOffset,
+    offset,
     scale,
     order
   ) {
@@ -23,8 +22,7 @@ class Food {
     this.images = images;
     this.ingredients = ingredients;
     this.food_beverage = food_beverage;
-    this.xOffset = xOffset;
-    this.yOffset = yOffset;
+    this.offset = offset;
     this.scale = scale;
     this.order = order;
   }

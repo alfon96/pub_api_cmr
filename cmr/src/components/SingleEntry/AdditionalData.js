@@ -1,12 +1,12 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import allDietOptions from "../../food.json";
-import allAllergens from "../../allergens.json";
+import allDietOptions from "../data/food.json";
+import allAllergens from "../data/allergens.json";
 import Autocomplete from "../input/Autocomplete";
 
 const AdditionalData = (props) => {
   return (
-    <Row className="g-3  px-5 d-flex align-items-center justify-content-end border border-2  shadow-sm rounded-4 ">
+    <Row className="g-3 px-5 d-flex align-items-center justify-content-end border border-2  shadow-sm rounded-4 ">
       <Col xs={12} className="text-center fw-bold fs-5 text-muted">
         Additional Data
       </Col>

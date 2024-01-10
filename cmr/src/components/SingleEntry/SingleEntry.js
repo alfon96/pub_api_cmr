@@ -8,7 +8,6 @@ import AdditionalData from "./AdditionalData";
 const SingleEntry = (props) => {
   return (
     <Container fluid className="m-0 p-0" id={props.id}>
-      {/* First Row */}
       <Row className="g-5 gy-5 px-2 d-flex align-items-center justify-content-center">
         <Col xs={12} md={12} lg={6}>
           <ItemCard
@@ -22,8 +21,6 @@ const SingleEntry = (props) => {
             sectionName={props.sectionName}
           ></AdditionalData>
         </Col>
-
-        {/* Second Row */}
       </Row>
     </Container>
   );
