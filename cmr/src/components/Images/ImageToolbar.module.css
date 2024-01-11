@@ -1,0 +1,21 @@
+.toolbarItemOpacity {
+  opacity: 0.75;
+}
+
+.toolbarItemOpacity:hover {
+  opacity: 1;
+}
+
+.toolbarBkg:hover {
+  background-color: rgba(0, 0, 0, 0.342);
+}
+
+.btnDeleteSize {
+  height: 23px;
+  width: 23px;
+  font-size: 10px;
+  /* background-color: blueviolet;
+  border: violet; */
+  color: white;
+  border-radius: 50%;
+}

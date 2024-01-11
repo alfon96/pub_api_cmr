@@ -48,7 +48,18 @@ const Autocomplete = (props) => {
   };
 
   const handleChange = (options) => {
-    setSelectedOptions([...selectedOptions, options[options.length - 1].value]);
+    if (options.length > 0) {
+      if (options.length > selectedOptions.length) {
+        setSelectedOptions([
+          ...selectedOptions,
+          options[options.length - 1].value,
+        ]);
+      } else {
+        setSelectedOptions(options.map((option) => option.value));
+      }
+    } else {
+      setSelectedOptions([]);
+    }
   };
 
   const handleCreate = (inputValue) => {

@@ -12,13 +12,10 @@ import { updateTicketHistory } from "../store/foodSlice";
 const Sidebar = () => {
   const dispatch = useDispatch();
   return (
-    <Col
-      xs={1}
-      className=" px-3 rounded-3 vh-100 position-fixed d-flex flex-column align-items-center justify-content-center"
-    >
+    <div className=" position-fixed bottom-0 end-0 p-3 d-flex justify-element-center align-items-end flex-column gap-2">
       <Button
-        variant="outline-secondary"
-        className="w-100 "
+        variant="dark"
+        className=" rounded-5 btn-lg d-flex justify-element-center align-items-end"
         onClick={(e) => {
           // dispatch(
           //   updateMasterTicket({
@@ -30,11 +27,11 @@ const Sidebar = () => {
           // );
         }}
       >
-        <IoIosSave style={{ width: "25px", height: "25px" }} />
+        <IoIosSave />
       </Button>
       <Button
-        variant="outline-secondary"
-        className="w-100 my-1"
+        variant="info"
+        className="rounded-5 btn-lg d-flex justify-element-center align-items-end "
         onClick={(e) => {
           dispatch(
             updateTicketHistory({
@@ -43,11 +40,12 @@ const Sidebar = () => {
           );
         }}
       >
-        <MdOutlineUndo style={{ width: "25px", height: "25px" }} />
+        <MdOutlineUndo />
       </Button>
+
       <Button
-        variant="outline-secondary"
-        className="w-100"
+        variant="warning"
+        className="rounded-5 btn-lg d-flex justify-element-center align-items-end"
         onClick={(e) => {
           dispatch(
             updateTicketHistory({
@@ -56,9 +54,9 @@ const Sidebar = () => {
           );
         }}
       >
-        <IoMdRedo style={{ width: "25px", height: "25px" }} />
+        <IoMdRedo />
       </Button>
-    </Col>
+    </div>
   );
 };
 

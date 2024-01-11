@@ -37,7 +37,7 @@ const SingleSection = (props) => {
           />
         </Form>
       </Accordion.Header>
-      <Accordion.Body className="my-5">
+      <Accordion.Body className="mb-5">
         <DragDropContext onDragEnd={onDragEnd}>
           <Droppable droppableId={props.sectionName}>
             {(provided) => (
@@ -56,7 +56,7 @@ const SingleSection = (props) => {
                   >
                     {(provided) => (
                       <ListGroup.Item
-                        className="py-5 shadow my-1 rounded-3"
+                        className=" px-0 shadow my-1  rounded-3  d-flex align-items-center justify-content-center"
                         ref={provided.innerRef}
                         {...provided.draggableProps}
                         {...provided.dragHandleProps}

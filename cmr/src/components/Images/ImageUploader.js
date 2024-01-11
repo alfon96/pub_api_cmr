@@ -9,6 +9,7 @@ import { TiDelete } from "react-icons/ti";
 import { useDispatch } from "react-redux";
 import { allowDrag, stopDrag } from "../store/draggableSlice";
 import useTicketHandler from "../hook/ticketHandler";
+import ImageToolbar from "./ImageToolbar";
 
 const ImgDropAndCrop = (props) => {
   const dispatch = useDispatch();
@@ -113,7 +114,7 @@ const ImgDropAndCrop = (props) => {
         background: "#777",
         maxHeight: "250px",
       }}
-      className=" position-relative rounded-start-4  overflow-hidden d-flex flex-column align-items-center justify-content-center"
+      className=" position-relative rounded-start-4 overflow-hidden d-flex flex-column align-items-center justify-content-center"
       onMouseEnter={() => dispatch(stopDrag())}
       onMouseLeave={() => dispatch(allowDrag())}
     >
@@ -152,30 +153,11 @@ const ImgDropAndCrop = (props) => {
       )}
 
       {img && (
-        <Row className="position-absolute fixed-bottom  p-1 d-flex align-items-center justify-content-center">
-          <Col xs={6}>
-            <Form.Range
-              value={scale}
-              onChange={onChangeScale}
-              min=".5"
-              max="2"
-              step="0.05"
-              className=" opacity-75 rounded-pill"
-              onMouseUp={handleImageScaleTicket}
-            />
-          </Col>
-          <Col xs={6}>
-            <Button
-              variant="danger"
-              id="search-keyword"
-              type="submit"
-              className="d-flex ms-auto "
-              onClick={handleDeleteImg}
-            >
-              <TiDelete />
-            </Button>
-          </Col>
-        </Row>
+        <ImageToolbar
+          scale={scale}
+          onChangeScale={onChangeScale}
+          handleImageScaleTicket={handleImageScaleTicket}
+        />
       )}
     </div>
   );

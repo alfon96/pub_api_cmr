@@ -140,11 +140,9 @@ const AddEdit = () => {
   return (
     <>
       {/* //Title */}
-      <Container fluid className="mt-5 p-0 ">
+      <Container fluid className="p-0">
         <Row className="g-0">
-          <Sidebar></Sidebar>
-
-          <Col xs={12} className="">
+          <Col xs={12} className="mt-5">
             <Title></Title>
           </Col>
 
@@ -155,11 +153,8 @@ const AddEdit = () => {
           <Col xs={10}>
             <SectionsAccordion></SectionsAccordion>
           </Col>
-
-          <Col xs={1}>
-            <div className="bg-primary"></div>
-          </Col>
         </Row>
+        <Sidebar />
       </Container>
     </>
   );

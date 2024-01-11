@@ -6,14 +6,9 @@ import Autocomplete from "../input/Autocomplete";
 
 const AdditionalData = (props) => {
   return (
-    <Row className="g-3 px-5 d-flex align-items-center justify-content-end border border-2  shadow-sm rounded-4 ">
-      <Col xs={12} className="text-center fw-bold fs-5 text-muted">
-        Additional Data
-      </Col>
-
+    <Row className="g-1 px-3 d-flex align-items-center justify-content-end ">
       <Col xs={12}>
-        {/* Ingredients */}
-        <p className="text-center">Ingredients</p>
+        <h6 className="text-center text-muted  my-2">Ingredients</h6>
         <Autocomplete
           referringData={allDietOptions}
           sliceResults={true}
@@ -25,7 +20,7 @@ const AdditionalData = (props) => {
 
       <Col xs={12} className="mb-4">
         {/* Allergenes */}
-        <p className="text-center">Allergens</p>
+        <h6 className="text-center text-muted my-2">Allergens - Diet Type</h6>
         <Autocomplete
           referringData={allAllergens}
           sliceResults={false}
