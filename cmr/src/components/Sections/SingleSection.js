@@ -5,9 +5,12 @@ import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import SingleEntry from "../SingleEntry/SingleEntry";
 import ListGroup from "react-bootstrap/ListGroup";
 import { useSelector } from "react-redux";
+import { createEmptyFood } from "../models/food";
 
 const SingleSection = (props) => {
-  const [items, setItems] = useState(props.sectionItems);
+  const emptyFood = createEmptyFood();
+  const [items, setItems] = useState([emptyFood, ...props.sectionItems]);
+
   const [title, setTitle] = useState(props.sectionName);
   const handleFormClick = (e) => {
     e.stopPropagation();
@@ -55,17 +58,22 @@ const SingleSection = (props) => {
                     isDragDisabled={noDrag}
                   >
                     {(provided) => (
-                      <ListGroup.Item
-                        className=" px-0 shadow my-1  rounded-3  d-flex align-items-center justify-content-center"
-                        ref={provided.innerRef}
-                        {...provided.draggableProps}
-                        {...provided.dragHandleProps}
-                      >
-                        <SingleEntry
-                          foodData={item}
-                          sectionName={props.sectionName}
-                        />
-                      </ListGroup.Item>
+                      <>
+                        {/* Create a new Item */}
+
+                        {/* List of fetched items */}
+                        <ListGroup.Item
+                          className=" px-0 shadow my-1  rounded-3  d-flex align-items-center justify-content-center"
+                          ref={provided.innerRef}
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                        >
+                          <SingleEntry
+                            foodData={item}
+                            sectionName={props.sectionName}
+                          />
+                        </ListGroup.Item>
+                      </>
                     )}
                   </Draggable>
                 ))}

@@ -118,7 +118,7 @@ const ImgDropAndCrop = (props) => {
       onMouseEnter={() => dispatch(stopDrag())}
       onMouseLeave={() => dispatch(allowDrag())}
     >
-      {img === null && (
+      {(img === null || img === "") && (
         <div
           {...getRootProps()}
           style={{
@@ -157,6 +157,7 @@ const ImgDropAndCrop = (props) => {
           scale={scale}
           onChangeScale={onChangeScale}
           handleImageScaleTicket={handleImageScaleTicket}
+          handleDeleteImg={handleDeleteImg}
         />
       )}
     </div>
