@@ -9,14 +9,16 @@ function ItemCard(props) {
       <Row className="border shadow-lg rounded-4 ">
         <Col xs={12} md={6} className="p-0  ">
           <ImgDropAndCrop
-            foodData={props.foodData}
-            sectionName={props.sectionName}
+            itemKey={props.itemKey}
+            section={props.section}
+            sectionKey={props.sectionKey}
           ></ImgDropAndCrop>
         </Col>
         <Col xs={12} md={6} className="p-0  rounded-end-4 bg-light">
           <CardForm
-            foodData={props.foodData}
-            sectionName={props.sectionName}
+            itemKey={props.itemKey}
+            section={props.section}
+            sectionKey={props.sectionKey}
           ></CardForm>
         </Col>
       </Row>

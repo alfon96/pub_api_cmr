@@ -24,23 +24,40 @@ const foodSlice = createSlice({
     menu: {},
     masterTicket: [],
     editedMap: {},
+
     masterTicketIndex: 0,
   },
   reducers: {
     setMenu: (state, action) => {
       state.menu = action.payload;
     },
+
+    reorderItems: (state, action) => {
+      const { result, sectionId } = action.payload;
+
+      console.log(current(state.menu));
+      const sectionIndex = state.menu.findIndex(
+        (item) => item.id === sectionId
+      );
+
+      const sectionItems = state.menu[sectionIndex]["values"];
+      const newItems = [...sectionItems];
+      const [reorderedItem] = newItems.splice(result.source.index, 1);
+      newItems.splice(result.destination.index, 0, reorderedItem);
+
+      state.menu[sectionIndex]["values"] = newItems;
+    },
+
     updateMasterTicket: (state, action) => {
-      const { sectionName, elementId, fieldName, newValue } = action.payload;
-      const ticketTitle = `${sectionName}?-?${elementId}?-?${fieldName}`;
+      const { pathKey, fieldName, newValue } = action.payload;
+      const ticketTitle = `${pathKey}?-?${fieldName}`;
       let foundTicket = getTicket(ticketTitle, state.masterTicket);
 
       const oldValue = getOlderValue(
         foundTicket,
         ticketTitle,
         state,
-        sectionName,
-        elementId,
+        pathKey,
         fieldName
       );
 
@@ -95,23 +112,18 @@ const foodSlice = createSlice({
   },
 });
 
-export const { setMenu, updateMasterTicket, updateTicketHistory } =
-  foodSlice.actions;
+export const {
+  setMenu,
+  reorderItems,
+  updateMasterTicket,
+  updateTicketHistory,
+} = foodSlice.actions;
 export default foodSlice.reducer;
 
-function getOlderValue(
-  foundTicket,
-  ticketTitle,
-  state,
-  sectionName,
-  elementId,
-  fieldName
-) {
+function getOlderValue(foundTicket, ticketTitle, state, pathKey, fieldName) {
   return (
     foundTicket?.[ticketTitle]?.[foundTicket.index] ||
-    state.menu[sectionName]?.find((item) => item.id === elementId)?.[
-      fieldName
-    ] ||
+    findValueInMenu(pathKey, state.menu, fieldName) ||
     getEmptyFoodField(fieldName)
   );
 }
@@ -141,3 +153,17 @@ function cancelNotUpToDateHistory(foundTicket, ticketTitle, state, newValue) {
 
   return foundTicket;
 }
+
+const findValueInMenu = (id, menu, fieldName) => {
+  const item = id
+    ? id.length <= 1
+      ? menu[id[0]]
+      : menu[id[0]].child[id[1]]
+    : null;
+
+  if (item) {
+    const value = current(item);
+    return value[fieldName];
+  }
+  return null;
+};

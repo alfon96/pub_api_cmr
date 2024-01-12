@@ -1,40 +1,61 @@
-import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Form from "react-bootstrap/Form";
-import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
-import SingleEntry from "../SingleEntry/SingleEntry";
+import { DragDropContext, Droppable } from "@hello-pangea/dnd";
 import ListGroup from "react-bootstrap/ListGroup";
-import { useSelector } from "react-redux";
-import { createEmptyFood } from "../models/food";
+import { useSelector, useDispatch } from "react-redux";
+import { reorderItems } from "../store/foodSlice";
+import useTicketHandler from "../hook/ticketHandler";
+import DraggableWrapper from "../SingleEntry/DraggableWrapper";
+import { useEffect } from "react";
 
 const SingleSection = (props) => {
-  const emptyFood = createEmptyFood();
-  const [items, setItems] = useState([emptyFood, ...props.sectionItems]);
+  const sectionKey = props.sectionKey;
+  const section = props.section;
 
-  const [title, setTitle] = useState(props.sectionName);
+  const [sectionItems, setSectionItems, handleSectionItems] = useTicketHandler({
+    initialValue: section.child,
+    pathKey: [sectionKey],
+    fieldName: "child",
+  });
+
+  const [sectionTitle, setSectionTitle, handleSectionTitle] = useTicketHandler({
+    initialValue: section.name,
+    pathKey: [sectionKey],
+    fieldName: "name",
+  });
+
+  useEffect(() => {
+    handleSectionItems();
+  }, [section]);
+
+  const dispatch = useDispatch();
+
   const handleFormClick = (e) => {
     e.stopPropagation();
   };
 
   const onDragEnd = (result) => {
     if (!result.destination) return; // dropped outside the list
-
-    const newItems = [...items];
-    const [reorderedItem] = newItems.splice(result.source.index, 1);
-    newItems.splice(result.destination.index, 0, reorderedItem);
-
-    setItems(newItems);
+    let reorderedItems;
+    dispatch(
+      (reorderedItems = reorderItems({
+        result: result,
+        sectionId: section.id,
+      }))
+    );
+    setSectionItems(reorderedItems);
   };
   const noDrag = useSelector((state) => state.drag.noDrag);
+
   return (
     <>
       <Accordion.Header>
         <Form onClick={handleFormClick}>
           <Form.Control
             type="text"
-            placeholder="Enter email"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
+            placeholder="Enter the Menu Section Title"
+            value={sectionTitle}
+            onChange={(e) => setSectionTitle(e.target.value)}
             className="border-0 fs-5"
             style={{ background: "transparent" }}
           />
@@ -42,41 +63,18 @@ const SingleSection = (props) => {
       </Accordion.Header>
       <Accordion.Body className="mb-5">
         <DragDropContext onDragEnd={onDragEnd}>
-          <Droppable droppableId={props.sectionName}>
+          <Droppable droppableId={section.name}>
             {(provided) => (
               <ListGroup
                 {...provided.droppableProps}
                 ref={provided.innerRef}
                 className=""
               >
-                {items.map((item, index) => (
-                  <Draggable
-                    handle=".handle"
-                    key={item.id}
-                    draggableId={item.id.toString()}
-                    index={index}
-                    isDragDisabled={noDrag}
-                  >
-                    {(provided) => (
-                      <>
-                        {/* Create a new Item */}
-
-                        {/* List of fetched items */}
-                        <ListGroup.Item
-                          className=" px-0 shadow my-1  rounded-3  d-flex align-items-center justify-content-center"
-                          ref={provided.innerRef}
-                          {...provided.draggableProps}
-                          {...provided.dragHandleProps}
-                        >
-                          <SingleEntry
-                            foodData={item}
-                            sectionName={props.sectionName}
-                          />
-                        </ListGroup.Item>
-                      </>
-                    )}
-                  </Draggable>
-                ))}
+                <DraggableWrapper
+                  section={section}
+                  setSectionItems={setSectionItems}
+                  sectionKey={props.sectionKey}
+                ></DraggableWrapper>
                 {provided.placeholder}
               </ListGroup>
             )}

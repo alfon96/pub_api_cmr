@@ -3,25 +3,26 @@ import InputGroup from "react-bootstrap/InputGroup";
 import useTicketHandler from "../hook/ticketHandler";
 
 function CardForm(props) {
+  const values = props.section.child[props.itemKey];
   const [name, setName, handleNameTicket] = useTicketHandler({
-    initialValue: props.foodData.name,
-    sectionName: props.sectionName,
-    elementId: props.foodData.id,
+    initialValue: values.name,
+    pathKey: [props.sectionKey, props.itemKey],
+
     fieldName: "name",
   });
 
   const [description, setDescription, handleDescriptionTicket] =
     useTicketHandler({
-      initialValue: props.foodData.description,
-      sectionName: props.sectionName,
-      elementId: props.foodData.id,
+      initialValue: values.description,
+      pathKey: [props.sectionKey, props.itemKey],
+
       fieldName: "description",
     });
 
   const [price, setPrice, handlePriceTicket] = useTicketHandler({
-    initialValue: props.foodData.price,
-    sectionName: props.sectionName,
-    elementId: props.foodData.id,
+    initialValue: values.price,
+    pathKey: [props.sectionKey, props.itemKey],
+
     fieldName: "price",
   });
   const handleSubmit = (e) => {

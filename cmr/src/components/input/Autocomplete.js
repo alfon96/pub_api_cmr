@@ -9,12 +9,12 @@ const Autocomplete = (props) => {
   const referringData = props.referringData;
   const dispatch = useDispatch();
   const trie = buildTrieFromWords(referringData);
+  const values = props.section.child[props.itemKey];
 
   const [selectedOptions, setSelectedOptions, handleSelectedOptionsTicket] =
     useTicketHandler({
-      initialValue: props.foodData[props.fieldName],
-      sectionName: props.sectionName,
-      elementId: props.foodData.id,
+      initialValue: values[props.fieldName],
+      pathKey: [props.sectionKey, props.itemKey],
       fieldName: props.fieldName,
     });
 

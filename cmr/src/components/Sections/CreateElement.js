@@ -8,7 +8,7 @@ const CreateElement = () => {
       {...provided.draggableProps}
       {...provided.dragHandleProps}
     >
-      <SingleEntry foodData={emptyFood} sectionName={props.sectionName} />
+      <SingleEntry foodData={emptyFood} sectionKey={props.sectionKey} />
     </ListGroup.Item>
   );
 };

@@ -3,23 +3,22 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateMasterTicket } from "../store/foodSlice";
 
 function useTicketHandler(fieldConfig) {
-  const { initialValue, sectionName, elementId, fieldName } = fieldConfig;
+  const { initialValue, pathKey, fieldName } = fieldConfig;
   const [value, setValue] = useState(initialValue);
   const dispatch = useDispatch();
   const editedMap = useSelector((state) => state.food.editedMap);
 
   useEffect(() => {
-    const ticketId = `${sectionName}?-?${elementId}?-?${fieldName}`;
+    const ticketId = `${pathKey}?-?${fieldName}`;
     if (editedMap && editedMap[ticketId] !== undefined) {
       setValue(editedMap[ticketId]);
     }
-  }, [editedMap, sectionName, elementId, fieldName]);
+  }, [editedMap, pathKey, fieldName]);
 
   const handleTicketUpdate = () => {
     dispatch(
       updateMasterTicket({
-        sectionName,
-        elementId,
+        pathKey,
         fieldName,
         newValue: value,
       })

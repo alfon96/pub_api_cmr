@@ -1,11 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import AvatarEditor from "react-avatar-editor";
 import { useDropzone } from "react-dropzone";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import { TiDelete } from "react-icons/ti";
 import { useDispatch } from "react-redux";
 import { allowDrag, stopDrag } from "../store/draggableSlice";
 import useTicketHandler from "../hook/ticketHandler";
@@ -13,25 +8,25 @@ import ImageToolbar from "./ImageToolbar";
 
 const ImgDropAndCrop = (props) => {
   const dispatch = useDispatch();
+  const values = props.section.child[props.itemKey];
 
   const [img, setImg, handleImageFileTicket] = useTicketHandler({
-    initialValue: props.foodData.imagePreview ?? null,
-    sectionName: props.sectionName,
-    elementId: props.foodData.id,
+    initialValue: values.imagePreview ?? null,
+    pathKey: [props.sectionKey, props.itemKey],
     fieldName: "imagePreview",
   });
 
   const [offset, setOffset, handleImageOffsetTicket] = useTicketHandler({
-    initialValue: props.foodData.Offset,
-    sectionName: props.sectionName,
-    elementId: props.foodData.id,
+    initialValue: values.offset,
+    pathKey: [props.sectionKey, props.itemKey],
+
     fieldName: "offset",
   });
 
   const [scale, setScale, handleImageScaleTicket] = useTicketHandler({
-    initialValue: parseFloat(props.foodData.scale),
-    sectionName: props.sectionName,
-    elementId: props.foodData.id,
+    initialValue: parseFloat(values.scale),
+    pathKey: [props.sectionKey, props.itemKey],
+
     fieldName: "scale",
   });
 

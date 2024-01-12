@@ -19,7 +19,7 @@ const Sidebar = () => {
         onClick={(e) => {
           // dispatch(
           //   updateMasterTicket({
-          //     sectionName: props.sectionName,
+          //     sectionKey: props.sectionKey,
           //     elementId: props.foodData.id,
           //     fieldName: "price",
           //     newValue: price,

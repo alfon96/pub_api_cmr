@@ -12,8 +12,9 @@ const AdditionalData = (props) => {
         <Autocomplete
           referringData={allDietOptions}
           sliceResults={true}
-          foodData={props.foodData}
-          sectionName={props.sectionName}
+          sectionKey={props.sectionKey}
+          itemKey={props.itemKey}
+          section={props.section}
           fieldName="ingredients"
         />
       </Col>
@@ -24,8 +25,9 @@ const AdditionalData = (props) => {
         <Autocomplete
           referringData={allAllergens}
           sliceResults={false}
-          foodData={props.foodData}
-          sectionName={props.sectionName}
+          sectionKey={props.sectionKey}
+          itemKey={props.itemKey}
+          section={props.section}
           fieldName="allergens"
         />
       </Col>
