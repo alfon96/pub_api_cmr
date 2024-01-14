@@ -1,21 +1,24 @@
-.toolbarItemOpacity {
-  opacity: 0.75;
+color {
+  color: #ff7700;
 }
 
-.toolbarItemOpacity:hover {
-  opacity: 1;
+.imageToolbar {
+  background-color: #ffd6b1;
+  border-bottom-left-radius: var(--bs-border-radius-lg) !important;
+  /* border-bottom-left-radius: var(--bs-border-radius-md); */
+  border-top-right-radius: var(--bs-border-radius-xxl);
+  /* animation: slideInFromLeft 0.45s ease-out forwards; */
 }
 
-.toolbarBkg:hover {
-  background-color: rgba(0, 0, 0, 0.342);
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+  }
+  100% {
+    transform: translateX(0); /* End at its original position */
+  }
 }
 
-.btnDeleteSize {
-  height: 23px;
-  width: 23px;
-  font-size: 10px;
-  /* background-color: blueviolet;
-  border: violet; */
-  color: white;
-  border-radius: 50%;
+color {
+  color: #c038ff;
 }

@@ -1,49 +1,30 @@
 import React, { useState, useCallback, useEffect } from "react";
 import AvatarEditor from "react-avatar-editor";
 import { useDropzone } from "react-dropzone";
-import { useDispatch } from "react-redux";
-import { allowDrag, stopDrag } from "../store/draggableSlice";
-import useTicketHandler from "../hook/ticketHandler";
+import useTicketHandler from "../hook/useTicketHandler";
 import ImageToolbar from "./ImageToolbar";
 
-const ImgDropAndCrop = (props) => {
-  const dispatch = useDispatch();
-  const values = props.section.child[props.itemKey];
+const ImgDropAndCrop = ({ dish }) => {
+  const values = dish.content;
+  const [isPointerOnImage, setIsPointerOnImage] = useState(false);
 
   const [img, setImg, handleImageFileTicket] = useTicketHandler({
-    initialValue: values.imagePreview ?? null,
-    pathKey: [props.sectionKey, props.itemKey],
+    initialValue: values?.imagePreview,
+
     fieldName: "imagePreview",
   });
 
   const [offset, setOffset, handleImageOffsetTicket] = useTicketHandler({
     initialValue: values.offset,
-    pathKey: [props.sectionKey, props.itemKey],
 
     fieldName: "offset",
   });
 
   const [scale, setScale, handleImageScaleTicket] = useTicketHandler({
     initialValue: parseFloat(values.scale),
-    pathKey: [props.sectionKey, props.itemKey],
 
     fieldName: "scale",
   });
-
-  const [imageWidth, setImageWidth] = useState(null);
-  const [imageHeight, setImageHeight] = useState(null);
-
-  useEffect(() => {
-    if (img) {
-      const image = new Image();
-      image.src = img;
-
-      image.onload = () => {
-        setImageWidth(image.naturalWidth);
-        setImageHeight(image.naturalHeight);
-      };
-    }
-  }, [img]);
 
   const divStyle = {
     borderTopLeftRadius: "10px",
@@ -66,9 +47,6 @@ const ImgDropAndCrop = (props) => {
       // Load the image to get its dimensions
       const img = new Image();
       img.onload = function () {
-        setImageWidth(this.width);
-        setImageHeight(this.height);
-        setScale(this.width / this.height);
         URL.revokeObjectURL(imageUrl); // Clean up the URL after use
       };
       img.src = imageUrl;
@@ -86,14 +64,7 @@ const ImgDropAndCrop = (props) => {
   const handleChangedPosition = (newPosition) => {
     // Aggiorna lo stato con le nuove informazioni sulla traslazione
     setOffset(newPosition);
-    console.log(
-      "Nuova posizione:",
-      newPosition,
-      "scale",
-      scale,
-      "aspect-ratio",
-      imageHeight / imageWidth
-    ); // Mostra le informazioni sulla traslazione con console.log
+    console.log("Nuova posizione:", newPosition, "scale", scale); // Mostra le informazioni sulla traslazione con console.log
   };
   const handleDeleteImg = () => {
     setImg(null);
@@ -104,56 +75,52 @@ const ImgDropAndCrop = (props) => {
   return (
     <div
       style={{
-        width: "100%",
-        height: "100%",
         background: "#777",
         maxHeight: "250px",
       }}
-      className=" position-relative rounded-start-4 overflow-hidden d-flex flex-column align-items-center justify-content-center"
-      onMouseEnter={() => dispatch(stopDrag())}
-      onMouseLeave={() => dispatch(allowDrag())}
+      className="position-relative rounded-start-4 w-100 h-100 d-flex align-items-center ustify-content-center "
+      onMouseEnter={() => setIsPointerOnImage(true)}
+      onMouseLeave={() => setIsPointerOnImage(false)}
     >
       {(img === null || img === "") && (
         <div
           {...getRootProps()}
           style={{
-            border: "2px dashed #333",
+            border: "2px dashed #bbb",
             padding: "20px",
             textAlign: "center",
             cursor: "pointer",
           }}
-          // className="m-2"
+          className="m-2"
         >
           <input {...getInputProps()} />
-          <p className="fw-semibold text-white">
+          <p className=" text-white text-center" style={{ color: "#aaa" }}>
             Drag and drop a file here, or click to select one
           </p>
         </div>
       )}
       {img && (
-        <AvatarEditor
-          image={img}
-          border={0}
-          height={imageHeight}
-          width={imageWidth}
-          scale={scale}
-          position={offset}
-          color={[255, 255, 255, 0.6]} // RGBA
-          rotate={0}
-          style={divStyle}
-          className=""
-          onPositionChange={handleChangedPosition}
-          onMouseUp={handleImageOffsetTicket}
-        />
-      )}
+        <>
+          <AvatarEditor
+            image={img}
+            border={0}
+            scale={scale}
+            position={offset}
+            color={[255, 255, 255, 0.6]} // RGBA
+            rotate={0}
+            style={divStyle}
+            onPositionChange={handleChangedPosition}
+            onMouseUp={handleImageOffsetTicket}
+          />
 
-      {img && (
-        <ImageToolbar
-          scale={scale}
-          onChangeScale={onChangeScale}
-          handleImageScaleTicket={handleImageScaleTicket}
-          handleDeleteImg={handleDeleteImg}
-        />
+          <ImageToolbar
+            isPointerOnImage={isPointerOnImage}
+            scale={scale}
+            onChangeScale={onChangeScale}
+            handleImageScaleTicket={handleImageScaleTicket}
+            handleDeleteImg={handleDeleteImg}
+          />
+        </>
       )}
     </div>
   );

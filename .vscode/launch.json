@@ -11,7 +11,10 @@
         "webpack:///*": "${webRoot}/*",
         "/app/*": "${workspaceFolder}/cmr/*"
       },
-      "skipFiles": ["**/node_modules/**"]
+      "skipFiles": [
+        "**/node_modules/**",
+        "${workspaceFolder}/build/installHook.js"
+      ]
     },
     {
       "name": "Docker: Python - FastAPI",

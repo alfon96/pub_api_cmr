@@ -1,19 +1,14 @@
-import SingleEntry from "../SingleEntry/SingleEntry";
+import testData from "../data/test.json";
 
-export const buildFoodCards = (dataFromServer) => {
-  const sections = Object.keys(dataFromServer);
-  const foodCards = {};
+export const createMap = (menu) => {
+  const elementsMap = new Map();
 
-  sections.forEach((section) => {
-    const sectionItems = dataFromServer[section];
-    foodCards[section] = []; // Initialize as an empty array
-
-    sectionItems.forEach((item) => {
-      foodCards[section].push(
-        <SingleEntry key={item.id} foodData={item}></SingleEntry>
-      );
+  menu.forEach((section) => {
+    elementsMap.set(section.id, section);
+    section.items.forEach((dish) => {
+      elementsMap.set(dish.id, dish);
     });
   });
 
-  return foodCards;
+  return { menu, elementsMap };
 };

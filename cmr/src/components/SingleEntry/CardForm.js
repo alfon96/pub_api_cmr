@@ -1,12 +1,11 @@
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import useTicketHandler from "../hook/ticketHandler";
+import useTicketHandler from "../hook/useTicketHandler";
 
-function CardForm(props) {
-  const values = props.section.child[props.itemKey];
+function CardForm({ dish }) {
+  const values = dish.content;
   const [name, setName, handleNameTicket] = useTicketHandler({
     initialValue: values.name,
-    pathKey: [props.sectionKey, props.itemKey],
 
     fieldName: "name",
   });
@@ -14,14 +13,12 @@ function CardForm(props) {
   const [description, setDescription, handleDescriptionTicket] =
     useTicketHandler({
       initialValue: values.description,
-      pathKey: [props.sectionKey, props.itemKey],
 
       fieldName: "description",
     });
 
   const [price, setPrice, handlePriceTicket] = useTicketHandler({
     initialValue: values.price,
-    pathKey: [props.sectionKey, props.itemKey],
 
     fieldName: "price",
   });
@@ -31,7 +28,7 @@ function CardForm(props) {
 
   return (
     <Form
-      className="d-flex flex-column p-3 rounded-end-4"
+      className="d-flex flex-column bg-white p-3 rounded-end-4 h-100"
       onClick={handleSubmit}
     >
       <Form.Control

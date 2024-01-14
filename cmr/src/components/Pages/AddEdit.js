@@ -2,18 +2,21 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Title from "../Title/Title";
-import SearchBar from "../SearchBar/SearchBar";
 import SectionsAccordion from "../Sections/Sections";
 import { useDispatch } from "react-redux";
 import { setMenu } from "../store/foodSlice";
 import Sidebar from "../sidebar/Sidebar";
 import test from "../data/test.json";
+import { useEffect } from "react";
 
 const AddEdit = () => {
   const dataFromServer = test;
 
   const dispatch = useDispatch();
-  dispatch(setMenu(dataFromServer));
+
+  useEffect(() => {
+    dispatch(setMenu(dataFromServer));
+  }, []);
 
   return (
     <>

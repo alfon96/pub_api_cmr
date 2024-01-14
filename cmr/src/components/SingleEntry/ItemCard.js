@@ -3,23 +3,15 @@ import Col from "react-bootstrap/Col";
 import CardForm from "./CardForm";
 import ImgDropAndCrop from "../Images/ImageUploader";
 
-function ItemCard(props) {
+function ItemCard({ dish }) {
   return (
     <>
-      <Row className="border shadow-lg rounded-4 ">
-        <Col xs={12} md={6} className="p-0  ">
-          <ImgDropAndCrop
-            itemKey={props.itemKey}
-            section={props.section}
-            sectionKey={props.sectionKey}
-          ></ImgDropAndCrop>
+      <Row className="border shadow rounded-4 border-0  ">
+        <Col xs={12} md={6} className="p-0  overflow-hidden ">
+          <ImgDropAndCrop dish={dish}></ImgDropAndCrop>
         </Col>
         <Col xs={12} md={6} className="p-0  rounded-end-4 bg-light">
-          <CardForm
-            itemKey={props.itemKey}
-            section={props.section}
-            sectionKey={props.sectionKey}
-          ></CardForm>
+          <CardForm dish={dish}></CardForm>
         </Col>
       </Row>
     </>

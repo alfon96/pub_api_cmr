@@ -1,21 +1,18 @@
 import React, { useEffect, useState } from "react";
 import CreatableSelect from "react-select/creatable";
 import { buildTrieFromWords } from "../utils/Trie";
-import { useDispatch } from "react-redux";
-import { allowDrag, stopDrag } from "../store/draggableSlice";
-import useTicketHandler from "../hook/ticketHandler";
+import useTicketHandler from "../hook/useTicketHandler";
+import useMouseTrack from "../hook/useMouseTrack";
 
-const Autocomplete = (props) => {
-  const referringData = props.referringData;
-  const dispatch = useDispatch();
+const Autocomplete = ({ referringData, dish, sliceResults, fieldName }) => {
   const trie = buildTrieFromWords(referringData);
-  const values = props.section.child[props.itemKey];
+  const values = dish.content;
+  const { handleMouseEnter, handleMouseLeave } = useMouseTrack();
 
   const [selectedOptions, setSelectedOptions, handleSelectedOptionsTicket] =
     useTicketHandler({
-      initialValue: values[props.fieldName],
-      pathKey: [props.sectionKey, props.itemKey],
-      fieldName: props.fieldName,
+      initialValue: values[fieldName],
+      fieldName: fieldName,
     });
 
   const [transformedData, setTransformedData] = useState([]);
@@ -30,14 +27,12 @@ const Autocomplete = (props) => {
   }, [selectedOptions]);
 
   const [dietOptions, setDietOptions] = useState(
-    props.sliceResults ? referringData.slice(0, 5) : referringData
+    sliceResults ? referringData.slice(0, 5) : referringData
   );
 
   const handleInputChange = (input) => {
     if (!input) {
-      setDietOptions(
-        props.sliceResults ? referringData.slice(0, 5) : referringData
-      );
+      setDietOptions(sliceResults ? referringData.slice(0, 5) : referringData);
     } else {
       const filteredWords = trie.search(input.trim().toLowerCase());
       const filteredOptions = referringData.filter((option) =>
@@ -69,11 +64,12 @@ const Autocomplete = (props) => {
   };
 
   return (
-    <div
-      onMouseEnter={() => dispatch(stopDrag())}
-      onMouseLeave={() => dispatch(allowDrag())}
-    >
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <CreatableSelect
+        classNames={{
+          control: (state) =>
+            state.isFocused ? "border-red-600" : "border-grey-300",
+        }}
         isMulti
         isClearable
         isSearchable
@@ -83,7 +79,7 @@ const Autocomplete = (props) => {
         options={dietOptions}
         value={transformedData}
         placeholder="Select or create an item."
-        // onBlur={handleSelectedOptionsTicket}
+       
       />
     </div>
   );

@@ -3,32 +3,37 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import classes from "./ImageToolbar.module.css";
+import ClearIcon from "@mui/icons-material/Clear";
+import Slider from "@mui/material/Slider";
 
 const ImageToolbar = (props) => {
   return (
     <Row
-      className={`position-absolute fixed-bottom p-1 d-flex align-items-center justify-content-center ${classes.toolbarBkg}`}
+      className={`position-absolute fixed-bottom m-0  d-flex align-items-center justify-content-center  ${
+        props.isPointerOnImage ? "d-block" : "d-none "
+      } ${classes.imageToolbar}`}
+      style={{ maxHeight: "32px" }}
     >
-      <Col xs={6} className=" d-flex align-items-center justify-content-center">
-        <Form.Range
-          value={props.scale}
+      <Col xs={8} className="d-flex align-items-center justify-content-center">
+        <Slider
+          aria-label="Temperature"
+          defaultValue={props.scale}
+          color="warning"
           onChange={props.onChangeScale}
-          min=".5"
-          max="2"
-          step="0.025"
-          className={` ${classes.toolbarItemOpacity} `}
           onMouseUp={props.handleImageScaleTicket}
+          min={0.5}
+          max={2}
+          step={0.025}
+          className=""
+          size="small"
         />
       </Col>
-      <Col xs={6}>
-        <Button
-          variant="danger"
-          className={`${classes.toolbarItemOpacity} ${classes.btnDeleteSize} d-flex justify-content-center p-0 align-items-center ms-auto`}
-          style={{ height: "20px", width: "28px" }}
+      <Col xs={3} className="d-flex align-items-center justify-content-center">
+        <ClearIcon
+          sx={{ color: "#ff7700", cursor: "pointer" }}
           onClick={props.handleDeleteImg}
-        >
-          {"\u2a09"}
-        </Button>
+          className={`ms-auto rounded-circle `}
+        ></ClearIcon>
       </Col>
     </Row>
   );

@@ -4,18 +4,17 @@ import { useSelector } from "react-redux";
 
 function SectionsAccordion() {
   const fullMenu = useSelector((state) => state.food.menu);
-  const sectionKeys = Object.keys(fullMenu);
+
   return (
     <Accordion defaultActiveKey="0" className="my-5">
-      {sectionKeys.map((sectionKey, index) => {
-        const section = fullMenu[sectionKey];
+      {Object.entries(fullMenu).map(([sectionKey, sectionValues], index) => {
         return (
           <Accordion.Item
-            key={section.name}
-            eventKey={index}
+            key={sectionKey}
+            eventKey={index.toString()}
             className="text-dark"
           >
-            <SingleSection sectionKey={sectionKey} section={section} />
+            <SingleSection sectionKey={sectionKey} section={sectionValues} />
           </Accordion.Item>
         );
       })}

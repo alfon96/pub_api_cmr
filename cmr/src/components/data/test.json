@@ -1,8 +1,10 @@
-{
-  "dcadvadv": {
+[
+  {
+    "id": "section_1",
     "name": "Pizze",
-    "child": {
-      "fvosahmmfvs": {
+    "items": [
+      {
+        "id": "dish_1",
         "name": "Pizza Margherita",
         "price": 7.99,
         "description": "Classic Italian pizza with fresh mozzarella and basil.",
@@ -15,7 +17,8 @@
         "scale": 1.2,
         "order": 0
       },
-      "fvzgnosmfvs": {
+      {
+        "id": "dish_2",
         "name": "Pizza Hawaiian",
         "price": 9.49,
         "description": "A tropical pizza with ham, pineapple, and mozzarella cheese.",
@@ -28,7 +31,8 @@
         "scale": 1.2,
         "order": 1
       },
-      "fvoszcvmfvs": {
+      {
+        "id": "dish_3",
         "name": "Pizza Veggie",
         "price": 7.99,
         "description": "A vegetarian delight with bell peppers, olives, and mozzarella cheese.",
@@ -46,7 +50,8 @@
         "scale": 1.2,
         "order": 2
       },
-      "fvogndgsmfvs": {
+      {
+        "id": "dish_4",
         "name": "Pizza BBQ Chicken",
         "price": 10.99,
         "description": "A savory pizza with BBQ chicken, red onions, and cheddar cheese.",
@@ -64,7 +69,8 @@
         "scale": 1.2,
         "order": 3
       },
-      "fvosshnsnmfvs": {
+      {
+        "id": "dish_5",
         "name": "Pizza Meat Lovers",
         "price": 11.99,
         "description": "A carnivore's dream with pepperoni, sausage, and bacon.",
@@ -83,12 +89,15 @@
         "scale": 1.2,
         "order": 4
       }
-    }
+    ]
   },
-  "adpivhapdivadv": {
+
+  {
+    "id": "section_2",
     "name": "Hamburger",
-    "child": {
-      "dbdgb": {
+    "items": [
+      {
+        "id": "dish_6",
         "name": "Classic Burger",
         "price": 5.99,
         "description": "Juicy beef burger with lettuce, tomato and cheese.",
@@ -108,6 +117,6 @@
         "scale": 1.2038924930491195,
         "order": 0
       }
-    }
+    ]
   }
-}
+]

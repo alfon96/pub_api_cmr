@@ -4,41 +4,34 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import AdditionalData from "./AdditionalData";
-
-const SingleEntry = (props) => {
+import ClearIcon from "@mui/icons-material/Clear";
+const SingleEntry = ({ dish }) => {
   const handleDeleteEntry = () => {
-    props.setItems((prevValue) =>
-      prevValue.filter((item) => item.id != props.item.values.id)
-    );
+    // props.setItems((prevValue) =>
+    //   prevValue.filter((item) => item.id != props.item.values.id)
+    // );
   };
 
   return (
-    <Container fluid className="m-0 py-4 position-relative  ">
-      <Row className="g-5 px-3 d-flex align-items-center justify-content-center">
-        <Col xs={11} sm={8} md={10} lg={7} className="py-3 py-sm-0">
-          <ItemCard
-            itemKey={props.itemKey}
-            section={props.section}
-            sectionKey={props.sectionKey}
-          ></ItemCard>
-        </Col>
-        <Col xs={12} sm={11} md={11} lg={5}>
-          <AdditionalData
-            itemKey={props.itemKey}
-            section={props.section}
-            sectionKey={props.sectionKey}
-          ></AdditionalData>
-        </Col>
-      </Row>
-      <Button
-        variant="outline-dark"
-        className="position-absolute top-0 end-0 rounded-3 btn-sm my-1 mx-3 d-flex align-items-center justify-content-center "
-        style={{ height: "25px", width: "38px" }}
+    <Row className="p-1 m-2 position-relative d-flex align-items-center justify-content-center  ">
+      <Col xs={11} sm={8} md={10} lg={7} xxl={4} className="py-3 py-sm-0">
+        <ItemCard dish={dish}></ItemCard>
+      </Col>
+      <Col xs={12} sm={11} md={11} lg={5} xxl={6} className="">
+        <AdditionalData dish={dish}></AdditionalData>
+      </Col>
+
+      <ClearIcon
         onClick={handleDeleteEntry}
-      >
-        {"\u2a09"}
-      </Button>
-    </Container>
+        style={{
+          height: "45px",
+          width: "45px",
+          color: "#c038ff",
+          cursor: "pointer",
+        }}
+        className="position-absolute top-0 start-100 translate-middle m-2 d-flex align-items-center justify-content-center "
+      ></ClearIcon>
+    </Row>
   );
 };
 

@@ -9,11 +9,11 @@ function useTicketHandler(fieldConfig) {
   const editedMap = useSelector((state) => state.food.editedMap);
 
   useEffect(() => {
-    const ticketId = `${pathKey}?-?${fieldName}`;
+    const ticketId = `${pathKey},${fieldName}`;
     if (editedMap && editedMap[ticketId] !== undefined) {
       setValue(editedMap[ticketId]);
     }
-  }, [editedMap, pathKey, fieldName]);
+  }, [editedMap]);
 
   const handleTicketUpdate = () => {
     dispatch(

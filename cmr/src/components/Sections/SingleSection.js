@@ -1,16 +1,18 @@
 import Accordion from "react-bootstrap/Accordion";
 import Form from "react-bootstrap/Form";
-import { DragDropContext, Droppable } from "@hello-pangea/dnd";
+import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import ListGroup from "react-bootstrap/ListGroup";
-import { useSelector, useDispatch } from "react-redux";
-import { reorderItems } from "../store/foodSlice";
-import useTicketHandler from "../hook/ticketHandler";
+import useTicketHandler from "../hook/useTicketHandler";
 import DraggableWrapper from "../SingleEntry/DraggableWrapper";
 import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import SingleEntry from "../SingleEntry/SingleEntry";
+import CreateNewItem from "../SingleEntry/CreateNewItem";
 
 const SingleSection = (props) => {
   const sectionKey = props.sectionKey;
   const section = props.section;
+  const noDrag = useSelector((state) => state.drag.noDrag);
 
   const [sectionItems, setSectionItems, handleSectionItems] = useTicketHandler({
     initialValue: section.child,
@@ -24,28 +26,43 @@ const SingleSection = (props) => {
     fieldName: "name",
   });
 
-  useEffect(() => {
-    handleSectionItems();
-  }, [section]);
-
-  const dispatch = useDispatch();
-
   const handleFormClick = (e) => {
     e.stopPropagation();
   };
 
+  function swapKeysOrder(dict, key1, key2) {
+    if (!(key1 in dict) || !(key2 in dict)) return dict;
+
+    const keys = Object.keys(dict);
+    const index1 = keys.indexOf(key1);
+    const index2 = keys.indexOf(key2);
+
+    keys[index1] = key2;
+    keys[index2] = key1;
+
+    const newDict = {};
+    keys.forEach((key) => {
+      newDict[key] = dict[key];
+    });
+
+    return newDict;
+  }
+
   const onDragEnd = (result) => {
-    if (!result.destination) return; // dropped outside the list
-    let reorderedItems;
-    dispatch(
-      (reorderedItems = reorderItems({
-        result: result,
-        sectionId: section.id,
-      }))
+    if (!result.destination) return;
+
+    const currentSectionItems = sectionItems;
+    const keys = Object.keys(sectionItems);
+    const newSection = swapKeysOrder(
+      currentSectionItems,
+      keys[result.source.index],
+      keys[result.destination.index]
     );
-    setSectionItems(reorderedItems);
+
+    setSectionItems(newSection);
+
+    //handleSectionItems();
   };
-  const noDrag = useSelector((state) => state.drag.noDrag);
 
   return (
     <>
@@ -70,11 +87,42 @@ const SingleSection = (props) => {
                 ref={provided.innerRef}
                 className=""
               >
-                <DraggableWrapper
-                  section={section}
-                  setSectionItems={setSectionItems}
-                  sectionKey={props.sectionKey}
-                ></DraggableWrapper>
+                {Object.entries(sectionItems).map(([key, value], index) => (
+                  <Draggable
+                    handle=".handle"
+                    key={key}
+                    draggableId={key.toString()}
+                    index={index}
+                    isDragDisabled={noDrag}
+                  >
+                    {(provided) => (
+                      <>
+                        {/* Create a new Item */}
+                        {index === 0 && (
+                          <CreateNewItem
+                            section={section}
+                            sectionKey={sectionKey}
+                            setItems={setSectionItems}
+                          ></CreateNewItem>
+                        )}
+                        {/* List of fetched items */}
+                        <ListGroup.Item
+                          className=" px-0 shadow my-1  rounded-3  d-flex align-items-center justify-content-center"
+                          ref={provided.innerRef}
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                        >
+                          <SingleEntry
+                            itemKey={key}
+                            section={value}
+                            sectionKey={sectionKey}
+                            setItems={setSectionItems}
+                          />
+                        </ListGroup.Item>
+                      </>
+                    )}
+                  </Draggable>
+                ))}
                 {provided.placeholder}
               </ListGroup>
             )}
