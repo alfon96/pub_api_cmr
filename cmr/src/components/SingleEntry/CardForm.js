@@ -2,6 +2,17 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import useTicketHandler from "../hook/useTicketHandler";
 import TextField from "@mui/material/TextField";
+import { styled } from "@mui/system";
+
+const CustomTextField = styled(TextField)({
+  color: "#000a1d",
+
+  "& label": {
+    // Stili per la label quando non è attiva
+    color: "#003399",
+  },
+  borderRadius: 4,
+});
 
 function CardForm({ dish }) {
   const values = dish.content;
@@ -26,7 +37,7 @@ function CardForm({ dish }) {
 
   return (
     <div className="d-flex flex-column bg-white m-0 p-0 rounded-end-4 ">
-      <TextField
+      <CustomTextField
         id="outlined-basic"
         label="Title"
         variant="outlined"
@@ -37,7 +48,7 @@ function CardForm({ dish }) {
         }}
         onBlur={handleNameTicket}
       />
-      <TextField
+      <CustomTextField
         size="small"
         id="outlined-basic"
         label="Description"
@@ -51,7 +62,7 @@ function CardForm({ dish }) {
         onBlur={handleDescriptionTicket}
         className="my-3"
       />
-      <TextField
+      <CustomTextField
         size="small"
         id="outlined-basic"
         label="Price"

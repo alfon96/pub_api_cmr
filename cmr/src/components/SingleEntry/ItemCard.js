@@ -20,12 +20,12 @@ function ItemCard({ dish }) {
           </CardContent>
         </Box>
         <Box sx={{ display: "flex" }}>
-          <CardContent sx={{ flex: "1 0 auto" }} className="m-0 p-0  ">
+          <CardContent sx={{ flex: "1 0 auto" }} className="me-3 p-0  ">
             <ChipsArray isIngredient={true} dish={dish}></ChipsArray>
           </CardContent>
         </Box>
         <Box sx={{ display: "flex" }}>
-          <CardContent sx={{ flex: "1 0 auto" }} className="mx-0 p-0  ">
+          <CardContent sx={{ flex: "1 0 auto" }} className=" p-0  ">
             <ChipsArray dish={dish}></ChipsArray>
           </CardContent>
         </Box>

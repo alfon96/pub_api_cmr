@@ -4,21 +4,12 @@ import FormLabel from "@mui/material/FormLabel";
 import FormControl from "@mui/material/FormControl";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import FormHelperText from "@mui/material/FormHelperText";
 import Checkbox from "@mui/material/Checkbox";
+import { styled } from "@mui/system";
 
-function getRandomColor() {
-  const colors = [
-    "primary",
-    "secondary",
-    "error",
-    "info",
-    "success",
-    "warning",
-  ];
-  const randomIndex = Math.floor(Math.random() * colors.length);
-  return colors[randomIndex];
-}
+const CustomFormLabel = styled(FormLabel)({
+  color: "#003399",
+});
 
 const initialData = {
   vegan: false,
@@ -42,9 +33,9 @@ export default function CheckboxesGroup() {
   return (
     <Box sx={{ display: "inline-flex" }} className="m-0 p-0">
       <FormControl sx={{ m: 0 }} component="fieldset" variant="standard">
-        <FormLabel component="legend" className="text-primary">
+        <CustomFormLabel component="legend" className="my-1">
           Diet Filters
-        </FormLabel>
+        </CustomFormLabel>
         <FormGroup>
           <FormControlLabel
             control={

@@ -1,12 +1,12 @@
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect, useRef } from "react";
 import AvatarEditor from "react-avatar-editor";
 import { useDropzone } from "react-dropzone";
 import useTicketHandler from "../hook/useTicketHandler";
 import ImageToolbar from "./ImageToolbar";
-
+import { AnimatePresence } from "framer-motion";
 const ImgDropAndCrop = ({ dish }) => {
   const values = dish.content;
-  const [isPointerOnImage, setIsPointerOnImage] = useState(false);
+  const [pointerState, setPointerState] = useState(0);
 
   const [img, setImg, handleImageFileTicket] = useTicketHandler({
     initialValue: values?.imagePreview,
@@ -62,16 +62,20 @@ const ImgDropAndCrop = ({ dish }) => {
   });
 
   const handleChangedPosition = (newPosition) => {
-    // Aggiorna lo stato con le nuove informazioni sulla traslazione
     setOffset(newPosition);
-    console.log("Nuova posizione:", newPosition, "scale", scale); // Mostra le informazioni sulla traslazione con console.log
+    console.log("Nuova posizione:", newPosition, "scale", scale);
+    setPointerState(2);
   };
   const handleDeleteImg = () => {
     setImg(null);
   };
 
-  const onChangeScale = (e) => setScale(parseFloat(e.target.value));
-
+  const onChangeScale = (e) => {
+    setScale(parseFloat(e.target.value));
+    setPointerState(1);
+  };
+  const animateToolbar = pointerState !== 0;
+  console.log("");
   return (
     <div
       style={{
@@ -79,8 +83,8 @@ const ImgDropAndCrop = ({ dish }) => {
         height: "200px",
       }}
       className="position-relative  d-flex align-items-center justify-content-center "
-      onMouseEnter={() => setIsPointerOnImage(true)}
-      onMouseLeave={() => setIsPointerOnImage(false)}
+      onMouseEnter={() => setPointerState(1)}
+      onMouseLeave={() => setPointerState(0)}
     >
       {(img === null || img === "") && (
         <div
@@ -110,16 +114,23 @@ const ImgDropAndCrop = ({ dish }) => {
             rotate={0}
             style={divStyle}
             onPositionChange={handleChangedPosition}
-            onMouseUp={handleImageOffsetTicket}
+            onMouseUp={() => {
+              handleImageOffsetTicket();
+              setPointerState(1);
+            }}
           />
 
-          <ImageToolbar
-            isPointerOnImage={isPointerOnImage}
-            scale={scale}
-            onChangeScale={onChangeScale}
-            handleImageScaleTicket={handleImageScaleTicket}
-            handleDeleteImg={handleDeleteImg}
-          />
+          <AnimatePresence>
+            {animateToolbar && (
+              <ImageToolbar
+                pointerState={pointerState}
+                scale={scale}
+                onChangeScale={onChangeScale}
+                handleImageScaleTicket={handleImageScaleTicket}
+                handleDeleteImg={handleDeleteImg}
+              />
+            )}
+          </AnimatePresence>
         </>
       )}
     </div>

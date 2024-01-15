@@ -1,15 +1,14 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Chip from "@mui/material/Chip";
-import TagFacesIcon from "@mui/icons-material/TagFaces";
 import EggAltIcon from "@mui/icons-material/EggAlt";
 import IconButton from "@mui/material/IconButton";
 import Input from "@mui/material/Input";
 import InputLabel from "@mui/material/InputLabel";
 import InputAdornment from "@mui/material/InputAdornment";
-import Paper from "@mui/material/Paper";
 import FormControl from "@mui/material/FormControl";
 import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
+
 const ListItem = styled("li")(({ theme }) => ({
   margin: theme.spacing(0.5),
   root: {
@@ -95,6 +94,7 @@ export default function ChipsArray({ isIngredient, dish }) {
         flexDirection: "column",
         maxWidth: "400px",
         height: "170px",
+        position: "relative",
       }}
     >
       <FormControl
@@ -144,6 +144,7 @@ export default function ChipsArray({ isIngredient, dish }) {
           overflowY: "auto",
           maxHeight: "150px", // Imposta l'altezza massima del contenitore scrollabile
         }}
+        className=""
       >
         {chipData.map((data) => {
           return (
@@ -159,6 +160,20 @@ export default function ChipsArray({ isIngredient, dish }) {
             </ListItem>
           );
         })}
+
+        <div
+          style={{
+            width: "100%", // Assicura che l'overlay copra l'intera larghezza del contenitore
+            height: "15px", // Altezza dell'overlay, adattala secondo le tue esigenze
+            position: "absolute",
+            bottom: -5, // Posiziona l'overlay al fondo del contenitore
+            left: 0,
+            pointerEvents: "none",
+            background:
+              "linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1) 70%)",
+            zIndex: 1,
+          }}
+        ></div>
       </div>
     </div>
   );
