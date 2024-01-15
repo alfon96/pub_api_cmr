@@ -42,7 +42,9 @@ export default function CheckboxesGroup() {
   return (
     <Box sx={{ display: "inline-flex" }} className="m-0 p-0">
       <FormControl sx={{ m: 0 }} component="fieldset" variant="standard">
-        <FormLabel component="legend">Diet Filters</FormLabel>
+        <FormLabel component="legend" className="text-primary">
+          Diet Filters
+        </FormLabel>
         <FormGroup>
           <FormControlLabel
             control={
