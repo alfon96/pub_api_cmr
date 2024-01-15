@@ -29,8 +29,8 @@ const ImgDropAndCrop = ({ dish }) => {
   const divStyle = {
     borderTopLeftRadius: "10px",
     borderBottomLeftRadius: "10px",
-    width: "100%",
-    height: "100%",
+    width: "250px",
+    height: "200px",
   };
 
   const onDrop = useCallback((acceptedFiles) => {
@@ -76,9 +76,9 @@ const ImgDropAndCrop = ({ dish }) => {
     <div
       style={{
         background: "#777",
-        maxHeight: "250px",
+        height: "200px",
       }}
-      className="position-relative rounded-start-4 w-100 h-100 d-flex align-items-center ustify-content-center "
+      className="position-relative  d-flex align-items-center justify-content-center "
       onMouseEnter={() => setIsPointerOnImage(true)}
       onMouseLeave={() => setIsPointerOnImage(false)}
     >

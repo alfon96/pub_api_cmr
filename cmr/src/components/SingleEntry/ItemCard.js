@@ -1,19 +1,40 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import CardForm from "./CardForm";
 import ImgDropAndCrop from "../Images/ImageUploader";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Box from "@mui/material/Box";
+import ChipsArray from "../chip/Chip";
+import DishContent from "./DishContent";
 
 function ItemCard({ dish }) {
   return (
     <>
-      <Row className="border shadow rounded-4 border-0  ">
-        <Col xs={12} md={6} className="p-0  overflow-hidden ">
+      <Card sx={{ display: "flex", width: "100%" }}>
+        <CardMedia sx={{ width: 250 }} alt="Dish Picture">
           <ImgDropAndCrop dish={dish}></ImgDropAndCrop>
-        </Col>
-        <Col xs={12} md={6} className="p-0  rounded-end-4 bg-light">
-          <CardForm dish={dish}></CardForm>
-        </Col>
-      </Row>
+        </CardMedia>
+        <Box sx={{ display: "flex", flexDirection: "column" }}>
+          <CardContent sx={{ flex: "1 0 auto" }} className="m-0 p-3 pb-0">
+            <CardForm dish={dish}></CardForm>
+          </CardContent>
+        </Box>
+        <Box sx={{ display: "flex" }}>
+          <CardContent sx={{ flex: "1 0 auto" }} className="m-0 p-0  ">
+            <ChipsArray isIngredient={true} dish={dish}></ChipsArray>
+          </CardContent>
+        </Box>
+        <Box sx={{ display: "flex" }}>
+          <CardContent sx={{ flex: "1 0 auto" }} className="mx-0 p-0  ">
+            <ChipsArray dish={dish}></ChipsArray>
+          </CardContent>
+        </Box>
+        <Box sx={{ display: "flex" }}>
+          <CardContent sx={{ flex: "1 0 auto" }} className="m-0 p-3 pb-0">
+            <DishContent dish={dish}></DishContent>
+          </CardContent>
+        </Box>
+      </Card>
     </>
   );
 }

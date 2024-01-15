@@ -7,33 +7,29 @@ import { SortableContext, arrayMove } from "@dnd-kit/sortable";
 import { createPortal } from "react-dom";
 import SectionContainer from "./components/dnd-kit/Section";
 import DishCard from "./components/dnd-kit/DishCard";
-import Button from "@mui/material-next/Button";
+import Button from "@mui/material/Button";
 import AddIcon from "@mui/icons-material/Add";
+import { createTheme, ThemeProvider } from "@mui/material";
 import { v4 as uuidv4 } from "uuid";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
 
 const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#1976D2",
+    },
+    secondary: {
+      main: "#E91E63",
+    },
+  },
   typography: {
-    poster: {
-      fontSize: 64,
-      color: "red",
-    },
-    // Disable h3 variant
-    h3: undefined,
+    fontFamily: "Poppins", // la tua scelta di font
+    fontSize: 11,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+    fontWeightBold: 700,
   },
-  components: {
-    MuiTypography: {
-      defaultProps: {
-        variantMapping: {
-          // Map the new variant to render a <h1> by default
-          poster: "h1",
-        },
-      },
-    },
-  },
+  // Altre proprietà del tema come spacing, breakpoints, ecc.
 });
 
 function App() {
@@ -139,52 +135,54 @@ function App() {
   };
 
   return (
-    <div className=" py-5 shadow-lg bg-light" style={{ minHeight: "100vh" }}>
-      <DndContext
-        collisionDetection={closestCenter}
-        onDragStart={onDragStart}
-        onDragEnd={onDragEnd}
-        onDragOver={onDragOver}
-      >
-        <div className="d-flex  mt-5  flex-column align-items-center justify-content-center ">
-          <Button
-            startIcon={<AddIcon />}
-            color="primary"
-            variant="filled"
-            className="mb-4"
-            onClick={createSection}
-          >
-            Add Section
-          </Button>
-          <SortableContext items={sectionsId}>
-            {sections.map((section) => (
-              <React.Fragment key={section.id}>
+    <ThemeProvider theme={theme}>
+      <div className=" py-5 shadow-lg bg-light" style={{ minHeight: "100vh" }}>
+        <DndContext
+          collisionDetection={closestCenter}
+          onDragStart={onDragStart}
+          onDragEnd={onDragEnd}
+          onDragOver={onDragOver}
+        >
+          <div className="d-flex  mt-5  flex-column align-items-center justify-content-center ">
+            <Button
+              startIcon={<AddIcon />}
+              color="primary"
+              variant="filled"
+              className="mb-4"
+              onClick={createSection}
+            >
+              Add Section
+            </Button>
+            <SortableContext items={sectionsId}>
+              {sections.map((section) => (
+                <React.Fragment key={section.id}>
+                  <SectionContainer
+                    section={section}
+                    dishes={dishes.filter(
+                      (dish) => dish.sectionId === section.id
+                    )}
+                  />
+                </React.Fragment>
+              ))}
+            </SortableContext>
+          </div>
+          {createPortal(
+            <DragOverlay>
+              {activeSection && (
                 <SectionContainer
-                  section={section}
+                  section={activeSection}
                   dishes={dishes.filter(
-                    (dish) => dish.sectionId === section.id
+                    (dish) => dish.sectionId == activeSection.id
                   )}
                 />
-              </React.Fragment>
-            ))}
-          </SortableContext>
-        </div>
-        {createPortal(
-          <DragOverlay>
-            {activeSection && (
-              <SectionContainer
-                section={activeSection}
-                dishes={dishes.filter(
-                  (dish) => dish.sectionId == activeSection.id
-                )}
-              />
-            )}
-            {activeDish && <DishCard dish={activeDish} />}
-          </DragOverlay>,
-          document.body
-        )}
-      </DndContext>
-    </div>
+              )}
+              {activeDish && <DishCard dish={activeDish} />}
+            </DragOverlay>,
+            document.body
+          )}
+        </DndContext>
+      </div>
+    </ThemeProvider>
   );
 }
 

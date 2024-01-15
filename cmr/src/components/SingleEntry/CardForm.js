@@ -1,6 +1,7 @@
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import useTicketHandler from "../hook/useTicketHandler";
+import TextField from "@mui/material/TextField";
 
 function CardForm({ dish }) {
   const values = dish.content;
@@ -22,52 +23,51 @@ function CardForm({ dish }) {
 
     fieldName: "price",
   });
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
 
   return (
-    <Form
-      className="d-flex flex-column bg-white p-3 rounded-end-4 h-100"
-      onClick={handleSubmit}
-    >
-      <Form.Control
-        type="text"
-        placeholder="Dish Name"
-        className="mt-1 text-center fw-bold"
+    <div className="d-flex flex-column bg-white m-0 p-0 rounded-end-4 ">
+      <TextField
+        id="outlined-basic"
+        label="Title"
+        variant="outlined"
+        size="small"
         value={name}
         onChange={(e) => {
           setName(e.target.value);
         }}
         onBlur={handleNameTicket}
       />
-
-      <Form.Control
-        as="textarea"
-        placeholder="Dish Description"
-        className="mt-3 text-center fst-italic"
-        rows="3"
+      <TextField
+        size="small"
+        id="outlined-basic"
+        label="Description"
+        variant="outlined"
+        multiline
+        rows={3}
         value={description}
         onChange={(e) => {
           setDescription(e.target.value);
         }}
         onBlur={handleDescriptionTicket}
+        className="my-3"
       />
-      <InputGroup className="my-3 w-75 mx-auto ">
-        <Form.Control
-          type="number"
-          step="0.01"
-          placeholder="5.50"
-          className="ms-auto text-center fw-semibold"
-          value={price}
-          onChange={(e) => {
-            setPrice(e.target.value);
-          }}
-          onBlur={handlePriceTicket}
-        />
-        <InputGroup.Text id="money">€</InputGroup.Text>
-      </InputGroup>
-    </Form>
+      <TextField
+        size="small"
+        id="outlined-basic"
+        label="Price"
+        variant="outlined"
+        type="number"
+        value={price}
+        inputProps={{
+          step: "0.01",
+        }}
+        onChange={(e) => {
+          setPrice(e.target.value);
+        }}
+        onBlur={handlePriceTicket}
+        className=""
+      />
+    </div>
   );
 }
 

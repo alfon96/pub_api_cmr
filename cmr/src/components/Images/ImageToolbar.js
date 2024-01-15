@@ -16,7 +16,8 @@ const ImageToolbar = (props) => {
     >
       <Col xs={8} className="d-flex align-items-center justify-content-center">
         <Slider
-          aria-label="Temperature"
+          aria-label="Zoom"
+          value={props.scale}
           defaultValue={props.scale}
           color="warning"
           onChange={props.onChangeScale}
